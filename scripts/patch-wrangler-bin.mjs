@@ -32,28 +32,32 @@ const shim = `#!/usr/bin/env node
 const { spawn } = require("child_process");
 const path = require("path");
 
-const onPages =
+const onCi =
+  process.env.WORKERS_CI === "1" ||
   process.env.CF_PAGES === "1" ||
   process.env.CF_PAGES === "true" ||
   Boolean(process.env.CF_PAGES_COMMIT_SHA);
 
 let args = process.argv.slice(2);
 
-if (onPages && args[0] === "deploy" && args[1] !== "pages") {
-  const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
-  console.log(
-    "[wrangler-pages-shim] npx wrangler deploy → pages deploy dist (project: " +
-      project +
-      ")",
-  );
-  args = [
-    "pages",
-    "deploy",
-    "dist",
-    "--project-name",
-    project,
-    "--commit-dirty=true",
-  ];
+if (onCi && args[0] === "deploy" && args[1] !== "pages") {
+  const hasAssets = args.some((a) => String(a).startsWith("--assets"));
+  if (!hasAssets) {
+    const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
+    console.log(
+      "[wrangler-pages-shim] wrangler deploy → pages deploy dist (project: " +
+        project +
+        ")",
+    );
+    args = [
+      "pages",
+      "deploy",
+      "dist",
+      "--project-name",
+      project,
+      "--commit-dirty=true",
+    ];
+  }
 }
 
 const MIN_NODE_VERSION = "22.0.0";

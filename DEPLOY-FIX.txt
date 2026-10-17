@@ -1,11 +1,11 @@
-You deleted the Worker — use Cloudflare PAGES for this repo.
+Build succeeded? Site goes live when deploy works.
 
-Dashboard (Pages project):
-  Build command: npm run build
-  Build output: dist
-  Deploy command: (empty)
+If Deploy command is still: npx wrangler deploy
+Latest main patches wrangler on install + redirects it to pages deploy on CI.
 
-If the UI forces a deploy command, use:
-  npm run deploy
+Best dashboard settings (Pages):
+  Build: npm run build
+  Output: dist
+  Deploy: (empty) OR npm run deploy
 
-Never use: npx wrangler deploy
+Never: npx wrangler deploy (without our patch, it fails on static sites)
