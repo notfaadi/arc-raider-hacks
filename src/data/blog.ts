@@ -1,11 +1,14 @@
-export type { BlogBlock, BlogPostFull } from './blog/types';
+export type { BlogBlock, BlogPostFull } from './types';
 
 import { blogPosts as rawBlogPosts } from './blog/posts';
-import { arcRaiderImageForIndex } from './media';
+import { buildBlogCoverBySlug } from './blog/coverImages';
+import { HOMEPAGE_BLOG_SLUGS } from './media';
 
-export const blogPosts = rawBlogPosts.map((post, index) => ({
+const coverBySlug = buildBlogCoverBySlug(rawBlogPosts);
+
+export const blogPosts = rawBlogPosts.map((post) => ({
   ...post,
-  image: arcRaiderImageForIndex(index),
+  image: coverBySlug.get(post.slug) ?? post.image,
 }));
 
 export function getBlogPost(slug: string) {
@@ -25,10 +28,29 @@ export function getNonFeaturedBlogPosts() {
   return blogPosts.filter((p) => p.slug !== featured?.slug);
 }
 
+function postsWithUniqueImages<T extends { image: string }>(posts: T[], limit: number): T[] {
+  const picked: T[] = [];
+  const seenImages = new Set<string>();
+  for (const post of posts) {
+    if (seenImages.has(post.image)) continue;
+    seenImages.add(post.image);
+    picked.push(post);
+    if (picked.length >= limit) break;
+  }
+  return picked;
+}
+
 export function getFeaturedBlogPosts(limit = 3) {
   const featured = getFeaturedBlogPost();
   const rest = blogPosts.filter((p) => p.slug !== featured?.slug);
-  return featured ? [featured, ...rest].slice(0, limit) : blogPosts.slice(0, limit);
+  const candidates = featured ? [featured, ...rest] : blogPosts;
+  return postsWithUniqueImages(candidates, limit);
+}
+
+/** Homepage blog strip — articles that use the 08–11 screenshot covers. */
+export function getHomepageBlogPosts(limit = 3) {
+  const curated = getBlogPostsBySlugs([...HOMEPAGE_BLOG_SLUGS]);
+  return postsWithUniqueImages(curated, limit).slice(0, limit);
 }
 
 export function getRelatedBlogPosts(slug: string, limit = 3) {
@@ -37,7 +59,19 @@ export function getRelatedBlogPosts(slug: string, limit = 3) {
 
   const sameTag = blogPosts.filter((p) => p.slug !== slug && p.tag === current.tag);
   const others = blogPosts.filter((p) => p.slug !== slug && p.tag !== current.tag);
-  return [...sameTag, ...others].slice(0, limit);
+  const candidates = [...sameTag, ...others];
+
+  const picked: typeof blogPosts = [];
+  const seenImages = new Set<string>([current.image]);
+
+  for (const post of candidates) {
+    if (seenImages.has(post.image)) continue;
+    seenImages.add(post.image);
+    picked.push(post);
+    if (picked.length >= limit) break;
+  }
+
+  return picked;
 }
 
 export function getBlogPostsBySlugs(slugs: string[]) {
@@ -48,10 +82,17 @@ export function getBlogPostsBySlugs(slugs: string[]) {
 
 export function getRelatedBlogPostsForProduct(relatedSlugs: string[], limit = 6) {
   const curated = getBlogPostsBySlugs(relatedSlugs);
-  if (curated.length >= limit) return curated.slice(0, limit);
+  if (curated.length >= limit) return postsWithUniqueImages(curated, limit);
 
   const used = new Set(curated.map((p) => p.slug));
-  const fill = blogPosts.filter((p) => !used.has(p.slug));
+  const seenImages = new Set(curated.map((p) => p.image));
+  const fill: typeof blogPosts = [];
+  for (const post of blogPosts) {
+    if (used.has(post.slug) || seenImages.has(post.image)) continue;
+    seenImages.add(post.image);
+    fill.push(post);
+    if (curated.length + fill.length >= limit) break;
+  }
   return [...curated, ...fill].slice(0, limit);
 }
 

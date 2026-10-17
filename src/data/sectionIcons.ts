@@ -38,7 +38,7 @@ export const blogTagIcons: Record<string, IconName> = {
   Guides: 'navBlog',
   Setup: 'settings',
   Features: 'layers',
-  Updates: 'refresh',
+  Update: 'refresh',
   Troubleshooting: 'alert',
 };
 

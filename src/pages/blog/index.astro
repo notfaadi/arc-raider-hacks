@@ -36,6 +36,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
 <BaseLayout
   title={seo.title}
   description={seo.description}
+  keywords={seo.keywords}
   jsonLd={[
     collectionPageSchema({
       name: t.blog.title,
@@ -50,7 +51,13 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
   <section class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
-      {featured && <BlogCard post={featured} index={0} eager showDate layout="featured" />}
+      {
+        featured && (
+          <div id="blog-featured" class="blog-featured-wrap">
+            <BlogCard post={featured} index={0} eager showDate layout="featured" />
+          </div>
+        )
+      }
     </div>
   </section>
 
@@ -108,7 +115,12 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
         ))}
       </div>
 
-      <p id="blog-empty" class="mt-10 hidden text-center text-muted-foreground" role="status">
+      <p
+        id="blog-empty"
+        class="mt-10 hidden text-center text-muted-foreground"
+        role="status"
+        data-empty-message={t.blog.emptyFilter}
+      >
         {t.blog.emptyFilter}
       </p>
 
@@ -121,13 +133,11 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     </div>
   </section>
 
-  <script define:vars={{ emptyMessage: t.blog.emptyFilter }}>
+  <script>
     import { initBlogIndexFilters } from '../../scripts/blog-index.ts';
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => initBlogIndexFilters(emptyMessage));
-    } else {
-      initBlogIndexFilters(emptyMessage);
-    }
+    const run = () => initBlogIndexFilters();
+    run();
+    document.addEventListener('astro:page-load', run);
   </script>
 </BaseLayout>

@@ -1,67 +1,169 @@
 /**
- * Central titles/descriptions for high-traffic routes.
- * After Search Console shows impressions, edit the matching path here and redeploy.
+ * Central titles, descriptions, and keywords for high-traffic routes.
+ * Keep titles ~50–60 chars and descriptions ~150–160 chars when possible.
  */
+
+import { keywordsForPath } from './keywords';
+import { SITE_META_DESCRIPTION, SITE_META_TITLE } from './site';
 
 export interface PageSeoEntry {
   title: string;
   description: string;
+  keywords?: string;
 }
 
 export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/': {
-    title: 'Arc Raiders Hacks & Cheats | ESP, Aimbot & Loot Radar',
-    description:
-      'ARC Raiders cheats for PC: player ESP, loot filters, aim assist, and raid radar tiers updated every patch.',
+    title: SITE_META_TITLE,
+    description: SITE_META_DESCRIPTION,
+    keywords: keywordsForPath('/'),
   },
   '/products/arc-raiders-cheats/': {
-    title: 'ARC Raiders Elite Cheats & Utility Products',
+    title: 'ARC Raiders Cheats & Hacks | Elite, Pro & Lite Tiers',
     description:
-      'Elite ARC Raiders cheats plus HWID spoofer, UGC tools, and cosmetic utilities for Windows PC.',
+      'Compare ARC Raiders cheat tiers: ESP, aimbot, loot filters, and utilities. Elite, Pro, Lite, HWID spoofer, and Unlock All for Windows PC.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/'),
   },
   '/products/arc-raiders-cheats/elite/': {
-    title: 'ARC Raiders Elite Cheats | Full ESP & Combat Suite',
+    title: 'ARC Raiders Elite Cheats | Full ESP, Aimbot & Loot Hack',
     description:
-      'Elite tier: full ESP, silent aim, loot radar, priority patch delivery, and direct operator support.',
+      'ARC Raiders Elite: full player ESP, silent aim, container loot radar, stream-proof overlay, and priority patch delivery for PC extractions.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/elite/'),
+  },
+  '/products/arc-raiders-cheats/lite/': {
+    title: 'ARC Raiders Lite Cheats | ESP, Radar & Loot Awareness',
+    description:
+      'Lite tier ARC Raiders hacks focus on ESP, raid radar, and loot highlights—low profile configs for players who want vision without full combat automation.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/lite/'),
+  },
+  '/products/arc-raiders-cheats/pro/': {
+    title: 'ARC Raiders Pro Cheats | Aimbot, ESP & Combat Assist',
+    description:
+      'Pro tier adds humanized aim assist, recoil control, and advanced ESP to Lite radar—balanced ARC Raiders cheats for PvP extractions on PC.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/pro/'),
+  },
+  '/products/arc-raiders-cheats/hwid-spoofer/': {
+    title: 'ARC Raiders HWID Spoofer | Hardware ID Reset Tool',
+    description:
+      'HWID spoofer for ARC Raiders players on PC—serial rotation, compatibility scan, and setup guides before you launch the game or loader.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/hwid-spoofer/'),
+  },
+  '/products/arc-raiders-cheats/ugc/': {
+    title: 'ARC Raiders UGC & Account Recovery Utilities',
+    description:
+      'UGC appeal workflows, case tracking, and documentation for Steam and platform restrictions—pair with HWID tools when hardware is flagged.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/ugc/'),
+  },
+  '/products/arc-raiders-cheats/unlock-all/': {
+    title: 'ARC Raiders Unlock All & Skin Changer Tool',
+    description:
+      'Preview outfits, weapon skins, and loadout cosmetics locally with Unlock All—cosmetic utility for ARC Raiders on Windows PC.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/unlock-all/'),
   },
   '/products/arc-raiders-cheats/utilities/': {
-    title: 'ARC Raiders Utilities | HWID, UGC & Unlock Tools',
+    title: 'ARC Raiders Utilities | HWID, UGC & Unlock All',
     description:
-      'Choose HWID Spoofer, UGC, or Unlock All—when each utility fits and links to full product pages.',
+      'Pick HWID spoofer, UGC recovery, or Unlock All—compare ARC Raiders utility tools, features, and checkout paths in one place.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/utilities/'),
   },
   '/blog/': {
-    title: 'ARC Raiders Cheats Guides & Patch Notes',
+    title: 'ARC Raiders Cheats Blog | Guides, ESP & Patch Notes',
     description:
-      'Setup guides, Lite vs Pro comparisons, patch-day checklists, and raid config tips for arc raiders cheats.',
+      'ARC Raiders hack guides: ESP setup, aimbot configs, loot radar tuning, patch-day checklists, and tier comparisons for PC players.',
+    keywords: keywordsForPath('/blog/'),
   },
   '/forum/': {
-    title: 'ARC Raiders Community Forum | Arc Raiders Hacks & Cheats',
-    description: 'Join raiders to discuss loadouts, extracts, patch changes, guides, and community moments.',
+    title: 'ARC Raiders Cheats Forum | Tips, Builds & Patch Talk',
+    description:
+      'Community Q&A for ARC Raiders cheats—loadouts, extract routes, loader setup, and patch discussion with guide-based answers.',
+    keywords: keywordsForPath('/forum/'),
   },
   '/faq/': {
-    title: 'FAQ | ARC Raiders Cheats, Products & Setup',
+    title: 'ARC Raiders Cheats FAQ | Safety, Setup & Products',
     description:
-      'Answers on cheat tiers, ESP, aim modules, HWID tools, checkout, and blog guides before you buy.',
+      'FAQ for ARC Raiders hacks: undetected status, supported platforms, license moves, HWID, checkout, and what each cheat tier includes.',
+    keywords: keywordsForPath('/faq/'),
+  },
+  '/about/': {
+    title: 'About Arc Raiders Hacks & Cheats | PC Cheat Provider',
+    description:
+      'We publish ARC Raiders cheat tiers, utilities, setup guides, and live status notes for Windows PC players worldwide.',
+    keywords: keywordsForPath('/about/'),
+  },
+  '/support/': {
+    title: 'ARC Raiders Cheats Support | Loader & HWID Help',
+    description:
+      'Get help with ARC Raiders loader install, HWID reset, checkout, and module errors—contact support with order email and Windows version.',
+    keywords: keywordsForPath('/support/'),
   },
   '/terms/': {
     title: 'Terms & Conditions | Arc Raiders Hacks & Cheats',
     description:
-      'Purchase terms, license use, and refund policy for Arc Raiders Hacks & Cheats products.',
+      'License terms, refunds, and acceptable use for ARC Raiders cheat products and utilities sold through our checkout partners.',
   },
   '/privacy/': {
     title: 'Privacy Policy | Arc Raiders Hacks & Cheats',
     description:
-      'How we use analytics, cookies, and contact data when you browse or request support.',
+      'How Arc Raiders Hacks & Cheats uses analytics, cookies, and support contact data when you browse or request help.',
   },
-  '/about/': {
-    title: 'About Arc Raiders Hacks & Cheats',
+};
+
+/** Blog article meta overrides (slug → SEO). Falls back to post title + desc. */
+export const BLOG_PAGE_SEO: Record<string, PageSeoEntry> = {
+  'arc-raiders-cheats-features-guide': {
+    title: 'ARC Raiders Cheats Features Guide | ESP, Aimbot & Radar',
     description:
-      'What we publish: ARC Raiders cheat tiers, utilities, guides, and live status notes.',
+      'Full breakdown of ARC Raiders cheat modules—ESP, silent aim, loot radar, stream proof, and tier differences for PC in 2026.',
   },
-  '/support/': {
-    title: 'Support | Arc Raiders Hacks & Cheats',
+  'dota-2-map-hack-setup': {
+    title: 'ARC Raiders ESP Setup Guide | Player & Loot Overlays',
     description:
-      'Get help with loader setup, HWID, and checkout for ARC Raiders cheat tiers and utilities.',
+      'Tune player ESP, container loot, and radar distance for ARC Raiders extractions—conservative defaults and ranked-safe ranges.',
+  },
+  'how-to-buy-arc-raiders-cheats-2026': {
+    title: 'How to Buy ARC Raiders Cheats in 2026 | Secure Checkout',
+    description:
+      'Step-by-step purchase flow for ARC Raiders Elite, Pro, and Lite—portal access, loader download, and first-run checklist.',
+  },
+  'vac-patch-day-checklist': {
+    title: 'ARC Raiders Patch Day Checklist | Cheat Status & Loader',
+    description:
+      'After every ARC Raiders update: check status banner, reload loader, reset ESP ranges, and verify modules before you queue.',
+  },
+  'arc-raiders-aimbot-settings-guide': {
+    title: 'ARC Raiders Aimbot Settings | FOV, Smoothness & Bones',
+    description:
+      'Tune silent aim FOV, prediction, smoothness, and bone targets for ARC Raiders PvP extractions with ranked-safe defaults.',
+  },
+  'arc-raiders-hacks-best-cheats-2026': {
+    title: 'Best ARC Raiders Cheats 2026 | Arc Raiders Hacks Guide',
+    description:
+      'Why arc raiders hacks are the best PC extraction cheats—ESP, aimbot, loot radar, and undetected loader updates.',
+  },
+  'arc-raiders-best-cheats-patch-recap-october': {
+    title: 'October 2026 ARC Raiders Patch Recap | Cheat Loader Status',
+    description:
+      'October loader and ESP hotfixes—status for best arc raiders cheats after Steam security updates.',
+  },
+  'arc-raiders-november-2026-update': {
+    title: 'November 2026 ARC Raiders Update | Cheat Compatibility',
+    description:
+      'November patch notes and loader status for arc raiders hacks—ESP, radar, and aimbot modules.',
+  },
+  'arc-raiders-esp-misaligned-fix': {
+    title: 'ARC Raiders ESP Misaligned Fix | Overlay & DPI',
+    description:
+      'Fix floating or offset player ESP boxes—resolution, scaling, and loader version steps.',
+  },
+  'best-arc-raiders-cheat-setup-windows': {
+    title: 'Best ARC Raiders Cheat Setup on Windows PC',
+    description:
+      'Loader install, Ranked Safe presets, and first-session checklist for arc raiders hacks on Steam.',
+  },
+  'arc-raiders-steam-verify-error-fix': {
+    title: 'Steam Verify Error ARC Raiders Cheats | Fix Guide',
+    description:
+      'Fix Steam file verify loops with arc raiders hack loader—launch order and clean VAC pass.',
   },
 };
 
@@ -73,5 +175,32 @@ export function normalizeSeoPath(pathname: string): string {
 }
 
 export function getPageSeoEntry(pathname: string): PageSeoEntry | undefined {
-  return PAGE_SEO[normalizeSeoPath(pathname)];
+  const normalized = normalizeSeoPath(pathname);
+  const direct = PAGE_SEO[normalized];
+  if (direct) {
+    return {
+      ...direct,
+      keywords: direct.keywords ?? keywordsForPath(normalized),
+    };
+  }
+
+  const productMatch = normalized.match(/^\/products\/arc-raiders-cheats\/([^/]+)\/$/);
+  if (productMatch) {
+    const slugPath = `/products/arc-raiders-cheats/${productMatch[1]}/`;
+    const entry = PAGE_SEO[slugPath];
+    if (entry) {
+      return { ...entry, keywords: entry.keywords ?? keywordsForPath(slugPath) };
+    }
+  }
+
+  return undefined;
+}
+
+export function getBlogSeoEntry(slug: string): PageSeoEntry | undefined {
+  const entry = BLOG_PAGE_SEO[slug];
+  if (!entry) return undefined;
+  return {
+    ...entry,
+    keywords: entry.keywords ?? keywordsForPath(`/blog/${slug}/`),
+  };
 }

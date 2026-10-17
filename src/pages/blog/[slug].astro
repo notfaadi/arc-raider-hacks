@@ -3,7 +3,7 @@ import '../../styles/blog-pages.css';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { t } from '../../i18n';
 import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts } from '../../data/blog';
-import { pageTitle } from '../../config/seo';
+import { resolveBlogPostSeo } from '../../config/seo';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -65,11 +65,13 @@ function slugify(text: string): string {
     .replace(/^-|-$/g, '');
 }
 const published = parseBlogDate(post.date);
+const seo = resolveBlogPostSeo(post.slug, post.title, post.desc);
 ---
 
 <BaseLayout
-  title={pageTitle(post.title)}
-  description={post.desc}
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
   ogType="article"
   ogImage={post.image}
   ogImageAlt={post.title}

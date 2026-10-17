@@ -1,6 +1,6 @@
 ---
 import { t } from '../i18n';
-import { getFeaturedBlogPosts } from '../data/blog';
+import { getHomepageBlogPosts } from '../data/blog';
 import WorkflowSection from './WorkflowSection.astro';
 import SectionHeader from './SectionHeader.astro';
 import BlogCard from './BlogCard.astro';
@@ -11,7 +11,7 @@ import { getLandingFaqs } from '../data/faq';
 import { Button } from '@/components/starwind/button';
 
 const homeFaqs = getLandingFaqs();
-const featuredPosts = getFeaturedBlogPosts(3);
+const featuredPosts = getHomepageBlogPosts(3);
 ---
 
 <WorkflowSection />

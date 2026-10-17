@@ -1,6 +1,6 @@
 import type { Translations } from './types';
 import { PRIMARY_CHECKOUT_PATH } from '../config/checkout';
-import { PRODUCT_BASE } from '../config/site';
+import { PRODUCT_BASE, SITE_META_DESCRIPTION, SITE_META_TITLE, SITE_TAGLINE } from '../config/site';
 import { arcRaiderImageForIndex } from '../data/media';
 
 const productBase = PRODUCT_BASE;
@@ -9,9 +9,8 @@ export const en: Translations = {
   site: {
     name: 'Arc Raiders Hacks & Cheats',
     domain: 'arcraidershacks.com',
-    title: 'Arc Raiders Hacks & Cheats | ESP, Aimbot & Loot Radar',
-    description:
-      'Undetected ARC Raiders cheats with player ESP, loot highlights, aim assist and radar for PC—updated every patch with cloud configs and live support.',
+    title: SITE_META_TITLE,
+    description: SITE_META_DESCRIPTION,
     discord: PRIMARY_CHECKOUT_PATH,
   },
   nav: [
@@ -23,11 +22,10 @@ export const en: Translations = {
   ],
   hero: {
     status: 'ARC Raiders — patch build online',
-    eyebrow: '#1 Undetected Provider',
+    eyebrow: 'The Best ARC Raiders Cheats',
     titleLine1: 'Arc Raiders',
     titleLine2: 'Hacks & Cheats',
-    subtitle:
-      'Extraction-shooter toolkit with ESP, silent aim, loot filters and raid radar for PC—external loader, stream-safe overlays, and patch-day updates.',
+    subtitle: SITE_TAGLINE,
     ctaPrimary: 'View products',
     ctaDiscord: 'Join Discord',
     modesLabel: 'Supported modes',

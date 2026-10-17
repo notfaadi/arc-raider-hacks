@@ -33,6 +33,21 @@ const outputNames = [
   '07-combat.png',
 ];
 
+/** Additional homepage gallery shots (user-provided). */
+const extraSourceFiles = [
+  'c__Users_Faadi_Khan_AppData_Roaming_Cursor_User_workspaceStorage_f6b599f35ba4ae8855fd84141d0bcbdc_images_image-84973899-aa07-4e65-b874-65d8a9121325.png',
+  'c__Users_Faadi_Khan_AppData_Roaming_Cursor_User_workspaceStorage_f6b599f35ba4ae8855fd84141d0bcbdc_images_image-fa162d60-e124-44d6-a58a-dcaeb384c93a.png',
+  'c__Users_Faadi_Khan_AppData_Roaming_Cursor_User_workspaceStorage_f6b599f35ba4ae8855fd84141d0bcbdc_images_image-477ca4c6-0d45-4414-86f9-cea15a4e5907.png',
+  'c__Users_Faadi_Khan_AppData_Roaming_Cursor_User_workspaceStorage_f6b599f35ba4ae8855fd84141d0bcbdc_images_image-d7a643f2-2762-4e85-8bfa-a34ecfdadd8d.png',
+];
+
+const extraOutputNames = [
+  '08-rooftop-loot-esp.png',
+  '09-forest-scout.png',
+  '10-hack-menu.png',
+  '11-indoor-pvp.png',
+];
+
 const outDir = path.join(root, 'public/images/arc-raiders');
 const legacyDirs = [path.join(root, 'public/images/gameplay'), path.join(root, 'public/images/blog')];
 
@@ -62,4 +77,21 @@ for (let i = 0; i < outputNames.length; i++) {
   console.log('Wrote', path.relative(root, dest));
 }
 
-console.log('Installed 7 canonical ARC Raiders images.');
+for (let i = 0; i < extraOutputNames.length; i++) {
+  const srcPath = path.join(assetsDir, extraSourceFiles[i]);
+  const dest = path.join(outDir, extraOutputNames[i]);
+  if (!fs.existsSync(srcPath)) {
+    if (fs.existsSync(dest)) {
+      console.log('Keep existing', extraOutputNames[i]);
+      continue;
+    }
+    throw new Error(`Missing source asset: ${srcPath}`);
+  }
+  await sharp(srcPath)
+    .resize({ width: 1600, withoutEnlargement: true })
+    .png({ compressionLevel: 8 })
+    .toFile(dest);
+  console.log('Wrote', path.relative(root, dest));
+}
+
+console.log(`Installed ${outputNames.length + extraOutputNames.length} ARC Raiders images.`);

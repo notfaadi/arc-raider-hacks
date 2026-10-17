@@ -1,7 +1,14 @@
 import { DEFAULT_HERO_IMAGE } from '../data/media';
 import { t } from '../i18n';
 import { SITE_DOMAIN as INDEXNOW_HOST_NAME, SITE_URL } from './site';
-import { getPageSeoEntry } from './pageSeo';
+import { keywordsForPath } from './keywords';
+import { getBlogSeoEntry, getPageSeoEntry } from './pageSeo';
+
+export interface ResolvedSeo {
+  title: string;
+  description: string;
+  keywords: string;
+}
 
 export const SITE_ORIGIN = SITE_URL.replace(/\/$/, '');
 
@@ -39,10 +46,61 @@ export function absoluteAssetUrl(path: string): string {
   return `${SITE_ORIGIN}${normalized}`;
 }
 
-export function resolvePageSeo(pathname: string): { title: string; description: string } {
+function trimDescription(text: string, max = 160): string {
+  const clean = text.replace(/\s+/g, ' ').trim();
+  if (clean.length <= max) return clean;
+  return `${clean.slice(0, max - 1).trim()}…`;
+}
+
+export function resolvePageSeo(pathname: string): ResolvedSeo {
   const entry = getPageSeoEntry(pathname);
-  if (entry) return entry;
-  return { title: t.site.title, description: t.site.description };
+  if (entry) {
+    return {
+      title: entry.title,
+      description: trimDescription(entry.description),
+      keywords: entry.keywords ?? keywordsForPath(pathname),
+    };
+  }
+  return {
+    title: t.site.title,
+    description: trimDescription(t.site.description),
+    keywords: keywordsForPath(pathname),
+  };
+}
+
+export function resolveBlogPostSeo(slug: string, fallbackTitle: string, fallbackDesc: string): ResolvedSeo {
+  const custom = getBlogSeoEntry(slug);
+  if (custom) {
+    return {
+      title: custom.title,
+      description: trimDescription(custom.description),
+      keywords: custom.keywords ?? keywordsForPath(`/blog/${slug}/`),
+    };
+  }
+  return {
+    title: pageTitle(fallbackTitle),
+    description: trimDescription(
+      `${fallbackDesc} Guides for ARC Raiders cheats, ESP, aimbot, and loot radar on PC.`,
+    ),
+    keywords: keywordsForPath(`/blog/${slug}/`),
+  };
+}
+
+export function resolveProductSeo(slug: string, fallbackTitle: string, fallbackDesc: string): ResolvedSeo {
+  const path = `/products/arc-raiders-cheats/${slug}/`;
+  const entry = getPageSeoEntry(path);
+  if (entry) {
+    return {
+      title: entry.title,
+      description: trimDescription(entry.description),
+      keywords: entry.keywords ?? keywordsForPath(path),
+    };
+  }
+  return {
+    title: pageTitle(fallbackTitle),
+    description: trimDescription(fallbackDesc),
+    keywords: keywordsForPath(path),
+  };
 }
 
 export function pageTitle(keyword: string, brand = t.site.name): string {

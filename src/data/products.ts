@@ -1,5 +1,5 @@
 import { t } from '../i18n';
-import { ARC_RAIDERS_IMAGES } from './media';
+import { ARC_RAIDERS_IMAGES, uniqueSrcList } from './media';
 import { checkoutForSlug, checkoutPath } from '../config/checkout';
 import type { IconName } from '../components/icons/types';
 
@@ -171,10 +171,10 @@ const galleryRaw = {
     captionDesc: 'Bounding boxes, bone ESP and distance markers on enemy raiders.',
   },
   gpFarmBot: {
-    src: ARC_RAIDERS_IMAGES[2],
-    alt: 'ARC Raiders loot container ESP at Husk Graveyard',
-    caption: 'Container radar',
-    captionDesc: 'LootContainer pings and player callouts stacked on the HUD.',
+    src: ARC_RAIDERS_IMAGES[5],
+    alt: 'ARC Raiders cheat overlay with radar and wallhack modules enabled',
+    caption: 'Radar & wallhack',
+    captionDesc: 'Raid radar, player wallhack, and combat HUD in one external overlay.',
   },
   gpHeroEsp: {
     src: ARC_RAIDERS_IMAGES[1],
@@ -194,6 +194,25 @@ function slide(...keys: GalleryKey[]): ProductSlide[] {
       captionDesc: item.captionDesc,
     };
   });
+}
+
+/** Drop duplicate src URLs (homepage hero must show each screenshot once). */
+function uniqueSlidesBySrc(slides: ProductSlide[]): ProductSlide[] {
+  const seen = new Set<string>();
+  return slides.filter((entry) => {
+    if (seen.has(entry.src)) return false;
+    seen.add(entry.src);
+    return true;
+  });
+}
+
+if (import.meta.env.DEV) {
+  const heroSrcs = uniqueSrcList(Object.values(galleryRaw).map((item) => item.src));
+  if (heroSrcs.length !== 7) {
+    console.warn(
+      `[arc-raiders] galleryRaw should map 1:1 to the first 7 ARC_RAIDERS_IMAGES; got ${heroSrcs.length} unique src(s).`,
+    );
+  }
 }
 
 function slugFromHref(href: string): string {
@@ -585,14 +604,9 @@ export function getAllCheatSlugs() {
 
 const cheatsHubSlides = slide('gpScripts', 'gpAutoKill', 'gpFarmBot');
 
-export const heroSlides = slide(
-  'gpMapHack',
-  'gpScripts',
-  'gpZoomHack',
-  'gpSkinChanger',
-  'gpAutoKill',
-  'gpFarmBot',
-  'gpHeroEsp',
+/** Homepage hero — excludes 04-loot-forest (duplicate forest scene users flagged). Product pages still use gpMapHack. */
+export const heroSlides = uniqueSlidesBySrc(
+  slide('gpAutoKill', 'gpHeroEsp', 'gpZoomHack', 'gpSkinChanger', 'gpFarmBot', 'gpScripts'),
 );
 
 export const productHub = {

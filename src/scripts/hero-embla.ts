@@ -91,11 +91,30 @@ async function initHeroCarousels(root: ParentNode = document) {
     });
 
     const instance = createCarousel(carouselRoot, {
-      opts: { loop: true, align: 'start', duration: 20 },
+      opts: { loop: false, align: 'start', duration: 20 },
       plugins: [autoplay],
     });
 
-    bindHeroDots(wrapper as HTMLElement, instance.api as EmblaApi, autoplay);
+    const api = instance.api as EmblaApi;
+    let rewindTimer: ReturnType<typeof setTimeout> | undefined;
+
+    api.on('select', () => {
+      if (rewindTimer !== undefined) {
+        clearTimeout(rewindTimer);
+        rewindTimer = undefined;
+      }
+      const last = api.scrollSnapList().length - 1;
+      if (last < 0 || api.selectedScrollSnap() !== last) return;
+
+      rewindTimer = window.setTimeout(() => {
+        rewindTimer = undefined;
+        if (document.hidden) return;
+        api.scrollTo(0);
+        autoplay.play();
+      }, HERO_AUTOPLAY_MS);
+    });
+
+    bindHeroDots(wrapper as HTMLElement, api, autoplay);
 
     const pauseWhenHidden = () => {
       if (document.hidden) autoplay.stop();

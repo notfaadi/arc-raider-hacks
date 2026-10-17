@@ -1,5 +1,5 @@
 import type { FaqItem } from '../i18n/types';
-import { SUPPORT_EMAIL } from '../config/site';
+import { SITE_TAGLINE, SUPPORT_EMAIL } from '../config/site';
 import { SITE_ORIGIN, absoluteAssetUrl, canonicalUrl, getOrganizationSameAs } from '../config/seo';
 
 export interface BreadcrumbItem {
@@ -27,8 +27,7 @@ export function websiteSchema() {
     name: 'Arc Raiders Hacks & Cheats',
     url: `${SITE_ORIGIN}/`,
     inLanguage: 'en-US',
-    description:
-      'ARC Raiders cheats with scripts, map hack, zoom hack, Skin Changer and ranked-safe tiers for PC.',
+    description: SITE_TAGLINE,
   };
 }
 
