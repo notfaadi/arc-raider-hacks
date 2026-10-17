@@ -93,7 +93,7 @@ function initThemeMetaColor() {
   if (!metaTheme) return;
 
   const update = () => {
-    metaTheme.content = document.documentElement.classList.contains('dark') ? '#7F3DEE' : '#f5f7fa';
+    metaTheme.content = document.documentElement.classList.contains('dark') ? '#7C2D42' : '#f5f7fa';
   };
 
   update();

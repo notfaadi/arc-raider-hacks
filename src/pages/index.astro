@@ -7,7 +7,9 @@ import ProductsSection from '../components/ProductsSection.astro';
 import ContentSections from '../components/ContentSections.astro';
 import { t } from '../i18n';
 import { resolvePageSeo } from '../config/seo';
-import { faqPageSchema, organizationSchema, websiteSchema } from '../utils/schema';
+import { faqPageSchema, organizationSchema, softwareApplicationSchema, websiteSchema } from '../utils/schema';
+import { LISTED_TIER_PRICE } from '../config/brand';
+import { PRIMARY_CHECKOUT_PATH } from '../config/checkout';
 import { getLandingFaqs } from '../data/faq';
 import { DEFAULT_HERO_IMAGE } from '../data/media';
 import { webpSrc } from '../utils/responsiveImage';
@@ -21,7 +23,19 @@ const heroLcpImage = webpSrc(DEFAULT_HERO_IMAGE, 512);
   title={seo.title}
   description={seo.description}
   keywords={seo.keywords}
-  jsonLd={[websiteSchema(), organizationSchema(), faqPageSchema(homeFaqs.map((f, i) => ({ num: String(i + 1).padStart(2, '0'), q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))]}
+  jsonLd={[
+    websiteSchema(),
+    organizationSchema(),
+    softwareApplicationSchema({
+      name: 'Arc Raiders Cheats for Windows',
+      description: seo.description,
+      url: '/',
+      offerUrl: PRIMARY_CHECKOUT_PATH,
+      priceUsd: LISTED_TIER_PRICE.monthlyUsd,
+      featureList: ['Player ESP', 'Loot ESP', 'Radar hack', 'Aimbot', 'Cloud DMA sync'],
+    }),
+    faqPageSchema(homeFaqs.map((f, i) => ({ num: String(i + 1).padStart(2, '0'), q: f.q, a: f.a.replace(/<[^>]+>/g, '') }))),
+  ]}
 >
   <link
     slot="head"

@@ -89,6 +89,12 @@ export const productRelatedBlogSlugs: Record<string, string[]> = {
     'arc-raiders-cheats-features-guide',
     'dota-2-stream-proof-setup',
   ],
+  'cloud-dma': [
+    'best-arc-raiders-cheat-setup-windows',
+    'how-to-buy-arc-raiders-cheats-2026',
+    'vac-patch-day-checklist',
+    'arc-raiders-cheats-features-guide',
+  ],
 };
 
 const productBase = '/products/arc-raiders-cheats/';
@@ -320,6 +326,18 @@ const utilityBodies: Record<string, ProductPage['body']> = {
       text: 'Some VAC bans cannot be reversed. UGC organizes evidence and follow-ups for Valve review. Pair with [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/) when hardware is flagged, or a new account when reputation is burned.',
     },
   ],
+  'cloud-dma': [
+    { type: 'h2', text: 'What Cloud DMA includes' },
+    {
+      type: 'p',
+      text: 'Cloud DMA is the AWS-backed sync layer in the operator portal—not a separate game hack. Your ESP distances, aim curves, loot filters, and utility toggles upload to cloud storage and restore on any Windows PC after login.',
+    },
+    { type: 'h2', text: 'Purchase path' },
+    {
+      type: 'p',
+      text: 'Buy [Lite, Pro, or Elite](/products/arc-raiders-cheats/) through secure checkout. Cloud DMA access activates with your tier—no extra SKU. Follow [how to buy](/blog/how-to-buy-arc-raiders-cheats-2026/) and import ranked presets before Trios.',
+    },
+  ],
   'unlock-all': [
     { type: 'h2', text: 'Local preview only' },
     {
@@ -427,6 +445,35 @@ const productContent: Record<
       paragraphs: [
         'ARC Raiders Elite is the private build with Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and priority patch delivery. Every Lite and Pro module is included—no caps, no upsells inside the loader.',
         'Elite slots are limited so patch cycles stay fast and builds stay maintainable. Direct dev support in Discord helps you tune conservative profiles before ranked. Check the status banner on arcraidershacks.com before purchase.',
+      ],
+    },
+  },
+  'cloud-dma': {
+    images: slide('gpMapHack', 'gpScripts', 'gpHeroEsp'),
+    goodToKnow:
+      'Cloud DMA sync requires portal login and an active Lite, Pro, or Elite license. Snapshots run automatically before major loader pushes—export a manual backup before risky slider experiments.',
+    limitations:
+      'Cloud DMA does not replace the external loader or DMA hardware where required. Offline PCs cannot pull new configs until they reconnect to the portal.',
+    systemRequirements: [
+      { icon: 'reqWifiPortal', text: 'Internet access for AWS-backed portal sync and status checks.' },
+      { icon: 'reqWindows', text: 'Windows 10 or 11 64-bit with the latest operator loader.' },
+      { icon: 'reqShieldAccount', text: 'Active arcraidershacks.com tier (Lite, Pro, or Elite).' },
+    ],
+    fullFeatures: [
+      'AWS Cloud DMA profile storage',
+      'Cross-PC ESP and aim preset sync',
+      'Automatic pre-patch config snapshots',
+      'Ranked and Trios preset slots',
+      'Portal rollback to last snapshot',
+      'Discord #status pairing with loader builds',
+      'HWID reset without losing cloud profiles',
+      'Included with every cheat tier',
+    ],
+    overview: {
+      title: 'Built around cloud-backed operator presets',
+      paragraphs: [
+        'Cloud DMA on AWS keeps your ARC Raiders cheat sliders consistent across machines. Log into the operator portal, pull ranked-safe ESP and aim profiles, and queue after the green status banner—no manual JSON copying between PCs.',
+        'Every Lite, Pro, and Elite purchase includes Cloud DMA sync. Pair with external loader updates on patch days using automatic snapshots so you never lose tuned loot filters or radar opacity settings.',
       ],
     },
   },
@@ -604,9 +651,9 @@ export function getAllCheatSlugs() {
 
 const cheatsHubSlides = slide('gpScripts', 'gpAutoKill', 'gpFarmBot');
 
-/** Homepage hero — excludes 04-loot-forest (duplicate forest scene users flagged). Product pages still use gpMapHack. */
+/** Homepage hero — first slide is Husk Graveyard loot ESP (03); excludes 04-loot-forest duplicate. */
 export const heroSlides = uniqueSlidesBySrc(
-  slide('gpAutoKill', 'gpHeroEsp', 'gpZoomHack', 'gpSkinChanger', 'gpFarmBot', 'gpScripts'),
+  slide('gpZoomHack', 'gpAutoKill', 'gpHeroEsp', 'gpSkinChanger', 'gpFarmBot', 'gpScripts'),
 );
 
 export const productHub = {

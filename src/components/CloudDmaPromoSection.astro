@@ -1,0 +1,54 @@
+---
+import '../styles/cloud-dma-promo.css';
+import { t } from '../i18n';
+import Icon from './icons/Icon.astro';
+import { Button } from '@/components/starwind/button';
+import { withTrailingSlash } from '../utils/path';
+
+const s = t.cloudDma;
+const buyHref = withTrailingSlash(s.buyHref);
+const featuresHref = s.featuresHref.startsWith('#') ? s.featuresHref : withTrailingSlash(s.featuresHref);
+const detailsHref = withTrailingSlash(s.detailsHref);
+---
+
+<div class="cloud-dma-promo mt-10 md:mt-12" id="cloud-dma">
+  <article class="cloud-dma-promo__card" aria-labelledby="cloud-dma-title">
+    <div class="cloud-dma-promo__grid">
+      <div class="cloud-dma-promo__copy">
+        <p class="cloud-dma-promo__badge">
+          <Icon name="compareCloudBackup" size={16} aria-hidden="true" />
+          {s.badge}
+        </p>
+        <h3 id="cloud-dma-title" class="cloud-dma-promo__title">
+          {s.title}
+        </h3>
+        <p class="cloud-dma-promo__highlight">{s.highlight}</p>
+        <p class="cloud-dma-promo__desc">{s.desc}</p>
+        <p class="cloud-dma-promo__desc-secondary">{s.descSecondary}</p>
+        <div class="cloud-dma-promo__actions">
+          <Button as="a" href={buyHref}>
+            {s.buyLabel}
+            <Icon name="arrowRight" size={16} />
+          </Button>
+          <Button as="a" href={featuresHref} variant="default">
+            {s.featuresLabel}
+            <Icon name="arrowRight" size={16} />
+          </Button>
+          <Button as="a" href={detailsHref} variant="outline">
+            {s.detailsLabel}
+          </Button>
+        </div>
+      </div>
+      <ul class="cloud-dma-promo__highlights">
+        {
+          s.highlights.map((line) => (
+            <li class="cloud-dma-promo__highlight-item">
+              <Icon name="check" size={18} aria-hidden="true" />
+              <span>{line}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </article>
+</div>

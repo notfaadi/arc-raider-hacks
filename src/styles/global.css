@@ -78,6 +78,24 @@ html.dark .section-header__subtitle {
   --scrollbar-thumb-hover: var(--primary);
 }
 
+/* Burgundy card edges — aligned with site primary */
+[data-slot='card'],
+[data-sw-card],
+#features .features-bento article,
+.cloud-dma-promo__card,
+.cloud-dma-spotlight {
+  --tw-ring-color: var(--card-border-warm);
+  border-color: var(--card-border-warm);
+}
+
+[data-slot='card']:hover,
+[data-sw-card]:hover,
+#features .features-bento article:hover,
+.cloud-dma-spotlight:hover {
+  --tw-ring-color: color-mix(in oklch, var(--primary) 62%, var(--border));
+  border-color: color-mix(in oklch, var(--primary-accent) 55%, var(--border));
+}
+
 html.dark {
   --scrollbar-track: color-mix(in oklch, var(--background) 88%, var(--foreground) 12%);
   --scrollbar-thumb: color-mix(in oklch, var(--primary) 55%, var(--muted));

@@ -9,7 +9,9 @@ export type FaqTopic =
   | 'safety'
   | 'products'
   | 'blog'
-  | 'setup';
+  | 'setup'
+  | 'cloud-dma'
+  | 'hwid';
 
 export interface SiteFaqItem {
   id: string;

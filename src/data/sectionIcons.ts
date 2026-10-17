@@ -1,6 +1,7 @@
 import type { IconName } from '../components/icons/types';
 
 export const featureIcons: Record<string, IconName> = {
+  'Cloud DMA': 'dmaHardware',
   Scripts: 'stepCrosshair',
   'Map Hack / ESP': 'featureEsp',
   'Minimap & Runes': 'featureRadar',

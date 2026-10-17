@@ -1,6 +1,6 @@
-/** Checkout destinations keyed by internal product id (no affiliate codes). */
+/** Checkout destinations keyed by internal product id. */
 export const CHECKOUT_URLS = {
-  arcRaiders: 'https://zadeyo.com/products/arc-raiders',
+  arcRaiders: 'https://zadeyo.com/go/FDI?to=%2Fproducts%2Farc-raiders',
   skinChanger: 'https://zadeyo.com/products/skin-changer',
   hwidSpoofer: 'https://zadeyo.com/products/hwid-spoofer',
   ugc: 'https://zadeyo.com/products/ugc',

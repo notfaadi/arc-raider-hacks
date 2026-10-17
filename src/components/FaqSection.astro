@@ -20,6 +20,10 @@ interface Props {
   centered?: boolean;
   /** FAQ column alignment (product pages use left) */
   contentAlign?: 'left' | 'center';
+  /** Show 01, 02… instead of icons in accordion triggers */
+  showNumbers?: boolean;
+  /** Override chip labels (e.g. product hub Cloud DMA / HWID) */
+  topicLabels?: Partial<Record<string, string>>;
   id?: string;
   class?: string;
 }
@@ -34,11 +38,13 @@ const {
   filterTopics,
   centered = false,
   contentAlign = 'center',
+  showNumbers = false,
+  topicLabels: topicLabelsProp,
   id: sectionId,
   class: className,
 } = Astro.props;
 
-const topicLabels: Record<FaqTopic, string> = {
+const defaultTopicLabels: Record<FaqTopic, string> = {
   all: 'All',
   plans: 'Plans',
   esp: 'Map hack / ESP',
@@ -47,7 +53,11 @@ const topicLabels: Record<FaqTopic, string> = {
   products: 'Products',
   blog: 'Blog',
   setup: 'Setup',
+  'cloud-dma': 'Cloud DMA',
+  hwid: 'HWID',
 };
+
+const topicLabels = { ...defaultTopicLabels, ...topicLabelsProp };
 
 const filters = filterTopics ?? (['all', 'plans', 'esp', 'scripts', 'safety', 'products'] as FaqTopic[]);
 ---
@@ -86,7 +96,7 @@ const filters = filterTopics ?? (['all', 'plans', 'esp', 'scripts', 'safety', 'p
               ]}
               data-faq-filter={topic}
             >
-              {topicLabels[topic]}
+              {topicLabels[topic as FaqTopic]}
             </button>
           ))}
         </div>
@@ -98,8 +108,16 @@ const filters = filterTopics ?? (['all', 'plans', 'esp', 'scripts', 'safety', 'p
         <div data-faq-topic={faq.topic}>
           <AccordionItem value={`faq-${i}`}>
             <AccordionTrigger class="text-left">
-              <span class="flex items-center gap-2">
-                <Icon name={faq.icon} size={16} class="shrink-0" />
+              <span class="flex items-center gap-3">
+                {
+                  showNumbers ? (
+                    <span class="faq-item-num shrink-0 font-mono text-sm font-semibold tabular-nums text-primary">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                  ) : (
+                    <Icon name={faq.icon} size={16} class="shrink-0" />
+                  )
+                }
                 <span>{faq.q}</span>
               </span>
             </AccordionTrigger>

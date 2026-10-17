@@ -28,6 +28,11 @@ export function websiteSchema() {
     url: `${SITE_ORIGIN}/`,
     inLanguage: 'en-US',
     description: SITE_TAGLINE,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE_ORIGIN}/blog/?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
   };
 }
 
@@ -171,21 +176,61 @@ export function productSchema(input: {
   };
 }
 
-/** @deprecated Prefer productSchema for product/cheat detail pages. */
 export function softwareApplicationSchema(input: {
   name: string;
   description: string;
   url: string;
   image?: string;
   offerUrl?: string;
+  featureList?: string[];
+  priceUsd?: number;
+  priceValidUntil?: string;
 }) {
-  return productSchema({
+  const priceValidUntil =
+    input.priceValidUntil ?? new Date(Date.now() + 180 * 86400000).toISOString().slice(0, 10);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
     name: input.name,
     description: input.description,
-    url: input.url,
-    offerUrl: input.offerUrl ?? input.url,
-    image: input.image,
-  });
+    url: canonicalUrl(input.url),
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Windows 10, Windows 11',
+    ...(input.image ? { image: absoluteAssetUrl(input.image) } : {}),
+    ...(input.featureList?.length ? { featureList: input.featureList } : {}),
+    offers: {
+      '@type': 'Offer',
+      url: offerUrl(input.offerUrl ?? input.url),
+      priceCurrency: 'USD',
+      ...(typeof input.priceUsd === 'number' ? { price: input.priceUsd.toFixed(2) } : {}),
+      priceValidUntil,
+      availability: 'https://schema.org/InStock',
+    },
+  };
+}
+
+export function howToSchema(input: {
+  name: string;
+  description: string;
+  url: string;
+  totalTime?: string;
+  steps: { name: string; text: string }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: input.name,
+    description: input.description,
+    url: canonicalUrl(input.url),
+    totalTime: input.totalTime,
+    step: input.steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+    })),
+  };
 }
 
 export function articleSchema(input: {

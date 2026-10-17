@@ -1,3 +1,4 @@
+/** @deprecated Use `node scripts/build-blog-catalog.mjs` (6 posts per tag). */
 import { writeFileSync } from 'node:fs';
 import { blogPosts } from '../src/data/blog/posts.ts';
 

@@ -37,6 +37,7 @@ export function checkoutForSlug(slug: string): string {
     case 'ugc':
     case 'account-recovery':
       return checkoutPath('ugc');
+    case 'cloud-dma':
     case 'lite':
     case 'pro':
     case 'elite':
@@ -70,6 +71,7 @@ export function resolveCheckoutHref(href: string): string {
     return checkoutPath('ugc');
   }
   if (
+    href.includes('zadeyo.com/go/FDI') ||
     href.includes('%2Fproducts%2Fdota-2') ||
     href.includes('/products/dota-2') ||
     href.includes('%2Fproducts%2Farc-raiders') ||

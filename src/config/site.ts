@@ -11,10 +11,10 @@ export const PRODUCT_BASE = '/products/arc-raiders-cheats/';
 
 /** Primary marketing line — use in hero, meta description, and schema. */
 export const SITE_TAGLINE =
-  'The Best ARC Raiders Cheats with Aimbot, ESP, Radar Hack, and Wallhack!';
+  'The Best ARC Raiders Hacks with Best Cloud DMA, Aimbot, ESP, Radar Hack, and Wallhack!';
 
 /** Browser tab / SERP title (keep ~60 characters). */
-export const SITE_META_TITLE = 'Best ARC Raiders Cheats | Aimbot, ESP, Radar & Wallhack';
+export const SITE_META_TITLE = 'Arc Raiders Cheats & Hacks — Aimbot, ESP | Arc Raiders Hacks';
 
 export const SITE_META_DESCRIPTION = `${SITE_TAGLINE} Undetected PC extraction tools with patch-day updates and 24/7 support.`;
 

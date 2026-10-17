@@ -82,9 +82,11 @@
   --card-foreground: var(--color-neutral-950);
   --popover: var(--color-white);
   --popover-foreground: var(--color-neutral-950);
-  --primary: #7f3dee;
+  --primary: #722f37;
   --primary-foreground: #ffffff;
-  --primary-accent: #9654ff;
+  --primary-accent: #8b3d48;
+  --accent-warm: #5c1a2e;
+  --card-border-warm: color-mix(in oklch, var(--primary) 32%, var(--color-neutral-200));
   --secondary: var(--color-neutral-200);
   --secondary-foreground: var(--color-neutral-950);
   --secondary-accent: var(--color-neutral-950);
@@ -108,7 +110,7 @@
   /* sidebar variables */
   --sidebar-background: var(--color-neutral-50);
   --sidebar-foreground: var(--color-neutral-950);
-  --sidebar-primary: #7f3dee;
+  --sidebar-primary: #722f37;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: var(--color-neutral-100);
   --sidebar-accent-foreground: var(--color-neutral-900);
@@ -123,9 +125,11 @@
   --card-foreground: var(--color-neutral-50);
   --popover: var(--color-neutral-900);
   --popover-foreground: var(--color-neutral-50);
-  --primary: #7f3dee;
+  --primary: #7c2d42;
   --primary-foreground: #ffffff;
-  --primary-accent: #9654ff;
+  --primary-accent: #9a3d52;
+  --accent-warm: #4a0523;
+  --card-border-warm: color-mix(in oklch, var(--primary) 48%, var(--color-neutral-700));
   --secondary: var(--color-neutral-800);
   --secondary-foreground: var(--color-neutral-50);
   --secondary-accent: var(--color-neutral-50);
@@ -148,7 +152,7 @@
   /* sidebars variables */
   --sidebar-background: var(--color-neutral-900);
   --sidebar-foreground: var(--color-neutral-50);
-  --sidebar-primary: #7f3dee;
+  --sidebar-primary: #7c2d42;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: var(--color-neutral-800);
   --sidebar-accent-foreground: var(--color-neutral-100);

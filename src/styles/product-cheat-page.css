@@ -1,6 +1,17 @@
 @import './product-experience-section.css';
 
 /* Catalog card — compact badges under title */
+/* Compact Cloud DMA box on products hub grid */
+.cloud-dma-spotlight {
+  min-height: 22rem;
+}
+
+@media (min-width: 1024px) {
+  .cloud-dma-spotlight {
+    min-height: 100%;
+  }
+}
+
 .catalog-card__badge {
   padding: 0.125rem 0.5rem;
   font-size: 0.6875rem;

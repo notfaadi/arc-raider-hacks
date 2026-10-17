@@ -1,0 +1,110 @@
+.cloud-dma-promo__card {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--card-border-warm);
+  background: color-mix(in oklch, var(--card) 94%, var(--primary) 6%);
+  box-shadow: 0 1px 2px color-mix(in oklch, var(--foreground) 6%, transparent);
+}
+
+.cloud-dma-promo__grid {
+  display: grid;
+  gap: 2rem;
+  padding: 1.75rem 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .cloud-dma-promo__grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2.25rem 2.5rem;
+  }
+}
+
+.cloud-dma-promo__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: color-mix(in oklch, var(--muted) 65%, transparent);
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.cloud-dma-promo__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.cloud-dma-promo__highlight {
+  margin: 0.65rem 0 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--primary);
+}
+
+.cloud-dma-promo__desc {
+  margin: 1rem 0 0;
+  max-width: 38rem;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--foreground);
+}
+
+.cloud-dma-promo__desc-secondary {
+  margin: 0.75rem 0 0;
+  max-width: 38rem;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--muted-foreground);
+}
+
+.cloud-dma-promo__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+}
+
+.cloud-dma-promo__highlights {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 640px) {
+  .cloud-dma-promo__highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.cloud-dma-promo__highlight-item {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: color-mix(in oklch, var(--background) 70%, transparent);
+  padding: 0.85rem 0.9rem;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--foreground);
+}
+
+.cloud-dma-promo__highlight-item svg {
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+  color: var(--primary);
+}

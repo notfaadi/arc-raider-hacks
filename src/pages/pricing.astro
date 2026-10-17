@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketingPageShell from '../components/marketing/MarketingPageShell.astro';
+import PricingTable from '../components/marketing/PricingTable.astro';
+import ComparisonTable from '../components/marketing/ComparisonTable.astro';
+import { resolvePageSeo } from '../config/seo';
+import { pricingContent } from '../data/marketing/phase1Pages';
+import { breadcrumbSchema, faqPageSchema, productSchema, webPageSchema } from '../utils/schema';
+import { LISTED_TIER_PRICE, SITE_CONTENT_LAST_UPDATED } from '../config/brand';
+import { PRIMARY_CHECKOUT_PATH } from '../config/checkout';
+
+const seo = resolvePageSeo('/pricing/');
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Pricing', path: '/pricing/' },
+];
+const faqSchemaItems = pricingContent.faqs.map((f, i) => ({
+  num: String(i + 1).padStart(2, '0'),
+  q: f.q,
+  a: f.a,
+}));
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  articleModifiedTime={SITE_CONTENT_LAST_UPDATED}
+  jsonLd={[
+    webPageSchema({ name: pricingContent.h1, description: seo.description, url: '/pricing/' }),
+    breadcrumbSchema(breadcrumbs),
+    faqPageSchema(faqSchemaItems),
+    productSchema({
+      name: 'Arc Raiders Cheats License',
+      description: seo.description,
+      url: '/pricing/',
+      offerUrl: PRIMARY_CHECKOUT_PATH,
+      sku: 'arc-raiders-cheats-license',
+    }),
+  ]}
+>
+  <MarketingPageShell
+    h1={pricingContent.h1}
+    lead={pricingContent.lead}
+    breadcrumbs={breadcrumbs}
+    quickAnswer={pricingContent.quickAnswer}
+    sections={pricingContent.sections}
+    faqs={pricingContent.faqs}
+    relatedLinks={pricingContent.relatedLinks}
+  />
+  <div class="section-shell max-w-3xl pb-12">
+    <h2 class="text-2xl font-bold">Published USD prices</h2>
+    <div class="mt-4">
+      <PricingTable />
+    </div>
+    <h2 class="mt-12 text-2xl font-bold">Tier comparison</h2>
+    <p class="mt-2 text-sm text-muted-foreground">
+      Monthly keys from {`$${LISTED_TIER_PRICE.monthlyUsd}`} and lifetime from{' '}
+      {`$${LISTED_TIER_PRICE.lifetimeUsd}`} apply to every combat tier below.
+    </p>
+    <div class="mt-4">
+      <ComparisonTable />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketingPageShell from '../components/marketing/MarketingPageShell.astro';
+import { resolvePageSeo } from '../config/seo';
+import { contactContent } from '../data/marketing/phase1Pages';
+import { SUPPORT_EMAIL } from '../config/site';
+import { breadcrumbSchema, faqPageSchema, webPageSchema } from '../utils/schema';
+import { SITE_CONTENT_LAST_UPDATED } from '../config/brand';
+import { Button } from '@/components/starwind/button';
+
+const seo = resolvePageSeo('/contact/');
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Contact', path: '/contact/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  articleModifiedTime={SITE_CONTENT_LAST_UPDATED}
+  jsonLd={[
+    webPageSchema({ name: contactContent.h1, description: seo.description, url: '/contact/' }),
+    breadcrumbSchema(breadcrumbs),
+    faqPageSchema(
+      contactContent.faqs.map((f, i) => ({
+        num: String(i + 1).padStart(2, '0'),
+        q: f.q,
+        a: f.a,
+      })),
+    ),
+  ]}
+>
+  <MarketingPageShell
+    h1={contactContent.h1}
+    lead={contactContent.lead}
+    breadcrumbs={breadcrumbs}
+    sections={contactContent.sections}
+    faqs={contactContent.faqs}
+    relatedLinks={contactContent.relatedLinks}
+  />
+  <div class="section-shell max-w-3xl pb-12 text-center">
+    <Button as="a" href={`mailto:${SUPPORT_EMAIL}`} variant="primary">
+      Email {SUPPORT_EMAIL}
+    </Button>
+  </div>
+</BaseLayout>

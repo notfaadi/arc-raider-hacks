@@ -74,8 +74,8 @@ html:not(.dark) .theme-mode-switch input:not(:checked) + .theme-mode-switch__sli
   left: calc(100% - (var(--size-of-icon) + var(--slider-offset)));
   background: #303136;
   box-shadow:
-    inset -3px -2px 5px -2px color-mix(in oklch, var(--primary) 65%, #8983f7),
-    inset -10px -4px 0 0 #a3dafb;
+    inset -3px -2px 5px -2px color-mix(in oklch, var(--primary) 65%, #4c0519),
+    inset -10px -4px 0 0 color-mix(in oklch, var(--primary) 28%, #fde2e8);
 }
 
 .theme-mode-switch:focus-within .theme-mode-switch__slider {

@@ -42,6 +42,12 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'Pro tier adds humanized aim assist, recoil control, and advanced ESP to Lite radar—balanced ARC Raiders cheats for PvP extractions on PC.',
     keywords: keywordsForPath('/products/arc-raiders-cheats/pro/'),
   },
+  '/products/arc-raiders-cheats/cloud-dma/': {
+    title: 'Cloud DMA for ARC Raiders Cheats | AWS Portal Sync',
+    description:
+      'Cloud DMA config sync on AWS for ARC Raiders ESP, aim, and utility presets—included with Lite, Pro, and Elite at arcraidershacks.com.',
+    keywords: keywordsForPath('/products/arc-raiders-cheats/cloud-dma/'),
+  },
   '/products/arc-raiders-cheats/hwid-spoofer/': {
     title: 'ARC Raiders HWID Spoofer | Hardware ID Reset Tool',
     description:
@@ -105,6 +111,35 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
     title: 'Privacy Policy | Arc Raiders Hacks & Cheats',
     description:
       'How Arc Raiders Hacks & Cheats uses analytics, cookies, and support contact data when you browse or request help.',
+  },
+  '/pricing/': {
+    title: 'Buy Arc Raiders Cheats — $35/mo & Lifetime Keys',
+    description:
+      'Buy Arc Raiders cheats with published USD pricing: $35/month or $150 lifetime for Lite, Pro, and Elite. Instant delivery, 24/7 support—see tiers before checkout.',
+    keywords: keywordsForPath('/pricing/'),
+  },
+  '/features/': {
+    title: 'Arc Raiders Cheat Features — ESP, Aimbot, Loot ESP',
+    description:
+      'Arc Raiders hack features by tier: player ESP, loot filters, radar, silent aim, Cloud DMA sync, and HWID tools for Windows PC extractions.',
+    keywords: keywordsForPath('/features/'),
+  },
+  '/how-to-install/': {
+    title: 'How to Install Arc Raiders Cheat — Windows Guide',
+    description:
+      'How to install an Arc Raiders cheat on Windows 10/11: loader setup, license activation, ESP config, and patch-day checks in about 25 minutes.',
+    keywords: keywordsForPath('/how-to-install/'),
+  },
+  '/contact/': {
+    title: 'Contact Arc Raiders Cheats Support',
+    description:
+      'Contact Arc Raiders hacks support for loader errors, HWID help, and checkout receipts. Email support with your order ID and Windows version.',
+    keywords: keywordsForPath('/contact/'),
+  },
+  '/refund-policy/': {
+    title: 'Refund Policy | Arc Raiders Cheat Keys',
+    description:
+      'Refund policy for digital Arc Raiders cheat licenses: eligibility, 48-hour window, chargebacks, and how to email support@arcraidershacks.com.',
   },
 };
 

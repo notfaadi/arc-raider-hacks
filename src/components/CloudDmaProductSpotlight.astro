@@ -1,0 +1,47 @@
+---
+import '../styles/product-cheat-page.css';
+import { t } from '../i18n';
+import Icon from './icons/Icon.astro';
+import { Badge } from '@/components/starwind/badge';
+import { Button } from '@/components/starwind/button';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/starwind/card';
+import { withTrailingSlash } from '../utils/path';
+
+const box = t.cloudDma.productSpotlight;
+const buyHref = withTrailingSlash(t.cloudDma.buyHref);
+---
+
+<Card class="cloud-dma-spotlight flex h-full min-h-[22rem] flex-col border bg-card/90 shadow-sm">
+  <CardHeader class="space-y-2.5 pb-3">
+    <CardTitle class="text-lg normal-case leading-snug">{box.title}</CardTitle>
+    <div class="flex flex-wrap items-center gap-1.5">
+      <Badge tone="primary" appearance="outline" size="sm" class="gap-1">
+        <Icon name="dmaHardware" size={12} class="shrink-0" />
+        DMA hardware
+      </Badge>
+      <Badge tone="success" appearance="soft" size="sm" class="gap-1">
+        <Icon name="compareCloudBackup" size={12} class="shrink-0" />
+        Cloud sync
+      </Badge>
+    </div>
+    <p class="text-sm font-medium text-primary">{box.tagline}</p>
+  </CardHeader>
+  <CardContent class="flex-1 pt-0">
+    <ul class="space-y-2 text-sm text-muted-foreground">
+      {
+        box.advantages.map((line) => (
+          <li class="flex items-start gap-2">
+            <Icon name="check" size={14} class="mt-0.5 shrink-0 text-primary" />
+            <span>{line}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </CardContent>
+  <CardFooter>
+    <Button as="a" href={buyHref} variant="primary" size="sm" class="w-full">
+      {box.buyLabel}
+      <Icon name="arrowRight" size={17} />
+    </Button>
+  </CardFooter>
+</Card>

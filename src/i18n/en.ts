@@ -22,12 +22,12 @@ export const en: Translations = {
   ],
   hero: {
     status: 'ARC Raiders — patch build online',
-    eyebrow: 'The Best ARC Raiders Cheats',
+    eyebrow: 'The Best ARC Raiders Hacks · Best Cloud DMA',
     titleLine1: 'Arc Raiders',
     titleLine2: 'Hacks & Cheats',
     subtitle: SITE_TAGLINE,
     ctaPrimary: 'View products',
-    ctaDiscord: 'Join Discord',
+    ctaDiscord: 'Buy now',
     modesLabel: 'Supported modes',
     modes: ['Trios', 'Duos', 'Solo', 'Ranked Trials'],
     metrics: [
@@ -40,20 +40,20 @@ export const en: Translations = {
   features: {
     eyebrow: 'Features',
     title: 'Everything you need in one package',
-    subtitle: 'Raid awareness, combat assists and utility tools for ARC Raiders, maintained every patch.',
+    subtitle: 'Raid awareness, Cloud DMA hardware lanes, and utility tools for ARC Raiders—maintained every patch.',
     items: [
       {
-        title: 'Combat Assist',
-        subtitle: 'Track. Lead. Secure.',
-        desc: 'Humanized aim and recoil modules tuned for PvP extractions—smooth FOV curves and per-weapon profiles.',
+        title: 'Cloud DMA',
+        subtitle: 'Hardware lane. Cloud control.',
+        desc: 'DMA-based read paths with cloud-delivered firmware and presets—keep heavy lifting off your game PC while ESP and radar stay on maintained portal builds.',
         bullets: [
-          'Silent aim with visibility and distance gates',
-          'Recoil control per weapon family',
-          'Bone priority and threat targeting',
-          'Humanized smoothing and reaction delay sliders',
-          'Cloud presets for aggressive vs. legit play',
+          'PCIe DMA stack for off-PC memory reads during extractions',
+          'Cloud portal pushes firmware, profiles, and patch-day notes',
+          'Pairs with Lite/Pro ESP, loot radar, and external overlays',
+          'Setup guides, compat checks, and Discord #status before ranked',
+          'Secure checkout—no paste forums or stale local injectors',
         ],
-        tags: ['arc raiders aimbot', 'silent aim', 'recoil control'],
+        tags: ['cloud dma', 'dma cheats', 'arc raiders dma'],
         bento: 'sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1',
       },
       {
@@ -247,11 +247,26 @@ export const en: Translations = {
   products: {
     eyebrow: 'Products',
     title: 'ARC Raiders products',
-    subtitle: 'Elite arc raiders cheats plus HWID, UGC recovery, Skin Changer, and utility tools.',
+    subtitle: 'Elite arc raiders cheats, Cloud DMA sync, HWID, UGC recovery, Skin Changer, and utility tools.',
     viewAll: 'View all products',
     get: 'Get',
     explore: 'Explore',
     items: [
+      {
+        badge: 'Available',
+        category: 'DMA hardware',
+        title: 'Cloud DMA',
+        subtitle: 'AWS-backed operator portal',
+        desc: 'Cloud DMA config sync for ESP, aim, and utility sliders—same ranked presets on every Windows PC with patch-day snapshots.',
+        features: [
+          'AWS Cloud DMA profile sync',
+          'ESP, loot, and aim slider backup',
+          'Automatic snapshots before loader updates',
+          'Included with Lite, Pro, and Elite tiers',
+        ],
+        more: 8,
+        href: `${productBase}cloud-dma/`,
+      },
       {
         badge: 'Available',
         category: 'System utility',
@@ -283,6 +298,39 @@ export const en: Translations = {
         href: `${productBase}unlock-all/`,
       },
     ],
+  },
+  cloudDma: {
+    badge: 'Cloud infrastructure',
+    title: 'Cloud DMA on AWS',
+    highlight: 'Included with every cheat tier',
+    desc: 'Pull the same ESP, silent aim, and loot radar presets on any PC—configs sync through our AWS-hosted operator portal with automatic snapshots before patch-day loader updates.',
+    descSecondary:
+      'Log in on any Windows PC, pull your ranked or Trios preset, and queue after the status banner shows green.',
+    highlights: [
+      'AWS-backed Cloud DMA sync for ESP, aim, and utility sliders',
+      'Portal configs push after ARC Raiders and VAC maintenance windows',
+      'Same-day loader builds paired with cloud profile snapshots',
+      'Included on Lite, Pro, and Elite—no separate Cloud DMA upsell',
+    ],
+    buyLabel: 'Buy now',
+    featuresLabel: 'See Cloud DMA features',
+    detailsLabel: 'Full Cloud DMA details',
+    buyHref: PRIMARY_CHECKOUT_PATH,
+    featuresHref: '/#features',
+    detailsHref: `${productBase}cloud-dma/`,
+    productSpotlight: {
+      title: 'Cloud DMA',
+      tagline: 'Advantages included with every tier',
+      advantages: [
+        'AWS-backed preset sync for ESP, aim, and loot sliders',
+        'Automatic cloud snapshots before patch-day loader updates',
+        'Same ranked profile on any Windows PC after portal login',
+        'Rollback to last snapshot if a slider test goes wrong',
+        'No separate upsell—bundled with Lite, Pro, and Elite',
+      ],
+      buyLabel: 'Buy now',
+      detailsLabel: 'Cloud DMA details',
+    },
   },
   blog: {
     eyebrow: 'Blog',

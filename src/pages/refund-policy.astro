@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LegalPage from '../components/LegalPage.astro';
+import { resolvePageSeo } from '../config/seo';
+import { refundPolicySections } from '../data/marketing/phase1Pages';
+import { breadcrumbSchema, webPageSchema } from '../utils/schema';
+import { SITE_CONTENT_LAST_UPDATED } from '../config/brand';
+
+const seo = resolvePageSeo('/refund-policy/');
+const title = 'Refund policy for Arc Raiders cheat keys';
+const description = seo.description;
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  articleModifiedTime={SITE_CONTENT_LAST_UPDATED}
+  jsonLd={[
+    webPageSchema({ name: title, description, url: '/refund-policy/' }),
+    breadcrumbSchema([
+      { name: 'Home', path: '/' },
+      { name: 'Refund policy', path: '/refund-policy/' },
+    ]),
+  ]}
+>
+  <LegalPage
+    title={title}
+    description={description}
+    breadcrumbLabel="Refund policy"
+    sections={refundPolicySections}
+  />
+</BaseLayout>

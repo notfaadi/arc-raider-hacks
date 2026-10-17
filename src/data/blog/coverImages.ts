@@ -2,35 +2,154 @@ import { ARC_RAIDERS_IMAGES } from '../media';
 
 type PostRef = { slug: string; tag: string; date: string };
 
-/** One canonical screenshot per article — no duplicates site-wide. */
-const BLOG_COVER_BY_SLUG: Record<string, (typeof ARC_RAIDERS_IMAGES)[number]> = {
-  'arc-raiders-cheats-features-guide': ARC_RAIDERS_IMAGES[4]!,
-  'arc-raiders-hacks-best-cheats-2026': ARC_RAIDERS_IMAGES[2]!,
-  'arc-raiders-aimbot-settings-guide': ARC_RAIDERS_IMAGES[6]!,
-  'dota-2-map-hack-setup': ARC_RAIDERS_IMAGES[0]!,
-  'best-arc-raiders-cheat-setup-windows': ARC_RAIDERS_IMAGES[7]!,
-  'arc-raiders-november-2026-update': ARC_RAIDERS_IMAGES[8]!,
-  'arc-raiders-best-cheats-patch-recap-october': ARC_RAIDERS_IMAGES[5]!,
-  'vac-patch-day-checklist': ARC_RAIDERS_IMAGES[9]!,
-  'arc-raiders-esp-misaligned-fix': ARC_RAIDERS_IMAGES[1]!,
-  'arc-raiders-steam-verify-error-fix': ARC_RAIDERS_IMAGES[10]!,
-  'how-to-buy-arc-raiders-cheats-2026': ARC_RAIDERS_IMAGES[3]!,
+const L = ARC_RAIDERS_IMAGES.length;
+const FEATURED_SLUG = 'arc-raiders-cheats-features-guide';
+
+const TAG_COVER_OFFSET: Record<string, number> = {
+  Features: 0,
+  Guides: 2,
+  Setup: 4,
+  Troubleshooting: 6,
+  Update: 8,
 };
+
+function parseBlogDate(date: string): number {
+  const t = Date.parse(date);
+  return Number.isNaN(t) ? 0 : t;
+}
+
+function assignUniqueWithinTag(
+  out: Map<string, string>,
+  tagPosts: PostRef[],
+  startOffset: number,
+  blocked: ReadonlySet<string>,
+): void {
+  const usedInTag = new Set<string>();
+
+  for (let i = 0; i < tagPosts.length; i++) {
+    const post = tagPosts[i]!;
+    if (out.has(post.slug)) {
+      usedInTag.add(out.get(post.slug)!);
+      continue;
+    }
+
+    let picked: string | undefined;
+
+    for (let attempt = 0; attempt < L; attempt++) {
+      const src = ARC_RAIDERS_IMAGES[(startOffset + i + attempt) % L]!;
+      if (blocked.has(src) && post.slug !== FEATURED_SLUG) continue;
+      if (usedInTag.has(src)) continue;
+      picked = src;
+      break;
+    }
+
+    if (!picked) {
+      for (let attempt = 0; attempt < L; attempt++) {
+        const src = ARC_RAIDERS_IMAGES[(startOffset + i + attempt) % L]!;
+        if (usedInTag.has(src)) continue;
+        picked = src;
+        break;
+      }
+    }
+
+    picked ??= ARC_RAIDERS_IMAGES[(startOffset + i) % L]!;
+    out.set(post.slug, picked);
+    usedInTag.add(picked);
+  }
+}
+
+/** Blog index shows featured + grid — newest rows should not reuse the same PNG. */
+function diversifyBlogIndexView(out: Map<string, string>, posts: readonly PostRef[]): void {
+  const featuredImg = out.get(FEATURED_SLUG);
+  const blocked = featuredImg ? new Set([featuredImg]) : new Set<string>();
+
+  const gridPosts = posts
+    .filter((p) => p.slug !== FEATURED_SLUG)
+    .sort((a, b) => parseBlogDate(b.date) - parseBlogDate(a.date));
+
+  const seen = new Set<string>();
+
+  for (let i = 0; i < gridPosts.length; i++) {
+    const post = gridPosts[i]!;
+    let img = out.get(post.slug)!;
+
+    if (blocked.has(img)) {
+      for (let j = i + 1; j < gridPosts.length; j++) {
+        const partner = gridPosts[j]!;
+        if (partner.tag !== post.tag) continue;
+        const partnerImg = out.get(partner.slug)!;
+        if (blocked.has(partnerImg)) continue;
+        out.set(post.slug, partnerImg);
+        out.set(partner.slug, img);
+        img = partnerImg;
+        break;
+      }
+    }
+
+    if (!seen.has(img)) {
+      seen.add(img);
+      continue;
+    }
+
+    let swapped = false;
+    for (let j = i + 1; j < gridPosts.length; j++) {
+      const partner = gridPosts[j]!;
+      if (partner.tag !== post.tag) continue;
+      const partnerImg = out.get(partner.slug)!;
+      if (seen.has(partnerImg) || blocked.has(partnerImg)) continue;
+      out.set(post.slug, partnerImg);
+      out.set(partner.slug, img);
+      seen.add(partnerImg);
+      swapped = true;
+      break;
+    }
+
+    if (!swapped) seen.add(img);
+  }
+}
 
 export function buildBlogCoverBySlug(posts: readonly PostRef[]): Map<string, string> {
   const out = new Map<string, string>();
-  const used = new Set<string>();
+
+  out.set(FEATURED_SLUG, ARC_RAIDERS_IMAGES[4]!);
+  const blocked = new Set([out.get(FEATURED_SLUG)!]);
+
+  const tags = [...new Set(posts.map((p) => p.tag))].sort((a, b) => a.localeCompare(b));
+
+  for (const tag of tags) {
+    const tagPosts = posts
+      .filter((p) => p.tag === tag)
+      .sort((a, b) => parseBlogDate(b.date) - parseBlogDate(a.date));
+
+    const offset = TAG_COVER_OFFSET[tag] ?? 0;
+    assignUniqueWithinTag(out, tagPosts, offset, blocked);
+  }
 
   for (const post of posts) {
-    const src = BLOG_COVER_BY_SLUG[post.slug];
-    if (!src) {
-      throw new Error(`[blog] missing cover mapping for slug "${post.slug}"`);
+    if (!out.has(post.slug)) {
+      out.set(post.slug, ARC_RAIDERS_IMAGES[0]!);
     }
-    if (used.has(src)) {
-      throw new Error(`[blog] duplicate cover ${src} for slug "${post.slug}"`);
+  }
+
+  diversifyBlogIndexView(out, posts);
+
+  if (import.meta.env?.DEV) {
+    for (const tag of tags) {
+      const tagPosts = posts.filter((p) => p.tag === tag);
+      const imgs = tagPosts.map((p) => out.get(p.slug));
+      const unique = new Set(imgs);
+      if (unique.size !== imgs.length) {
+        console.warn(`[blog] duplicate covers in tag "${tag}": ${imgs.length} posts, ${unique.size} unique`);
+      }
     }
-    used.add(src);
-    out.set(post.slug, src);
+
+    const featuredImgDev = out.get(FEATURED_SLUG);
+    const othersWithFeatured = posts.filter(
+      (p) => p.slug !== FEATURED_SLUG && out.get(p.slug) === featuredImgDev,
+    );
+    if (othersWithFeatured.length) {
+      console.warn('[blog] featured cover reused by', othersWithFeatured.map((p) => p.slug));
+    }
   }
 
   return out;

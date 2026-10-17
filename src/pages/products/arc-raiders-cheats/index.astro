@@ -5,9 +5,21 @@ import { t } from '../../../i18n';
 import { productHub, productPages } from '../../../data/products';
 import { cheatTierIcons, productCategoryIcons } from '../../../data/sectionIcons';
 import { resolvePageSeo } from '../../../config/seo';
-import { breadcrumbSchema, collectionPageSchema, itemListSchema } from '../../../utils/schema';
+import {
+  breadcrumbSchema,
+  collectionPageSchema,
+  faqPageSchema,
+  itemListSchema,
+} from '../../../utils/schema';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CatalogCard from '../../../components/CatalogCard.astro';
+import CloudDmaProductSpotlight from '../../../components/CloudDmaProductSpotlight.astro';
+import FaqSection from '../../../components/FaqSection.astro';
+import {
+  PRODUCT_HUB_FAQ_COPY,
+  PRODUCT_HUB_FAQ_TOPICS,
+  productHubFaqs,
+} from '../../../data/productHubFaqs';
 import { productPath } from '../../../utils/path';
 
 const seo = resolvePageSeo('/products/arc-raiders-cheats/');
@@ -48,6 +60,13 @@ function cardLabel(product: (typeof productPages)[number]) {
         url: productPath(product.slug),
       })),
     ),
+    faqPageSchema(
+      productHubFaqs.map((f, i) => ({
+        num: String(i + 1).padStart(2, '0'),
+        q: f.q,
+        a: f.a,
+      })),
+    ),
   ]}
 >
   <section class="py-8 md:py-12">
@@ -75,7 +94,22 @@ function cardLabel(product: (typeof productPages)[number]) {
             viewLabel="View details"
           />
         ))}
+        <CloudDmaProductSpotlight />
       </div>
     </div>
   </section>
+
+  <FaqSection
+    id="product-faq"
+    class="border-t border-border bg-muted/20"
+    items={productHubFaqs}
+    eyebrow={PRODUCT_HUB_FAQ_COPY.eyebrow}
+    title={PRODUCT_HUB_FAQ_COPY.title}
+    subtitle={PRODUCT_HUB_FAQ_COPY.subtitle}
+    titleId="product-faq-heading"
+    showFilters
+    filterTopics={[...PRODUCT_HUB_FAQ_TOPICS]}
+    showNumbers
+    centered
+  />
 </BaseLayout>

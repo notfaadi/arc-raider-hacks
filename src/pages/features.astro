@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketingPageShell from '../components/marketing/MarketingPageShell.astro';
+import ComparisonTable from '../components/marketing/ComparisonTable.astro';
+import { resolvePageSeo } from '../config/seo';
+import { featuresContent } from '../data/marketing/phase1Pages';
+import { breadcrumbSchema, faqPageSchema, webPageSchema } from '../utils/schema';
+import { SITE_CONTENT_LAST_UPDATED } from '../config/brand';
+
+const seo = resolvePageSeo('/features/');
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Features', path: '/features/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  articleModifiedTime={SITE_CONTENT_LAST_UPDATED}
+  jsonLd={[
+    webPageSchema({ name: featuresContent.h1, description: seo.description, url: '/features/' }),
+    breadcrumbSchema(breadcrumbs),
+    faqPageSchema(
+      featuresContent.faqs.map((f, i) => ({
+        num: String(i + 1).padStart(2, '0'),
+        q: f.q,
+        a: f.a,
+      })),
+    ),
+  ]}
+>
+  <MarketingPageShell
+    h1={featuresContent.h1}
+    lead={featuresContent.lead}
+    breadcrumbs={breadcrumbs}
+    quickAnswer={featuresContent.quickAnswer}
+    sections={featuresContent.sections}
+    faqs={featuresContent.faqs}
+    relatedLinks={featuresContent.relatedLinks}
+  />
+  <div class="section-shell max-w-3xl pb-12">
+    <h2 class="text-2xl font-bold">Feature matrix by tier</h2>
+    <div class="mt-4">
+      <ComparisonTable />
+    </div>
+  </div>
+</BaseLayout>

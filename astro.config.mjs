@@ -12,7 +12,7 @@ export default defineConfig({
     '/cheats/pro/': '/products/arc-raiders-cheats/',
     '/cheats/elite/': '/products/arc-raiders-cheats/elite/',
     '/cheats/compare/': '/blog/dota-2-lite-vs-pro/',
-    '/contact/': '/support/',
+    '/privacy-policy/': '/privacy/',
     '/products/dota-2-cheats/': '/products/arc-raiders-cheats/',
     '/products/dota-2-cheats/utilities/': '/products/arc-raiders-cheats/utilities/',
     '/go/dota-2/': '/go/arc-raiders/',

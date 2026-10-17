@@ -158,6 +158,27 @@ export interface Translations {
     explore: string;
     items: ProductCard[];
   };
+  cloudDma: {
+    badge: string;
+    title: string;
+    highlight: string;
+    desc: string;
+    descSecondary: string;
+    highlights: string[];
+    buyLabel: string;
+    featuresLabel: string;
+    detailsLabel: string;
+    buyHref: string;
+    featuresHref: string;
+    detailsHref: string;
+    productSpotlight: {
+      title: string;
+      tagline: string;
+      advantages: string[];
+      buyLabel: string;
+      detailsLabel: string;
+    };
+  };
   blog: {
     eyebrow: string;
     title: string;

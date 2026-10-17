@@ -19,7 +19,8 @@ export const HOMEPAGE_BLOG_SLUGS = [
   'arc-raiders-hacks-best-cheats-2026',
 ] as const;
 
-export const DEFAULT_HERO_IMAGE = ARC_RAIDERS_IMAGES[0];
+/** Homepage hero first slide — Husk Graveyard / surface loot ESP (gpZoomHack). */
+export const DEFAULT_HERO_IMAGE = ARC_RAIDERS_IMAGES[2];
 
 export function arcRaiderImageForIndex(index: number): string {
   return ARC_RAIDERS_IMAGES[((index % ARC_RAIDERS_IMAGES.length) + ARC_RAIDERS_IMAGES.length) % ARC_RAIDERS_IMAGES.length]!;

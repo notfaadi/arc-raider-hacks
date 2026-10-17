@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MarketingPageShell from '../components/marketing/MarketingPageShell.astro';
+import { resolvePageSeo } from '../config/seo';
+import { howToInstallContent } from '../data/marketing/phase1Pages';
+import { breadcrumbSchema, faqPageSchema, howToSchema, webPageSchema } from '../utils/schema';
+import { SITE_CONTENT_LAST_UPDATED } from '../config/brand';
+
+const seo = resolvePageSeo('/how-to-install/');
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'How to install', path: '/how-to-install/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  keywords={seo.keywords}
+  articleModifiedTime={SITE_CONTENT_LAST_UPDATED}
+  jsonLd={[
+    webPageSchema({ name: howToInstallContent.h1, description: seo.description, url: '/how-to-install/' }),
+    breadcrumbSchema(breadcrumbs),
+    howToSchema({
+      name: howToInstallContent.h1,
+      description: seo.description,
+      url: '/how-to-install/',
+      totalTime: 'PT25M',
+      steps: [
+        { name: 'Prepare Windows', text: 'Close conflicting anti-cheats and note your game build.' },
+        { name: 'Download loader', text: 'Use the post-checkout email link; extract to a short local path.' },
+        { name: 'Activate license', text: 'Run loader as administrator and paste your key.' },
+        { name: 'Configure modules', text: 'Set ESP, loot, and combat options before launching the game.' },
+        { name: 'Launch Arc Raiders', text: 'Open Steam normally; verify modules in a low-risk raid first.' },
+      ],
+    }),
+    faqPageSchema(
+      howToInstallContent.faqs.map((f, i) => ({
+        num: String(i + 1).padStart(2, '0'),
+        q: f.q,
+        a: f.a,
+      })),
+    ),
+  ]}
+>
+  <MarketingPageShell
+    h1={howToInstallContent.h1}
+    lead={howToInstallContent.lead}
+    breadcrumbs={breadcrumbs}
+    quickAnswer={howToInstallContent.quickAnswer}
+    sections={howToInstallContent.sections}
+    faqs={howToInstallContent.faqs}
+    relatedLinks={howToInstallContent.relatedLinks}
+  />
+</BaseLayout>

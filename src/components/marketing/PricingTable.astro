@@ -1,0 +1,63 @@
+---
+import { LISTED_TIER_PRICE } from '../../config/brand';
+import { formatPlanPrice } from '../../data/productPricing';
+import { PRIMARY_CHECKOUT_PATH } from '../../config/checkout';
+import { Button } from '@/components/starwind/button';
+
+const rows = [
+  {
+    tier: 'Lite, Pro & Elite',
+    monthly: formatPlanPrice(LISTED_TIER_PRICE.monthlyUsd),
+    lifetime: formatPlanPrice(LISTED_TIER_PRICE.lifetimeUsd),
+    note: 'Same license durations at checkout; tiers differ by feature set.',
+  },
+  {
+    tier: 'UGC utility',
+    monthly: '—',
+    lifetime: formatPlanPrice(LISTED_TIER_PRICE.ugcOneTimeUsd),
+    note: 'One-time access for appeal documentation workflows.',
+  },
+];
+---
+
+<div class="overflow-x-auto rounded-xl border border-border">
+  <table class="w-full min-w-[32rem] border-collapse text-left text-sm">
+    <caption class="sr-only">
+      Arc Raiders cheat pricing for monthly and lifetime keys
+    </caption>
+    <thead class="bg-muted/40 text-xs uppercase tracking-wider text-muted-foreground">
+      <tr>
+        <th scope="col" class="px-4 py-3 font-semibold">Product line</th>
+        <th scope="col" class="px-4 py-3 font-semibold">Monthly (USD)</th>
+        <th scope="col" class="px-4 py-3 font-semibold">Lifetime (USD)</th>
+        <th scope="col" class="px-4 py-3 font-semibold">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        rows.map((row) => (
+          <tr class="border-t border-border">
+            <th scope="row" class="px-4 py-3 font-medium text-foreground">
+              {row.tier}
+            </th>
+            <td class="px-4 py-3 tabular-nums">{row.monthly}</td>
+            <td class="px-4 py-3 tabular-nums">{row.lifetime}</td>
+            <td class="px-4 py-3 text-muted-foreground">{row.note}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<p class="mt-4 text-sm text-muted-foreground">
+  Short-duration keys (1-day or 1-week) may appear at checkout when our partner has stock—we
+  only publish USD amounts we control on this page. Final tax and payment method fees show before
+  you pay.
+</p>
+
+<div class="mt-6">
+  <Button as="a" href={PRIMARY_CHECKOUT_PATH} variant="primary" rel="sponsored noopener">
+    Continue to checkout
+  </Button>
+</div>

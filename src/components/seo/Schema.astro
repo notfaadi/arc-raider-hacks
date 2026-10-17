@@ -1,0 +1,11 @@
+---
+import JsonLd from '../JsonLd.astro';
+
+interface Props {
+  graph: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { graph } = Astro.props;
+---
+
+<JsonLd data={graph} />

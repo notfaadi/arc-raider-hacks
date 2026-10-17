@@ -22,8 +22,6 @@ export const LEGACY_PATH_MAP: Record<string, string> = {
   '/cheats/elite/': `${PRODUCT_BASE}elite/`,
   '/cheats/compare': '/blog/dota-2-lite-vs-pro/',
   '/cheats/compare/': '/blog/dota-2-lite-vs-pro/',
-  '/contact': '/support/',
-  '/contact/': '/support/',
 };
 
 export function normalizeInternalPath(href: string): string {
@@ -53,6 +51,11 @@ export const ROUTES = {
   about: '/about/',
   support: '/support/',
   privacy: '/privacy/',
+  pricing: '/pricing/',
+  features: '/features/',
+  howToInstall: '/how-to-install/',
+  contact: '/contact/',
+  refundPolicy: '/refund-policy/',
 } as const;
 
 export function blogPostPath(slug: string): string {

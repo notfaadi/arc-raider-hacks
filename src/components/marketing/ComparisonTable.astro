@@ -1,0 +1,61 @@
+---
+/** Tier feature comparison for homepage-adjacent commercial pages. */
+const tiers = [
+  {
+    name: 'Lite',
+    path: '/products/arc-raiders-cheats/',
+    esp: 'Player & container ESP',
+    combat: '—',
+    loot: 'Loot highlights & filters',
+    dma: 'Cloud DMA sync',
+  },
+  {
+    name: 'Pro',
+    path: '/products/arc-raiders-cheats/',
+    esp: 'Advanced ESP + raid radar',
+    combat: 'Humanized aim assist & recoil',
+    loot: 'Full loot ESP',
+    dma: 'Cloud DMA sync',
+  },
+  {
+    name: 'Elite',
+    path: '/products/arc-raiders-cheats/elite/',
+    esp: 'Full ESP + chams options',
+    combat: 'Silent aim & trigger profiles',
+    loot: 'Buried City & ARC machine filters',
+    dma: 'Priority Cloud DMA presets',
+  },
+];
+---
+
+<div class="overflow-x-auto rounded-xl border border-border">
+  <table class="w-full min-w-[40rem] border-collapse text-left text-sm">
+    <caption class="sr-only">Compare Lite, Pro, and Elite Arc Raiders cheat tiers</caption>
+    <thead class="bg-muted/40 text-xs uppercase tracking-wider text-muted-foreground">
+      <tr>
+        <th scope="col" class="px-4 py-3">Tier</th>
+        <th scope="col" class="px-4 py-3">Vision / ESP</th>
+        <th scope="col" class="px-4 py-3">Combat assist</th>
+        <th scope="col" class="px-4 py-3">Loot & extraction</th>
+        <th scope="col" class="px-4 py-3">Cloud DMA</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        tiers.map((tier) => (
+          <tr class="border-t border-border">
+            <th scope="row" class="px-4 py-3">
+              <a class="font-semibold text-primary hover:underline" href={tier.path}>
+                {tier.name}
+              </a>
+            </th>
+            <td class="px-4 py-3 text-muted-foreground">{tier.esp}</td>
+            <td class="px-4 py-3 text-muted-foreground">{tier.combat}</td>
+            <td class="px-4 py-3 text-muted-foreground">{tier.loot}</td>
+            <td class="px-4 py-3 text-muted-foreground">{tier.dma}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

@@ -19,13 +19,20 @@ import { ROUTES } from '../utils/path';
       <p class="mt-4 text-muted-foreground">
         That URL does not exist or may have moved. Head back to the homepage or browse cheat tiers and products.
       </p>
+      <ul class="mt-8 space-y-2 text-sm text-muted-foreground">
+        <li><a class="text-primary hover:underline" href={ROUTES.home}>Home — Arc Raiders cheats</a></li>
+        <li><a class="text-primary hover:underline" href={ROUTES.pricing}>Pricing</a></li>
+        <li><a class="text-primary hover:underline" href={ROUTES.features}>Features</a></li>
+        <li><a class="text-primary hover:underline" href={ROUTES.howToInstall}>How to install</a></li>
+        <li><a class="text-primary hover:underline" href={ROUTES.faq}>FAQ</a></li>
+        <li><a class="text-primary hover:underline" href={ROUTES.about}>About</a></li>
+      </ul>
       <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
         <Button as="a" href={ROUTES.home} variant="primary">
           Back to home
           <Icon name="arrowRight" size={17} />
         </Button>
         <Button as="a" href={ROUTES.products} variant="outline">View products</Button>
-        <Button as="a" href={ROUTES.productsElite} variant="outline">View Elite cheats</Button>
       </div>
     </div>
   </section>
