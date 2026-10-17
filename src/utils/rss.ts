@@ -33,9 +33,9 @@ export function buildRssFeed(): string {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DotaCheats Blog</title>
+    <title>Arc Raiders Hacks & Cheats Blog</title>
     <link>${SITE_ORIGIN}/blog/</link>
-    <description>Dota 2 cheat guides, patch notes, and setup walkthroughs from dotacheats.com.</description>
+    <description>ARC Raiders cheat guides, patch notes, and setup walkthroughs from arcraidershacks.com.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />

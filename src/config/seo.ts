@@ -1,10 +1,11 @@
+import { DEFAULT_HERO_IMAGE } from '../data/media';
 import { t } from '../i18n';
-import { SITE_DOMAIN as INDEXNOW_HOST_NAME } from './site';
+import { SITE_DOMAIN as INDEXNOW_HOST_NAME, SITE_URL } from './site';
 import { getPageSeoEntry } from './pageSeo';
 
-export const SITE_ORIGIN = `https://${t.site.domain}`;
+export const SITE_ORIGIN = SITE_URL.replace(/\/$/, '');
 
-export const DEFAULT_OG_IMAGE = '/images/gameplay/dota-2-map-hack.png';
+export const DEFAULT_OG_IMAGE = DEFAULT_HERO_IMAGE;
 
 export const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID as string | undefined;
 

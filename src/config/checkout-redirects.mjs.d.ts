@@ -1,5 +1,5 @@
 export declare const CHECKOUT_URLS: {
-  readonly dota2: string;
+  readonly arcRaiders: string;
   readonly skinChanger: string;
   readonly hwidSpoofer: string;
   readonly ugc: string;

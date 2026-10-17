@@ -1,7 +1,12 @@
 export type { BlogBlock, BlogPostFull } from './blog/types';
-export { blogPosts } from './blog/posts';
 
-import { blogPosts } from './blog/posts';
+import { blogPosts as rawBlogPosts } from './blog/posts';
+import { arcRaiderImageForIndex } from './media';
+
+export const blogPosts = rawBlogPosts.map((post, index) => ({
+  ...post,
+  image: arcRaiderImageForIndex(index),
+}));
 
 export function getBlogPost(slug: string) {
   return blogPosts.find((p) => p.slug === slug);

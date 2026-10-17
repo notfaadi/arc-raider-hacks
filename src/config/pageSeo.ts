@@ -10,59 +10,58 @@ export interface PageSeoEntry {
 
 export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/': {
-    // gscNote: Keep primary keyword "dota 2 cheats" near front; trim if title truncates in SERP.
-    title: 'Dota 2 Cheats & Hacks | Scripts, Map Hack & ESP',
+    title: 'Arc Raiders Hacks & Cheats | ESP, Aimbot & Loot Radar',
     description:
-      'Dota 2 cheats for PC ranked: scripts, map hack, zoom hack, and skin changer tiers updated every patch at dotacheats.com.',
+      'ARC Raiders cheats for PC: player ESP, loot filters, aim assist, and raid radar tiers updated every patch.',
   },
-  '/products/dota-2-cheats/': {
-    title: 'Dota 2 Elite Cheats & Utility Products',
+  '/products/arc-raiders-cheats/': {
+    title: 'ARC Raiders Elite Cheats & Utility Products',
     description:
-      'Elite dota 2 cheats plus HWID spoofer, UGC tools, and Skin Changer utilities for Steam ranked on dotacheats.com.',
+      'Elite ARC Raiders cheats plus HWID spoofer, UGC tools, and cosmetic utilities for Windows PC.',
   },
-  '/products/dota-2-cheats/elite/': {
-    title: 'Dota 2 Elite Cheats | Bots & Full Map Hack',
+  '/products/arc-raiders-cheats/elite/': {
+    title: 'ARC Raiders Elite Cheats | Full ESP & Combat Suite',
     description:
-      'Elite tier: auto farm bot, kill steal, skin changer, full map hack suite, and priority patch delivery.',
+      'Elite tier: full ESP, silent aim, loot radar, priority patch delivery, and direct operator support.',
   },
-  '/products/dota-2-cheats/utilities/': {
-    title: 'Dota 2 Utilities | HWID, UGC & Skin Changer',
+  '/products/arc-raiders-cheats/utilities/': {
+    title: 'ARC Raiders Utilities | HWID, UGC & Unlock Tools',
     description:
-      'Choose HWID Spoofer, UGC, or Skin Changer—when each utility fits and links to full product pages.',
+      'Choose HWID Spoofer, UGC, or Unlock All—when each utility fits and links to full product pages.',
   },
   '/blog/': {
-    title: 'Dota 2 Cheats Guides & Patch Notes',
+    title: 'ARC Raiders Cheats Guides & Patch Notes',
     description:
-      'Setup guides, Lite vs Pro comparisons, VAC patch checklists, and ranked config tips for dota cheats.',
+      'Setup guides, Lite vs Pro comparisons, patch-day checklists, and raid config tips for arc raiders cheats.',
   },
   '/forum/': {
-    title: 'Dota 2 Community Forum | DotaCheats',
-    description: 'Join Dota players to discuss heroes, builds, patch changes, guides, and community moments.',
+    title: 'ARC Raiders Community Forum | Arc Raiders Hacks & Cheats',
+    description: 'Join raiders to discuss loadouts, extracts, patch changes, guides, and community moments.',
   },
   '/faq/': {
-    title: 'FAQ | Dota 2 Cheats, Products & Setup',
+    title: 'FAQ | ARC Raiders Cheats, Products & Setup',
     description:
-      'Answers on cheat tiers, map hack, scripts, HWID tools, checkout, and blog guides at dotacheats.com.',
+      'Answers on cheat tiers, ESP, aim modules, HWID tools, checkout, and blog guides before you buy.',
   },
   '/terms/': {
-    title: 'Terms & Conditions | DotaCheats',
+    title: 'Terms & Conditions | Arc Raiders Hacks & Cheats',
     description:
-      'Purchase terms, license use, and refund policy for DotaCheats products sold through dotacheats.com.',
+      'Purchase terms, license use, and refund policy for Arc Raiders Hacks & Cheats products.',
   },
   '/privacy/': {
-    title: 'Privacy Policy | DotaCheats',
+    title: 'Privacy Policy | Arc Raiders Hacks & Cheats',
     description:
-      'How dotacheats.com uses analytics, cookies, and contact data when you browse or request support.',
+      'How we use analytics, cookies, and contact data when you browse or request support.',
   },
   '/about/': {
-    title: 'About DotaCheats',
+    title: 'About Arc Raiders Hacks & Cheats',
     description:
-      'What DotaCheats publishes: Dota 2 cheat tiers, utilities, guides, and status notes at dotacheats.com.',
+      'What we publish: ARC Raiders cheat tiers, utilities, guides, and live status notes.',
   },
   '/support/': {
-    title: 'Support | DotaCheats',
+    title: 'Support | Arc Raiders Hacks & Cheats',
     description:
-      'Get help with loader setup, HWID, and checkout for Dota 2 cheat tiers and utilities.',
+      'Get help with loader setup, HWID, and checkout for ARC Raiders cheat tiers and utilities.',
   },
 };
 

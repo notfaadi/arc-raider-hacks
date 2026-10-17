@@ -1,7 +1,7 @@
 {
-  "name": "DotaCheats",
-  "short_name": "DotaCheats",
-  "description": "Dota 2 cheats with scripts, map hack, zoom hack and skin changer for PC.",
+  "name": "Arc Raiders Hacks & Cheats",
+  "short_name": "Arc Raiders",
+  "description": "ARC Raiders cheats with ESP, aim assist, loot radar and utilities for PC.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

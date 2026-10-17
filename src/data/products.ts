@@ -1,4 +1,5 @@
 import { t } from '../i18n';
+import { ARC_RAIDERS_IMAGES } from './media';
 import { checkoutForSlug, checkoutPath } from '../config/checkout';
 import type { IconName } from '../components/icons/types';
 
@@ -67,10 +68,10 @@ export const productRelatedBlogSlugs: Record<string, string[]> = {
   ],
   elite: [
     'dota-2-elite-tier-guide',
-    'dota-2-cheats-features-guide',
+    'arc-raiders-cheats-features-guide',
     'dota-2-map-hack-setup',
     'vac-patch-day-checklist',
-    'how-to-buy-dota-2-cheats-2026',
+    'how-to-buy-arc-raiders-cheats-2026',
   ],
   'hwid-spoofer': [
     'dota-2-hwid-spoofer-after-ban',
@@ -81,27 +82,27 @@ export const productRelatedBlogSlugs: Record<string, string[]> = {
   ugc: [
     'valve-anti-cheat-unable-to-verify',
     'dota-2-hwid-spoofer-after-ban',
-    'how-to-buy-dota-2-cheats-2026',
+    'how-to-buy-arc-raiders-cheats-2026',
   ],
   'unlock-all': [
     'dota-2-skin-changer-guide',
-    'dota-2-cheats-features-guide',
+    'arc-raiders-cheats-features-guide',
     'dota-2-stream-proof-setup',
   ],
 };
 
-const productBase = '/products/dota-2-cheats/';
+const productBase = '/products/arc-raiders-cheats/';
 
 const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
     title: 'Review current status',
-    desc: 'Check the live banner on dotacheats.com and Discord #status before purchase—especially after a Dota 2 or VAC update.',
+    desc: 'Check the live banner on arcraidershacks.com and Discord #status before purchase—especially after a ARC Raiders or VAC update.',
   },
   {
     num: '02',
     title: 'Choose your access tier',
-    desc: 'Select Elite dota cheats or the utility that matches your goal. Review the feature list before checkout via our secure checkout.',
+    desc: 'Select Elite arc raiders cheats or the utility that matches your goal. Review the feature list before checkout via our secure checkout.',
   },
   {
     num: '03',
@@ -123,65 +124,63 @@ function acquisitionFor(productName: string): ProductAcquisition {
 }
 
 const sharedGoodToKnow =
-  'Dota 2 and VAC receive frequent updates. Confirm module availability on the live status panel at dotacheats.com before you purchase or launch. Overlay behavior may differ in lobbies, replays and spectator mode after patches.';
+  'ARC Raiders and VAC receive frequent updates. Confirm module availability on the live status panel at arcraidershacks.com before you purchase or launch. Overlay behavior may differ in lobbies, replays and spectator mode after patches.';
 
 const sharedLimitations =
-  'Third-party software in Dota 2 can violate Valve Terms of Use and lead to VAC bans or account action. You use this software at your own risk. Compatibility and availability can change after game, VAC, or Windows updates without notice.';
+  'Third-party software in ARC Raiders can violate Valve Terms of Use and lead to VAC bans or account action. You use this software at your own risk. Compatibility and availability can change after game, VAC, or Windows updates without notice.';
 
 const dotaSystemRequirements: SystemRequirement[] = [
   { icon: 'reqWindows', text: 'Supported 64-bit edition of Windows 10 or Windows 11.' },
-  { icon: 'reqSteam', text: 'Current Dota 2 client via Steam with latest patches applied.' },
+  { icon: 'reqSteam', text: 'Current ARC Raiders client via Steam with latest patches applied.' },
   { icon: 'reqSettings', text: 'Administrator access for loader installation and patch updates.' },
   { icon: 'reqWifi', text: 'Stable internet connection for portal access and patch delivery.' },
-  { icon: 'reqCpu', text: 'A system that meets Dota 2 published hardware requirements.' },
+  { icon: 'reqCpu', text: 'A system that meets ARC Raiders published hardware requirements.' },
 ];
 
 type GalleryKey = keyof typeof galleryRaw;
 
-const gameplay = '/images/gameplay';
-
 const galleryRaw = {
   gpMapHack: {
-    src: `${gameplay}/dota-2-map-hack.png`,
-    alt: 'Dota 2 map hack showing enemy hero positions and ward locations',
-    caption: 'Map hack awareness',
-    captionDesc: 'Enemy position tracking, ward ESP and rune timers during a ranked mid push.',
+    src: ARC_RAIDERS_IMAGES[3],
+    alt: 'ARC Raiders loot and player ESP labels across the surface map',
+    caption: 'Loot & player ESP',
+    captionDesc: 'Container tags, raider names and distance readouts across Topside.',
   },
   gpScripts: {
-    src: `${gameplay}/dota-2-scripts-combo.png`,
-    alt: 'Dota 2 Auto Combo script landing Invoker combo sequence',
-    caption: 'Auto Combo scripts',
-    captionDesc: 'Invoker Tornado → EMP → Meteor chain with Smart Cast prediction active.',
+    src: ARC_RAIDERS_IMAGES[6],
+    alt: 'ARC Raiders firefight against ARC machines in the desert',
+    caption: 'ARC combat',
+    captionDesc: 'Live extraction fight with overlay-friendly third-person view.',
   },
   gpZoomHack: {
-    src: `${gameplay}/dota-2-zoom-hack.png`,
-    alt: 'Dota 2 zoom hack extended camera view of entire lane',
-    caption: 'Extended camera zoom',
-    captionDesc: 'Zoom hack showing full lane vision for safer positioning and gank avoidance.',
+    src: ARC_RAIDERS_IMAGES[2],
+    alt: 'ARC Raiders Husk Graveyard zone with loot ESP enabled',
+    caption: 'Surface loot ESP',
+    captionDesc: 'Field depots, caches and corpses highlighted for faster extractions.',
   },
   gpSkinChanger: {
-    src: `${gameplay}/dota-2-skin-changer.png`,
-    alt: 'Dota 2 Skin Changer previewing arcana cosmetic on hero',
-    caption: 'Skin Changer preview',
-    captionDesc: 'Local arcana and immortal preview via Unlock All—client-side only.',
+    src: ARC_RAIDERS_IMAGES[4],
+    alt: 'ARC Raiders raider in orange suit with tactical backpack in the forest',
+    caption: 'Raider loadout',
+    captionDesc: 'Third-person view with backpack, rifle and surface exploration.',
   },
   gpAutoKill: {
-    src: `${gameplay}/dota-2-auto-kill-steal.png`,
-    alt: 'Dota 2 Auto Kill Steal finishing low HP enemy with Zeus ultimate',
-    caption: 'Auto Kill Steal',
-    captionDesc: 'Lethal threshold detection activating Finger of Death at perfect timing.',
+    src: ARC_RAIDERS_IMAGES[0],
+    alt: 'ARC Raiders player ESP with skeleton and head crosshair on enemy raider',
+    caption: 'Skeleton ESP & aim',
+    captionDesc: 'Bounding boxes, bone ESP and distance markers on enemy raiders.',
   },
   gpFarmBot: {
-    src: `${gameplay}/dota-2-farm-bot.png`,
-    alt: 'Dota 2 Auto Farm Bot clearing jungle camps efficiently',
-    caption: 'Auto Farm Bot',
-    captionDesc: 'Jungle pathing with stack timer and courier manager for max GPM.',
+    src: ARC_RAIDERS_IMAGES[2],
+    alt: 'ARC Raiders loot container ESP at Husk Graveyard',
+    caption: 'Container radar',
+    captionDesc: 'LootContainer pings and player callouts stacked on the HUD.',
   },
   gpHeroEsp: {
-    src: `${gameplay}/dota-2-hero-esp.png`,
-    alt: 'Dota 2 hero ESP with name tags and distance readouts',
-    caption: 'Hero ESP overlay',
-    captionDesc: 'Hero name tags, team colors and distance markers through fog of war.',
+    src: ARC_RAIDERS_IMAGES[1],
+    alt: 'ARC Raiders indoor PvP with player ESP boxes and skeleton overlay',
+    caption: 'Indoor player ESP',
+    captionDesc: 'Name tags, skeleton lines and range readouts in close-quarters fights.',
   },
 };
 
@@ -199,14 +198,14 @@ function slide(...keys: GalleryKey[]): ProductSlide[] {
 
 function slugFromHref(href: string): string {
   const segment = href.replace(productBase, '').replace(/^\//, '').replace(/\/$/, '');
-  return segment || 'dota-2-cheats';
+  return segment || 'arc-raiders-cheats';
 }
 
 const tierAbout: Record<string, ProductPage['about']> = {
   lite: [
     {
       type: 'p',
-      text: 'Dota 2 Lite is built for players who want map awareness first. In ranked, knowing enemy positions, ward placements and rune timings wins more fights than raw mechanics—Lite gives you that edge without script automation.',
+      text: 'ARC Raiders Lite is built for players who want map awareness first. In ranked, knowing enemy positions, ward placements and rune timings wins more fights than raw mechanics—Lite gives you that edge without script automation.',
     },
     { type: 'h2', text: 'Ranked-safe by design' },
     {
@@ -217,7 +216,7 @@ const tierAbout: Record<string, ProductPage['about']> = {
   pro: [
     {
       type: 'p',
-      text: 'Dota 2 Pro is the sweet spot for ranked grinders. Auto Combo, Orbwalker and Smart Cast help you win teamfights without obvious bot patterns—when you tune Delay Setting using our portal presets.',
+      text: 'ARC Raiders Pro is the sweet spot for ranked grinders. Auto Combo, Orbwalker and Smart Cast help you win teamfights without obvious bot patterns—when you tune Delay Setting using our portal presets.',
     },
     { type: 'h2', text: 'Scripts + awareness combined' },
     {
@@ -228,7 +227,7 @@ const tierAbout: Record<string, ProductPage['about']> = {
   elite: [
     {
       type: 'p',
-      text: 'Dota 2 Elite is the private build for players who want everything—Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and direct developer support. Limited slots keep the build maintainable and patch cycles fast.',
+      text: 'ARC Raiders Elite is the private build for players who want everything—Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and direct developer support. Limited slots keep the build maintainable and patch cycles fast.',
     },
     { type: 'h2', text: 'Use Elite responsibly' },
     {
@@ -260,7 +259,7 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Recommended pairing' },
     {
       type: 'p',
-      text: 'Pro is the most popular tier at dotacheats.com—enough firepower for high-MMR lobbies without Elite slot limits. Pair with our scripts guide in the blog before your first ranked session.',
+      text: 'Pro is the most popular tier at arcraidershacks.com—enough firepower for high-MMR lobbies without Elite slot limits. Pair with our scripts guide in the blog before your first ranked session.',
     },
   ],
   elite: [
@@ -282,7 +281,7 @@ const utilityBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'When you need it' },
     {
       type: 'p',
-      text: 'Use when fresh Steam accounts fail instantly on one PC but work elsewhere—classic HWID enforcement. Do not use for account-only VAC cases; see [UGC](/products/dota-2-cheats/ugc/) instead.',
+      text: 'Use when fresh Steam accounts fail instantly on one PC but work elsewhere—classic HWID enforcement. Do not use for account-only VAC cases; see [UGC](/products/arc-raiders-cheats/ugc/) instead.',
     },
     { type: 'h2', text: 'Full workflow' },
     {
@@ -299,7 +298,7 @@ const utilityBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Realistic expectations' },
     {
       type: 'p',
-      text: 'Some VAC bans cannot be reversed. UGC organizes evidence and follow-ups for Valve review. Pair with [HWID Spoofer](/products/dota-2-cheats/hwid-spoofer/) when hardware is flagged, or a new account when reputation is burned.',
+      text: 'Some VAC bans cannot be reversed. UGC organizes evidence and follow-ups for Valve review. Pair with [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/) when hardware is flagged, or a new account when reputation is burned.',
     },
   ],
   'unlock-all': [
@@ -342,10 +341,10 @@ const productContent: Record<
       'Patch auto-updater',
     ],
     overview: {
-      title: 'Built around a clear Dota 2 awareness workflow',
+      title: 'Built around a clear ARC Raiders awareness workflow',
       paragraphs: [
-        'Dota 2 Lite focuses on hero ESP, ward locator, rune timers and zoom hack—everything you need to track ganks and map control without script automation. Modules are grouped in the portal so you can tune distance, colors, and stream-proof mode before your first queue.',
-        'Lite is the entry path for ranked and Turbo players who want map awareness with minimal report risk. No Auto Combo, no bots—just readable overlays maintained every patch at dotacheats.com.',
+        'ARC Raiders Lite focuses on hero ESP, ward locator, rune timers and zoom hack—everything you need to track ganks and map control without script automation. Modules are grouped in the portal so you can tune distance, colors, and stream-proof mode before your first queue.',
+        'Lite is the entry path for ranked and Turbo players who want map awareness with minimal report risk. No Auto Combo, no bots—just readable overlays maintained every patch at arcraidershacks.com.',
       ],
     },
   },
@@ -373,9 +372,9 @@ const productContent: Record<
       'Discord operator support',
     ],
     overview: {
-      title: 'Built around a clear Dota 2 scripts workflow',
+      title: 'Built around a clear ARC Raiders scripts workflow',
       paragraphs: [
-        'Dota 2 Pro adds Auto Combo, Orbwalker, Smart Cast and Activator on top of every Lite module. Hero profiles, delay tuning and activation keys live in one scripts tab—tuned for ranked lobbies when you start with portal presets, not max sliders.',
+        'ARC Raiders Pro adds Auto Combo, Orbwalker, Smart Cast and Activator on top of every Lite module. Hero profiles, delay tuning and activation keys live in one scripts tab—tuned for ranked lobbies when you start with portal presets, not max sliders.',
         'Pro is the most popular tier: enough firepower for ranked and Turbo without Elite slot limits. Target Selector and Activator keep you efficient mid-fight while scripts stay human at default settings.',
       ],
     },
@@ -405,23 +404,23 @@ const productContent: Record<
       'Private slot access',
     ],
     overview: {
-      title: 'Built around a full Dota 2 operator workflow',
+      title: 'Built around a full ARC Raiders operator workflow',
       paragraphs: [
-        'Dota 2 Elite is the private build with Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and priority patch delivery. Every Lite and Pro module is included—no caps, no upsells inside the loader.',
-        'Elite slots are limited so patch cycles stay fast and builds stay maintainable. Direct dev support in Discord helps you tune conservative profiles before ranked. Check the status banner on dotacheats.com before purchase.',
+        'ARC Raiders Elite is the private build with Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and priority patch delivery. Every Lite and Pro module is included—no caps, no upsells inside the loader.',
+        'Elite slots are limited so patch cycles stay fast and builds stay maintainable. Direct dev support in Discord helps you tune conservative profiles before ranked. Check the status banner on arcraidershacks.com before purchase.',
       ],
     },
   },
   'hwid-spoofer': {
     images: slide('gpMapHack', 'gpHeroEsp', 'gpZoomHack'),
     goodToKnow:
-      'Run the compatibility scan in the portal before spoofing. Create a Windows restore point first. Verify identifiers changed after a cold reboot before launching Dota 2.',
+      'Run the compatibility scan in the portal before spoofing. Create a Windows restore point first. Verify identifiers changed after a cold reboot before launching ARC Raiders.',
     limitations:
       'Spoofing does not help account-only VAC cases. Never stack two spoof tools. Shared or work PCs may not be suitable. You accept all risk from driver-level changes.',
     systemRequirements: [
       { icon: 'reqWindows', text: 'Windows 10 or 11 64-bit with administrator access.' },
       { icon: 'reqRestorePoint', text: 'Ability to create a system restore point before running.' },
-      { icon: 'reqShieldGuide', text: 'Follow the portal setup guide before launching Dota 2 after spoofing.' },
+      { icon: 'reqShieldGuide', text: 'Follow the portal setup guide before launching ARC Raiders after spoofing.' },
       { icon: 'reqWifi', text: 'Stable connection for portal verification tools.' },
     ],
     fullFeatures: [
@@ -439,8 +438,8 @@ const productContent: Record<
     overview: {
       title: 'Built around a clear hardware recovery workflow',
       paragraphs: [
-        'The HWID Spoofer helps Dota 2 players recover when VAC flags PC hardware but the Steam account is still clean. Disk and MAC profile tools ship with a restore-point checklist, compatibility scan, and post-spoof verification steps.',
-        'Use this path when fresh accounts fail instantly on one machine but work elsewhere—not for account-only VAC cases. After spoof, load a conservative cheat profile from dotacheats.com before queuing ranked.',
+        'The HWID Spoofer helps ARC Raiders players recover when VAC flags PC hardware but the Steam account is still clean. Disk and MAC profile tools ship with a restore-point checklist, compatibility scan, and post-spoof verification steps.',
+        'Use this path when fresh accounts fail instantly on one machine but work elsewhere—not for account-only VAC cases. After spoof, load a conservative cheat profile from arcraidershacks.com before queuing ranked.',
       ],
     },
   },
@@ -451,7 +450,7 @@ const productContent: Record<
     limitations:
       'UGC does not guarantee account restoration. Results vary by case type. Permanent VAC bans may require a new account path instead of appeal.',
     systemRequirements: [
-      { icon: 'reqMailOrder', text: 'Order email used at checkout on dotacheats.com or at checkout on dotacheats.com.' },
+      { icon: 'reqMailOrder', text: 'Order email used at checkout on arcraidershacks.com or at checkout on arcraidershacks.com.' },
       { icon: 'reqShieldAccount', text: 'Account details and ban or restriction notification if available.' },
       { icon: 'reqWifiPortal', text: 'Internet access for Discord support and case dashboard.' },
     ],
@@ -494,7 +493,7 @@ const productContent: Record<
     overview: {
       title: 'Built around a local cosmetic preview workflow',
       paragraphs: [
-        'Unlock All lets you browse hero arcanas, immortals and exclusive sets locally in Dota 2—searchable catalog, favorites, and loadout export without modifying live Steam purchases.',
+        'Unlock All lets you browse hero arcanas, immortals and exclusive sets locally in ARC Raiders—searchable catalog, favorites, and loadout export without modifying live Steam purchases.',
         'Cosmetics display on your client for testing and content creation. Other players see your actual inventory, not preview skins. Included free with Elite; available standalone for cosmetic preview without combat modules.',
       ],
     },
@@ -505,7 +504,7 @@ function buildTierPages(): ProductPage[] {
   return t.cheats.items.map((cheat) => {
     const slug = slugFromHref(cheat.href);
     const content = productContent[slug];
-    const displayName = cheat.name === 'Lite' ? 'Dota 2 Lite' : cheat.name === 'Pro' ? 'Dota 2 Pro' : 'Dota 2 Elite';
+    const displayName = cheat.name === 'Lite' ? 'ARC Raiders Lite' : cheat.name === 'Pro' ? 'ARC Raiders Pro' : 'ARC Raiders Elite';
     return {
       slug,
       kind: 'tier',
@@ -600,6 +599,6 @@ export const productHub = {
   path: productBase,
   title: t.products.title,
   subtitle: t.products.subtitle,
-  description: 'Elite dota cheats, HWID spoofer, UGC recovery, and cosmetic utilities for Dota 2 on PC.',
-  buyUrl: checkoutPath('dota2'),
+  description: 'Elite arc raiders cheats, HWID spoofer, UGC recovery, and cosmetic utilities for ARC Raiders on PC.',
+  buyUrl: checkoutPath('arcRaiders'),
 };
