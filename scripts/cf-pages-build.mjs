@@ -1,5 +1,8 @@
 #!/usr/bin/env node
-/** Full production build; on Cloudflare Pages also publish dist before the deploy step. */
+/**
+ * Production build. On Cloudflare Pages (CF_PAGES / commit SHA env), also runs
+ * `wrangler pages deploy` so production updates even if the dashboard deploy step fails.
+ */
 import { execSync } from 'node:child_process';
 
 const steps = [
@@ -22,5 +25,6 @@ const onPages =
   Boolean(process.env.CF_PAGES_COMMIT_SHA);
 
 if (onPages) {
+  console.log('cf-pages-build: publishing dist/ to Cloudflare Pages…');
   execSync('node scripts/cf-pages-deploy.mjs', { stdio: 'inherit', env: process.env });
 }

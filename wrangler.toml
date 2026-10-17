@@ -1,8 +1,9 @@
-# Cloudflare Pages — static Astro site in ./dist
+# Cloudflare Pages — Astro static output in ./dist
 name = "arc-raider-hacks"
 compatibility_date = "2024-10-01"
 pages_build_output_dir = "./dist"
+main = "workers/static-site.js"
 
-# Required if dashboard Deploy command is still `npx wrangler deploy` (Worker assets mode).
 [assets]
 directory = "./dist"
+binding = "ASSETS"

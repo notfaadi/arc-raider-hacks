@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/cf-pages-build.mjs",
-    "deploy:cf": "node scripts/cf-pages-deploy.mjs",
     "deploy": "node scripts/cf-wrangler-deploy.mjs",
+    "deploy:cf": "node scripts/cf-pages-deploy.mjs",
     "deploy:pages": "npm run build && npm run deploy:cf",
     "icons:brand": "node scripts/generate-brand-icons.mjs",
     "preview": "astro preview --host 0.0.0.0",

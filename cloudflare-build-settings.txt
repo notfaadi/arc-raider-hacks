@@ -1,0 +1,16 @@
+Cloudflare Pages — arc-raider-hacks (copy into dashboard)
+
+Build command:
+  npm run build
+
+Build output directory:
+  dist
+
+Deploy command (pick ONE):
+  (leave empty — recommended)
+  OR: npm run deploy
+
+Do NOT use: npx wrangler deploy
+
+Branch: main
+Repository: notfaadi/arc-raider-hacks
