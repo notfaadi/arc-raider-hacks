@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 /**
- * Cloudflare Pages dashboard often has Deploy command: npx wrangler deploy
- * That fails on Pages projects. After npm ci, patch local wrangler so
- * `wrangler deploy` becomes `wrangler pages deploy dist` when CF_PAGES* is set.
+ * Cloudflare dashboard default: npx wrangler deploy
+ * Workers Builds API tokens can deploy Workers but often cannot run Pages deploy.
+ * Patch local wrangler so CI `wrangler deploy` uses wrangler.worker.jsonc (static assets).
  */
 import { copyFileSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+
+const SHIM_MARKER = 'wrangler-worker-assets-shim-v14';
 
 const binDir = join(process.cwd(), 'node_modules', 'wrangler', 'bin');
 const wranglerJs = join(binDir, 'wrangler.js');
@@ -15,20 +17,18 @@ if (!existsSync(wranglerJs)) {
   process.exit(0);
 }
 
-if (existsSync(backup)) {
-  console.log('patch-wrangler-bin: already patched.');
+const current = readFileSync(wranglerJs, 'utf8');
+if (current.includes(SHIM_MARKER)) {
+  console.log('patch-wrangler-bin: worker assets shim OK.');
   process.exit(0);
 }
 
-const original = readFileSync(wranglerJs, 'utf8');
-if (original.includes('wrangler-pages-shim')) {
-  process.exit(0);
+if (!existsSync(backup)) {
+  copyFileSync(wranglerJs, backup);
 }
-
-copyFileSync(wranglerJs, backup);
 
 const shim = `#!/usr/bin/env node
-/** wrangler-pages-shim — auto-installed by scripts/patch-wrangler-bin.mjs */
+/** ${SHIM_MARKER} — scripts/patch-wrangler-bin.mjs */
 const { spawn } = require("child_process");
 const path = require("path");
 
@@ -41,22 +41,32 @@ const onCi =
 let args = process.argv.slice(2);
 
 if (onCi && args[0] === "deploy" && args[1] !== "pages") {
+  const hasConfig = args.some(
+    (a) => a === "--config" || String(a).startsWith("--config="),
+  );
   const hasAssets = args.some((a) => String(a).startsWith("--assets"));
-  if (!hasAssets) {
-    const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
-    console.log(
-      "[wrangler-pages-shim] wrangler deploy → pages deploy dist (project: " +
-        project +
-        ")",
-    );
-    args = [
-      "pages",
-      "deploy",
-      "dist",
-      "--project-name",
-      project,
-      "--commit-dirty=true",
-    ];
+  if (!hasConfig && !hasAssets) {
+    if (process.env.WORKERS_CI === "1") {
+      console.log(
+        "[wrangler-worker-shim] wrangler deploy → worker static assets (wrangler.worker.jsonc)",
+      );
+      args = ["deploy", "--config", "wrangler.worker.jsonc"];
+    } else {
+      const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
+      console.log(
+        "[wrangler-worker-shim] wrangler deploy → pages deploy dist (project: " +
+          project +
+          ")",
+      );
+      args = [
+        "pages",
+        "deploy",
+        "dist",
+        "--project-name",
+        project,
+        "--commit-dirty=true",
+      ];
+    }
   }
 }
 
@@ -91,4 +101,4 @@ child.on("exit", (code, signal) => {
 `;
 
 writeFileSync(wranglerJs, shim, 'utf8');
-console.log('patch-wrangler-bin: Pages deploy shim installed.');
+console.log('patch-wrangler-bin: worker assets shim installed.');

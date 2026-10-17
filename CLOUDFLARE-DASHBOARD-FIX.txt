@@ -1,18 +1,20 @@
-Workers Builds for arc-raider-hacks — change these in the dashboard NOW:
+Workers Builds (account notfaadi@gmail.com) — arc-raider-hacks
 
-Settings → Builds
+Your BUILD is OK. Deploy failed because Pages deploy needs a Pages API token;
+Workers Builds only has a Worker deploy token.
 
-  Build command:     npm run build
-  Deploy command:    npm run deploy
-                     (NOT npx wrangler deploy)
+Fix in repo (v14): deploy uses Worker + static assets (wrangler.worker.jsonc).
 
-Then: Deployments → Create deployment → branch main → latest commit.
+Dashboard — Settings → Builds:
+  Build command:   npm run build
+  Deploy command:  npx wrangler deploy
+                     OR npm run deploy
 
-Do NOT click "Retry" on old failed builds (they keep old commits).
+Create deployment from latest main (do not Retry old builds).
 
-Success logs must show:
-  build-version: 2026-10-17-cloudflare-pages-v13
-  generate-brand-icons: skip on Cloudflare CI
-  optimize-images: skip on Cloudflare CI
-  verify-seo: homepage OK
-  npm run deploy: cf-wrangler-deploy marker v13
+Success deploy log:
+  [wrangler-worker-shim] wrangler deploy → worker static assets
+  cf-worker-deploy: wrangler deploy --config wrangler.worker.jsonc
+
+Attach arcraidershack.net:
+  Workers & Pages → arc-raider-hacks → Settings → Domains & routes → Add custom domain
