@@ -14,14 +14,14 @@ export function withTrailingSlash(path: string): string {
 export const LEGACY_PATH_MAP: Record<string, string> = {
   '/cheats': PRODUCT_BASE,
   '/cheats/': PRODUCT_BASE,
-  '/cheats/lite': PRODUCT_BASE,
-  '/cheats/lite/': PRODUCT_BASE,
-  '/cheats/pro': PRODUCT_BASE,
-  '/cheats/pro/': PRODUCT_BASE,
+  '/cheats/lite': `${PRODUCT_BASE}lite/`,
+  '/cheats/lite/': `${PRODUCT_BASE}lite/`,
+  '/cheats/pro': `${PRODUCT_BASE}pro/`,
+  '/cheats/pro/': `${PRODUCT_BASE}pro/`,
   '/cheats/elite': `${PRODUCT_BASE}elite/`,
   '/cheats/elite/': `${PRODUCT_BASE}elite/`,
-  '/cheats/compare': '/blog/dota-2-lite-vs-pro/',
-  '/cheats/compare/': '/blog/dota-2-lite-vs-pro/',
+  '/cheats/compare': '/blog/arc-raiders-cheats-features-guide/',
+  '/cheats/compare/': '/blog/arc-raiders-cheats-features-guide/',
 };
 
 export function normalizeInternalPath(href: string): string {

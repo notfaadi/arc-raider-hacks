@@ -18,7 +18,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
       { type: 'h2', text: 'Container types and filters' },
       {
         type: 'p',
-        text: 'Filter weapon cases, medium chests, raider caches, and corpses separately. Cap labels at 80–150 m in firefights. Pair with [map hack setup](/blog/dota-2-map-hack-setup/) player ESP colors.',
+        text: 'Filter weapon cases, medium chests, raider caches, and corpses separately. Cap labels at 80–150 m in firefights. Pair with [ESP and radar setup](/blog/dota-2-map-hack-setup/) player ESP colors.',
       },
       {
         type: 'cta',
@@ -33,7 +33,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
     title: 'ARC Raiders radar hack and wallhack: raid awareness modules',
     slug: 'arc-raiders-radar-wallhack-guide',
     image: '/images/blog/placeholder.png',
-    desc: '2D raid radar, player wallhack, and minimap pings for Trios and ranked Trials.',
+    desc: '2D raid radar, player wallhack, and minimap pings for Trios and Trios Trials.',
     date: 'Oct 1, 2026',
     readTime: '9 min read',
     body: [
@@ -63,7 +63,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
       },
       {
         type: 'p',
-        text: 'Download 2.3+ from the portal and follow [VAC patch day checklist](/blog/vac-patch-day-checklist/) before Trios.',
+        text: 'Download 2.3+ from the portal and follow [EAC patch day checklist](/blog/vac-patch-day-checklist/) before Trios.',
       },
     ],
   },
@@ -78,7 +78,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
     body: [
       {
         type: 'p',
-        text: 'Loader 2.4 adds faster cloud sync and stream-proof hooks for OBS 30+. Close the game, download from portal, import ranked preset—do not copy old JSON from Downloads.',
+        text: 'Loader 2.4 adds faster cloud sync and stream-proof hooks for OBS 30+. Close the game, download from portal, import Trios preset—do not copy old JSON from Downloads.',
       },
     ],
   },
@@ -87,13 +87,13 @@ export const additionalBlogPosts: BlogPostFull[] = [
     title: 'October 2026 anti-cheat status for ARC Raiders hacks',
     slug: 'arc-raiders-anti-cheat-status-october-2026',
     image: '/images/blog/placeholder.png',
-    desc: 'Monthly enforcement snapshot and when to pause ranked after security pushes.',
+    desc: 'Monthly enforcement snapshot and when to pause Trios after security pushes.',
     date: 'Oct 12, 2026',
     readTime: '9 min read',
     body: [
       {
         type: 'p',
-        text: 'October saw a routine VAC module refresh. Status stayed green for external Lite/Pro/Elite using portal Ranked Safe presets—yellow banner means unranked only.',
+        text: 'October saw a routine VAC module refresh. Status stayed green for external Lite/Pro/Elite using portal Trios Safe presets—yellow banner means unTrios only.',
       },
     ],
   },

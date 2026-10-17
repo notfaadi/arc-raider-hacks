@@ -19,7 +19,7 @@ const CATALOG = {
     'arc-raiders-aimbot-settings-guide',
     'arc-raiders-loot-esp-container-radar',
     'arc-raiders-radar-wallhack-guide',
-    'dota-2-scripts-ranked-mmr',
+    'arc-raiders-aimbot-settings-guide',
   ],
   [TAG.Guides]: [
     'how-to-buy-arc-raiders-cheats-2026',

@@ -8,10 +8,10 @@ export default defineConfig({
   trailingSlash: 'always',
   redirects: {
     '/cheats/': '/products/arc-raiders-cheats/',
-    '/cheats/lite/': '/products/arc-raiders-cheats/',
-    '/cheats/pro/': '/products/arc-raiders-cheats/',
+    '/cheats/lite/': '/products/arc-raiders-cheats/lite/',
+    '/cheats/pro/': '/products/arc-raiders-cheats/pro/',
     '/cheats/elite/': '/products/arc-raiders-cheats/elite/',
-    '/cheats/compare/': '/blog/dota-2-lite-vs-pro/',
+    '/cheats/compare/': '/blog/arc-raiders-cheats-features-guide/',
     '/privacy-policy/': '/privacy/',
     '/products/dota-2-cheats/': '/products/arc-raiders-cheats/',
     '/products/dota-2-cheats/utilities/': '/products/arc-raiders-cheats/utilities/',
@@ -30,7 +30,11 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/404') && !page.includes('/go/'),
+      filter: (page) =>
+        !page.includes('/404') &&
+        !page.includes('/go/') &&
+        !page.includes('/cheats') &&
+        !page.includes('/privacy-policy'),
       serialize: sitemapSerialize,
     }),
   ],

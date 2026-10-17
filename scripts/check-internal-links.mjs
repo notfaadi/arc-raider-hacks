@@ -52,7 +52,9 @@ function normalizeInternal(href) {
   let pathname = hash >= 0 ? href.slice(0, hash) : href;
   if (!pathname.startsWith('/')) pathname = `/${pathname}`;
   pathname = resolveRedirect(pathname);
-  if (pathname !== '/' && !pathname.endsWith('/')) pathname = `${pathname}/`;
+  if (pathname !== '/' && !pathname.endsWith('/') && !/\.[a-z0-9]+$/i.test(pathname)) {
+    pathname = `${pathname}/`;
+  }
   return pathname.split('?')[0];
 }
 
@@ -91,8 +93,9 @@ if (fs.existsSync(dist)) {
 
 const missing = new Map();
 for (const { from, to } of links) {
-  if (to.includes('*')) continue;
-  if (/\.(png|jpg|webp|svg|xml|txt|ico|css|js|woff2?)$/i.test(to)) continue;
+  if (to.includes('*') || to.includes('${')) continue;
+  if (to === '/404/') continue;
+  if (/\.(png|jpg|jpeg|webp|svg|xml|txt|ico|css|js|woff2?|webmanifest)$/i.test(to)) continue;
   if (built.has(to)) continue;
   if (!missing.has(to)) missing.set(to, new Set());
   missing.get(to).add(from);

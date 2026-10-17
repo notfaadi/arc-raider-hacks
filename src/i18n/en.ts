@@ -29,7 +29,7 @@ export const en: Translations = {
     ctaPrimary: 'View products',
     ctaDiscord: 'Buy now',
     modesLabel: 'Supported modes',
-    modes: ['Trios', 'Duos', 'Solo', 'Ranked Trials'],
+    modes: ['Trios', 'Duos', 'Solo', 'Trios Trials'],
     metrics: [
       { label: 'Stream-safe', strong: 'Yes' },
       { label: 'Patch speed', strong: '<24h' },
@@ -50,7 +50,7 @@ export const en: Translations = {
           'PCIe DMA stack for off-PC memory reads during extractions',
           'Cloud portal pushes firmware, profiles, and patch-day notes',
           'Pairs with Lite/Pro ESP, loot radar, and external overlays',
-          'Setup guides, compat checks, and Discord #status before ranked',
+          'Setup guides, compat checks, and Discord #status before Trios',
           'Secure checkout—no paste forums or stale local injectors',
         ],
         tags: ['cloud dma', 'dma cheats', 'arc raiders dma'],
@@ -126,7 +126,7 @@ export const en: Translations = {
         subtitle: 'See More of the Fight.',
         desc: 'Extended camera and FOV tweaks for spotting ARC patrols across large outdoor zones.',
         bullets: ['Distance caps per raid type', 'Quick reset to default FOV', 'Pairs with radar ESP'],
-        tags: ['zoom hack', 'camera', 'vision'],
+        tags: ['FOV helper', 'camera', 'vision'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-6',
       },
       {
@@ -141,7 +141,7 @@ export const en: Translations = {
   },
   whyUs: {
     eyebrow: 'Why us',
-    title: 'Ranked tooling backed by patches—not promises',
+    title: 'Trios tooling backed by patches—not promises',
     subtitle:
       'Most ARC Raiders cheat shops ship stale loaders, obvious automation, and ticket bots. We built arcraidershack.net around patch-day delivery, humanized scripts, and live operators.',
     usLabel: 'Arc Raiders Hacks & Cheats',
@@ -149,11 +149,11 @@ export const en: Translations = {
     rows: [
       {
         title: 'Patch-day loader updates',
-        desc: 'VAC-aware builds pushed within hours of ARC Raiders updates—check Discord #status before you queue ranked.',
+        desc: 'EAC-aware builds pushed within hours of ARC Raiders updates—check Discord #status before you queue Trios.',
       },
       {
         title: 'Humanized scripts & delays',
-        desc: 'Delay Setting, Target Selector and conservative defaults mimic high-MMR timing—not instant bot bursts that flood reports.',
+        desc: 'Delay Setting, Threat priority and conservative defaults mimic high-skill timing—not instant bot bursts that flood reports.',
       },
       {
         title: 'Live Discord operators',
@@ -165,7 +165,7 @@ export const en: Translations = {
       },
       {
         title: 'Cloud preset sync',
-        desc: 'Ranked, Turbo and per-hero profiles backup to the portal—same sliders on any PC without rebuilding from scratch.',
+        desc: 'Trios, solo and per-weapon profiles backup to the portal—same sliders on any PC without rebuilding from scratch.',
       },
       {
         title: 'HWID reset & license moves',
@@ -176,7 +176,7 @@ export const en: Translations = {
       {
         value: '<24h',
         title: 'Patch turnaround',
-        desc: 'Average time to ship a loader build after major ARC Raiders or VAC changes.',
+        desc: 'Average time to ship a loader build after major ARC Raiders or EAC changes.',
       },
       {
         value: '24/7',
@@ -186,13 +186,13 @@ export const en: Translations = {
       {
         value: '300+',
         title: 'Active operators',
-        desc: 'Steam PC players running scripts, map hack and utilities on arcraidershack.net.',
+        desc: 'Steam PC players running scripts, ESP and radar and utilities on arcraidershack.net.',
       },
     ],
   },
   setup: {
     eyebrow: 'Setup guide',
-    titleLead: 'From checkout to ranked queue in just',
+    titleLead: 'From checkout to Trios queue in just',
     titleHighlight: 'three simple steps',
     intro:
       'Getting started is easy. Follow the operator portal flow to download the loader, load presets, and queue ARC Raiders on Steam PC—with live Discord help if anything blocks you.',
@@ -209,7 +209,7 @@ export const en: Translations = {
       {
         step: 'Step 2',
         title: 'Launch & configure modules',
-        desc: 'Run the external loader, import ranked or Turbo presets, and tune scripts plus map hack sliders.',
+        desc: 'Run the external loader, import Trios or solo presets, and tune scripts plus ESP and radar sliders.',
       },
       {
         step: 'Step 3',
@@ -227,7 +227,7 @@ export const en: Translations = {
   cheats: {
     eyebrow: 'Elite cheat',
     title: 'ARC Raiders Elite cheats',
-    subtitle: 'Full ranked suite—map hack, scripts, bots, Skin Changer, and priority patch delivery.',
+    subtitle: 'Full Trios suite—ESP and radar, scripts, bots, Unlock All, and priority patch delivery.',
     viewAll: 'View Elite details',
     explore: 'Explore',
     items: [
@@ -247,8 +247,8 @@ export const en: Translations = {
         tier: 'Pro',
         name: 'Pro',
         title: 'ARC Raiders Pro',
-        desc: 'Everything in Lite plus humanized aim assist, recoil control, and script modules for PvP extractions.',
-        features: ['All Lite ESP modules', 'Aim assist + recoil', 'Auto combo scripts', 'Activator keys', 'Ranked presets', 'Cloud DMA sync'],
+        desc: 'Everything in Lite plus humanized aim assist, recoil control, and combat modules for PvP extractions.',
+        features: ['All Lite ESP modules', 'Aim assist + recoil', 'Auto combo scripts', 'Activator keys', 'Trios presets', 'Cloud DMA sync'],
         more: 16,
         href: `${productBase}pro/`,
         variant: 'popular',
@@ -269,7 +269,7 @@ export const en: Translations = {
   products: {
     eyebrow: 'Products',
     title: 'ARC Raiders products',
-    subtitle: 'Elite arc raiders cheats, Cloud DMA sync, HWID, UGC recovery, Skin Changer, and utility tools.',
+    subtitle: 'Elite arc raiders cheats, Cloud DMA sync, HWID, UGC recovery, Unlock All, and utility tools.',
     viewAll: 'View all products',
     get: 'Get',
     explore: 'Explore',
@@ -279,7 +279,7 @@ export const en: Translations = {
         category: 'DMA hardware',
         title: 'Cloud DMA',
         subtitle: 'AWS-backed operator portal',
-        desc: 'Cloud DMA config sync for ESP, aim, and utility sliders—same ranked presets on every Windows PC with patch-day snapshots.',
+        desc: 'Cloud DMA config sync for ESP, aim, and utility sliders—same Trios presets on every Windows PC with patch-day snapshots.',
         features: [
           'AWS Cloud DMA profile sync',
           'ESP, loot, and aim slider backup',
@@ -304,7 +304,7 @@ export const en: Translations = {
         category: 'Account recovery',
         title: 'UGC',
         subtitle: 'Unban & governance control',
-        desc: 'All-in-one appeal workspace for Steam restrictions, VAC bans and security holds—custom workflows and dispute automation.',
+        desc: 'All-in-one appeal workspace for Steam restrictions, EAC bans and security holds—custom workflows and dispute automation.',
         features: ['Custom appeal workflows', 'Dispute automation', 'Case documentation', 'Status tracking dashboard'],
         more: 6,
         href: `${productBase}ugc/`,
@@ -312,9 +312,9 @@ export const en: Translations = {
       {
         badge: 'Available',
         category: 'Cosmetic',
-        title: 'Skin Changer',
+        title: 'Unlock All',
         subtitle: 'Unlock every cosmetic locally',
-        desc: 'Lightweight Skin Changer for hero outfits, weapon skins and rare variants—local preview without Steam store purchases.',
+        desc: 'Lightweight Unlock All for hero outfits, weapon skins and rare variants—local preview without Steam store purchases.',
         features: ['Outfit & gear preview', 'Weapon skin customizer', 'Rare variant unlock', 'Loadout favorites export'],
         more: 7,
         href: `${productBase}unlock-all/`,
@@ -327,10 +327,10 @@ export const en: Translations = {
     highlight: 'Included with every cheat tier',
     desc: 'Pull the same ESP, silent aim, and loot radar presets on any PC—configs sync through our AWS-hosted operator portal with automatic snapshots before patch-day loader updates.',
     descSecondary:
-      'Log in on any Windows PC, pull your ranked or Trios preset, and queue after the status banner shows green.',
+      'Log in on any Windows PC, pull your Trios or solo preset, and queue after the status banner shows green.',
     highlights: [
       'AWS-backed Cloud DMA sync for ESP, aim, and utility sliders',
-      'Portal configs push after ARC Raiders and VAC maintenance windows',
+      'Portal configs push after ARC Raiders and EAC maintenance windows',
       'Same-day loader builds paired with cloud profile snapshots',
       'Included on Lite, Pro, and Elite—no separate Cloud DMA upsell',
     ],
@@ -346,7 +346,7 @@ export const en: Translations = {
       advantages: [
         'AWS-backed preset sync for ESP, aim, and loot sliders',
         'Automatic cloud snapshots before patch-day loader updates',
-        'Same ranked profile on any Windows PC after portal login',
+        'Same Trios profile on any Windows PC after portal login',
         'Rollback to last snapshot if a slider test goes wrong',
         'No separate upsell—bundled with Lite, Pro, and Elite',
       ],
@@ -357,7 +357,7 @@ export const en: Translations = {
   blog: {
     eyebrow: 'Blog',
     title: 'Guides and updates',
-    subtitle: 'Cheat codes, script setup, map hack config and patch-day checks for ARC Raiders.',
+    subtitle: 'Cheat codes, script setup, ESP and radar config and patch-day checks for ARC Raiders.',
     latestTitle: 'Latest articles',
     latestSubtitle: 'Filter by topic or sort to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
@@ -399,10 +399,10 @@ export const en: Translations = {
       },
       {
         tag: 'Features',
-        title: 'ARC Raiders cheats features: scripts, bots, map hack and more',
+        title: 'ARC Raiders cheats features: scripts, bots, ESP and radar and more',
         slug: 'arc-raiders-cheats-features-guide',
         image: arcRaiderImageForIndex(3),
-        desc: 'Complete guide to our ARC Raiders cheats—Auto Combo, Auto Farm Bot, Skin Changer, Zoom Hack, Map Hack and Auto Dagon.',
+        desc: 'Complete guide to our ARC Raiders cheats—Aim assist, Extended loot automation, Unlock All, Zoom Hack, Map Hack and Elite combat macros.',
         date: 'Aug 18, 2026',
         readTime: '12 min read',
       },
@@ -420,7 +420,7 @@ export const en: Translations = {
         title: 'ARC Raiders Lite vs Pro: which tier fits you',
         slug: 'dota-2-lite-vs-pro',
         image: arcRaiderImageForIndex(5),
-        desc: 'Map awareness vs script automation—compare Lite and Pro arc raiders cheats for ranked and Turbo.',
+        desc: 'Map awareness vs aim automation—compare Lite and Pro arc raiders cheats for Trios and solo.',
         date: 'Aug 16, 2026',
         readTime: '5 min read',
       },
@@ -429,31 +429,31 @@ export const en: Translations = {
         title: 'Elite tier guide: when to upgrade your arc raiders cheats',
         slug: 'dota-2-elite-tier-guide',
         image: arcRaiderImageForIndex(6),
-        desc: 'Auto Farm Bot, Auto Kill Steal, Skin Changer and full map hack—who Elite is for and how to tune safely.',
+        desc: 'Extended loot automation, Loot priority assist, Unlock All and full ESP and radar—who Elite is for and how to tune safely.',
         date: 'Aug 16, 2026',
         readTime: '7 min read',
       },
       {
         tag: 'Setup',
-        title: 'ARC Raiders scripts for ranked MMR',
+        title: 'ARC Raiders scripts for Trios progression',
         slug: 'dota-2-scripts-ranked-mmr',
         image: arcRaiderImageForIndex(7),
-        desc: 'Auto Combo, Prediction and Activator configs for climbing ranked with Pro tier ARC Raiders cheats.',
+        desc: 'Aim assist, Prediction and Activator configs for climbing Trios with Pro tier ARC Raiders cheats.',
         date: 'Aug 15, 2026',
         readTime: '6 min read',
       },
       {
         tag: 'Setup',
-        title: 'Map hack setup for ARC Raiders ranked',
+        title: 'ESP and radar setup for ARC Raiders Trios',
         slug: 'dota-2-map-hack-setup',
         image: arcRaiderImageForIndex(8),
-        desc: 'Enemy position tracking, ward ESP, smoke alerts and vision detector tuning for Lite and Elite tiers.',
+        desc: 'Enemy position tracking, loot ESP, threat alerts and vision detector tuning for Lite and Elite tiers.',
         date: 'Aug 15, 2026',
         readTime: '5 min read',
       },
       {
         tag: 'Setup',
-        title: 'Zoom hack guide for ARC Raiders',
+        title: 'FOV helper guide for ARC Raiders',
         slug: 'dota-2-zoom-hack-guide',
         image: arcRaiderImageForIndex(9),
         desc: 'Extended camera view, dynamic zoom and safe angle lock for supports and midlaners.',
@@ -465,22 +465,22 @@ export const en: Translations = {
         title: 'Skin changer and Unlock All for ARC Raiders',
         slug: 'dota-2-skin-changer-guide',
         image: arcRaiderImageForIndex(10),
-        desc: 'Preview arcanas, immortals and exclusive sets locally with our Unlock All Skin Changer module.',
+        desc: 'Preview arcanas, immortals and exclusive sets locally with our Unlock All Unlock All module.',
         date: 'Aug 14, 2026',
         readTime: '6 min read',
       },
       {
         tag: 'Updates',
-        title: 'VAC patch day checklist for ARC Raiders cheats',
+        title: 'EAC patch day checklist for ARC Raiders cheats',
         slug: 'vac-patch-day-checklist',
         image: arcRaiderImageForIndex(11),
-        desc: 'Status banner, loader reload and conservative profiles after every ARC Raiders or VAC update.',
+        desc: 'Status banner, loader reload and conservative profiles after every ARC Raiders or EAC update.',
         date: 'Aug 13, 2026',
         readTime: '5 min read',
       },
       {
         tag: 'Guides',
-        title: 'HWID spoofer vs new account after a VAC ban',
+        title: 'HWID spoofer vs new account after a EAC ban',
         slug: 'dota-2-hwid-spoofer-after-ban',
         image: arcRaiderImageForIndex(12),
         desc: 'When to spoof hardware, when to start fresh, and how arcraidershack.net/products/arc-raiders-cheats fits each path.',
@@ -498,19 +498,19 @@ export const en: Translations = {
       },
       {
         tag: 'Setup',
-        title: 'Auto combo hero scripts: Invoker, PA and Lion',
+        title: 'Aim assist weapon profiles: AR, SMG, and shotgun',
         slug: 'dota-2-auto-combo-hero-scripts',
         image: arcRaiderImageForIndex(14),
-        desc: 'Hero-specific combo examples for Pro tier scripts—Invoker tornado combos, PA blink dagger and Lion finger chains.',
+        desc: 'Weapon-specific aim examples for Pro tier—AR tracking, SMG hip-fire, and shotgun entry chains.',
         date: 'Aug 12, 2026',
         readTime: '6 min read',
       },
       {
         tag: 'Troubleshooting',
-        title: 'Valve Anti-Cheat was unable to verify ARC Raiders',
+        title: 'Easy Anti-Cheat could not verify ARC Raiders',
         slug: 'valve-anti-cheat-unable-to-verify',
         image: arcRaiderImageForIndex(15),
-        desc: 'Fix verification errors, file integrity checks and when to use UGC appeal workflows after VAC issues.',
+        desc: 'Fix verification errors, file integrity checks and when to use UGC appeal workflows after EAC issues.',
         date: 'Aug 11, 2026',
         readTime: '6 min read',
       },
@@ -528,7 +528,7 @@ export const en: Translations = {
         title: 'Stream-proof overlay setup for ARC Raiders',
         slug: 'dota-2-stream-proof-setup',
         image: arcRaiderImageForIndex(17),
-        desc: 'Hide map hack and script overlays from OBS, Game Bar and capture cards—test workflow for content creators.',
+        desc: 'Hide ESP and combat assist overlays from OBS, Game Bar and capture cards—test workflow for content creators.',
         date: 'Aug 10, 2026',
         readTime: '5 min read',
       },
@@ -539,12 +539,12 @@ export const en: Translations = {
     title: 'Organized, easy to configure',
     subtitle: 'Every module is grouped for quick tuning mid-match without tabbing through chaos.',
     items: [
-      { num: '01', label: 'Scripts', title: 'Combos that adapt to your hero', desc: 'Auto Combo, Orbwalker, Smart Cast and Delay Setting in one scripts tab.' },
-      { num: '02', label: 'Vision', title: 'Map hack that stays readable', desc: 'Filter by distance, team color, ward type and smoke alert sensitivity.' },
-      { num: '03', label: 'Minimap', title: 'Runes and rotates on lock', desc: 'Rune timers, enemy hints and minimap hack on a compact overlay.' },
-      { num: '04', label: 'Heroes', title: 'Per-hero script profiles', desc: 'Save Invoker, Lion, PA and support scripts and swap with hotkeys.' },
-      { num: '05', label: 'Bots', title: 'Farm & lane automation', desc: 'Auto Farm Bot, stack timer and courier manager for efficient farming.' },
-      { num: '06', label: 'Profiles', title: 'Configs for every mode', desc: 'Separate ranked, Turbo and casual presets with cloud backup.' },
+      { num: '01', label: 'Combat', title: 'Aim profiles that stay human', desc: 'Smoothness, FOV, bone priority, and recoil control in one combat tab.' },
+      { num: '02', label: 'Vision', title: 'ESP that stays readable', desc: 'Filter by distance, squad color, loot tier, and ARC threat sensitivity.' },
+      { num: '03', label: 'Radar', title: 'Threats and extracts on lock', desc: '2D raid radar, directional cues, and extract hints on a compact overlay.' },
+      { num: '04', label: 'Weapons', title: 'Per-weapon aim profiles', desc: 'Save AR, SMG, and sniper presets and swap with hotkeys mid-raid.' },
+      { num: '05', label: 'Loot', title: 'Container & resource filters', desc: 'Loot ESP, container priority, and scavenging routes for faster extractions.' },
+      { num: '06', label: 'Profiles', title: 'Configs for every mode', desc: 'Separate Trios, solo, and casual presets with cloud backup.' },
     ],
   },
   workflow: {
@@ -561,14 +561,14 @@ export const en: Translations = {
       {
         num: '01',
         phase: 'Before purchase',
-        title: 'Check VAC status',
+        title: 'Check EAC status',
         desc: 'Read the live banner on arcraidershack.net before you buy or launch.',
       },
       {
         num: '02',
         phase: 'Checkout',
         title: 'Choose your tier',
-        desc: 'Pick Lite, Pro or Elite—the access level that matches your ranked goals.',
+        desc: 'Pick Lite, Pro or Elite—the access level that matches your Trios goals.',
       },
       {
         num: '03',
@@ -580,7 +580,7 @@ export const en: Translations = {
         num: '04',
         phase: 'In-game',
         title: 'Save your profile',
-        desc: 'When settings feel right, save ranked and Turbo presets to the cloud.',
+        desc: 'When settings feel right, save Trios and solo presets to the cloud.',
       },
     ],
   },
@@ -588,8 +588,8 @@ export const en: Translations = {
     eyebrow: 'Field notes',
     title: 'Built for how ARC Raiders plays.',
     items: [
-      { num: '01', title: 'Patch-day ready', desc: 'Patch notes hit Discord and the portal before the official blog—check before you queue ranked.' },
-      { num: '02', title: 'Conservative defaults', desc: 'Start with safe script delays and map hack ranges, then tune up—not the other way around.' },
+      { num: '01', title: 'Patch-day ready', desc: 'Patch notes hit Discord and the portal before the official blog—check before you queue Trios.' },
+      { num: '02', title: 'Conservative defaults', desc: 'Start with safe aim smoothnesss and ESP and radar ranges, then tune up—not the other way around.' },
       { num: '03', title: 'Real operator support', desc: 'Stuck on loader or hero configs? Discord staff walk you through live—not copy-paste FAQs.' },
     ],
   },
@@ -642,7 +642,7 @@ export const en: Translations = {
       {
         num: '01',
         q: 'Where do I check if ARC Raiders cheats are online?',
-        a: 'The live status banner is on arcraidershack.net and in the Discord #status channel. Always check after a ARC Raiders or VAC update.',
+        a: 'The live status banner is on arcraidershack.net and in the Discord #status channel. Always check after a ARC Raiders or EAC update.',
       },
       {
         num: '02',
@@ -652,7 +652,7 @@ export const en: Translations = {
       {
         num: '03',
         q: 'Can I get banned using third-party arc raiders cheats?',
-        a: 'Yes—any modification carries risk. VAC and report systems evolve. Read current status and accept the risk before use.',
+        a: 'Yes—any modification carries risk. EAC and report systems evolve. Read current status and accept the risk before use.',
       },
       {
         num: '04',
@@ -667,12 +667,12 @@ export const en: Translations = {
       {
         num: '06',
         q: 'Where are products and utilities listed?',
-        a: 'Cheat tiers, HWID Spoofer, UGC and Skin Changer live at arcraidershack.net/products/arc-raiders-cheats with feature lists and checkout via our partner.',
+        a: 'Cheat tiers, HWID Spoofer, UGC and Unlock All live at arcraidershack.net/products/arc-raiders-cheats with feature lists and checkout via our partner.',
       },
     ],
   },
   footer: {
-    tagline: 'ARC Raiders cheats — scripts, map hack and tools for PC. arcraidershack.net',
+    tagline: 'ARC Raiders cheats — scripts, ESP and radar and tools for PC. arcraidershack.net',
     explore: 'Explore',
     exploreLinks: [
       { href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
@@ -696,14 +696,14 @@ export const en: Translations = {
         {
           heading: 'Who we are',
           paragraphs: [
-            'Arc Raiders Hacks & Cheats is a PC-focused resource for ARC Raiders players exploring scripts, map hack, zoom hack and Skin Changer workflows. We publish tier comparisons, setup guides, and live status notes so you can evaluate arc raiders cheats before checkout.',
+            'Arc Raiders Hacks & Cheats is a PC-focused resource for ARC Raiders players exploring scripts, ESP and radar, FOV helper and Unlock All workflows. We publish tier comparisons, setup guides, and live status notes so you can evaluate arc raiders cheats before checkout.',
             'All product names are used for identification only.',
           ],
         },
         {
           heading: 'What we publish',
           paragraphs: [
-            'Our site covers Lite, Pro, and Elite cheat tiers, HWID utilities, Skin Changer and account recovery workflows. Blog articles explain ranked-safe configs, patch-day checks, and VAC update behavior.',
+            'Our site covers Lite, Pro, and Elite cheat tiers, HWID utilities, Unlock All and account recovery workflows. Blog articles explain low-profile configs, patch-day checks, and EAC update behavior.',
             'Content is updated when patches land or when loader modules shift. Check the homepage status banner and Discord #status before every session.',
           ],
         },
@@ -760,7 +760,7 @@ export const en: Translations = {
         {
           heading: 'What you purchase',
           paragraphs: [
-            'We sell access to ARC Raiders cheat tiers (Lite, Pro, Elite) and utility tools (HWID Spoofer, UGC, Skin Changer / Unlock All) delivered through an operator portal and loader for Steam on Windows.',
+            'We sell access to ARC Raiders cheat tiers (Lite, Pro, Elite) and utility tools (HWID Spoofer, UGC, Unlock All / Unlock All) delivered through an operator portal and loader for Steam on Windows.',
             'Feature lists on each product page describe what is included at the time of purchase. Modules can change when ARC Raiders or anti-cheat systems update.',
           ],
         },
@@ -780,7 +780,7 @@ export const en: Translations = {
         {
           heading: 'Refunds and purchases',
           paragraphs: [
-            'All sales are final once checkout completes. We do not refund change-of-mind purchases, account bans, VAC penalties, or issues caused by ignoring setup guides or running modules while the status banner shows offline.',
+            'All sales are final once checkout completes. We do not refund change-of-mind purchases, account bans, EAC penalties, or issues caused by ignoring setup guides or running modules while the status banner shows offline.',
             'If the product does not work as described on a supported setup—Steam ARC Raiders on Windows 10/11, current loader from the portal, and the live status banner showing online when you started—contact us through the Support page. Include your order email, Windows version, ARC Raiders build, and screenshots or exact error text from the loader.',
             'We may, at our discretion, offer a fix, replacement access, or partial/full refund when we confirm a fault on our side. We are not obligated to approve every request.',
           ],
@@ -789,7 +789,7 @@ export const en: Translations = {
           heading: 'Availability and risk',
           paragraphs: [
             'Third-party tools for ARC Raiders can conflict with game updates and anti-cheat systems. You use this software at your own risk, including possible account action.',
-            'Check the homepage status banner before every session. Do not queue ranked while modules are offline or misaligned after a patch.',
+            'Check the homepage status banner before every session. Do not queue Trios while modules are offline or misaligned after a patch.',
           ],
         },
         {

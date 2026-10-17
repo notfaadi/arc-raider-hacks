@@ -35,7 +35,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-004",
     "topic": "products",
     "q": "Do I need a VPN to use ARC Raiders hacks?",
-    "a": "A VPN is not required. Use a stable connection; some operators use VPN for privacy, but it does not replace VAC risk or loader hygiene.",
+    "a": "A VPN is not required. Use a stable connection; some operators use VPN for privacy, but it does not replace EAC risk or loader hygiene.",
     "icon": "faqMore"
   },
   {
@@ -49,7 +49,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-006",
     "topic": "products",
     "q": "What if I already have a software ban on my Steam account?",
-    "a": "An account VAC ban restricts that Steam profile. A new account on the same flagged PC may still fail until you address HWID enforcement—see our HWID Spoofer utility.",
+    "a": "An account EAC ban restricts that Steam profile. A new account on the same flagged PC may still fail until you address HWID enforcement—see our HWID Spoofer utility.",
     "icon": "faqMore"
   },
   {
@@ -63,14 +63,14 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-008",
     "topic": "products",
     "q": "Why choose Arc Raiders Hacks & Cheats over other ARC Raiders hack sites?",
-    "a": "Private maintenance, Cloud DMA preset sync on AWS, human support, and tiered Lite / Pro / Elite modules beat public paste sites that vanish after VAC waves.",
+    "a": "Private maintenance, Cloud DMA preset sync on AWS, human support, and tiered Lite / Pro / Elite modules beat public paste sites that vanish after EAC waves.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-009",
     "topic": "cloud-dma",
     "q": "What is Cloud DMA in ARC Raiders hacks?",
-    "a": "Cloud DMA is our AWS-backed operator portal layer that stores ESP, aim, and utility slider presets—sync the same ranked profile to any Windows PC after login.",
+    "a": "Cloud DMA is our AWS-backed operator portal layer that stores ESP, aim, and utility slider presets—sync the same Trios profile to any Windows PC after login.",
     "icon": "faqMore"
   },
   {
@@ -84,7 +84,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-011",
     "topic": "products",
     "q": "How do I set up ARC Raiders ESP after I buy?",
-    "a": "After checkout, download the loader, import the ranked preset from Cloud DMA, verify overlays in hideout or bot lobby, then enable modules before matchmaking.",
+    "a": "After checkout, download the loader, import the Trios preset from Cloud DMA, verify overlays in hideout or practice mode, then enable modules before matchmaking.",
     "icon": "faqMore"
   },
   {
@@ -112,7 +112,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-015",
     "topic": "products",
     "q": "Does Arc Raiders Hacks & Cheats guarantee I will not get banned?",
-    "a": "No legitimate vendor guarantees zero bans. Third-party tools always carry VAC and report risk—read our safety FAQ before checkout.",
+    "a": "No legitimate vendor guarantees zero bans. Third-party tools always carry EAC and report risk—read our safety FAQ before checkout.",
     "icon": "faqMore"
   },
   {
@@ -133,14 +133,14 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-018",
     "topic": "hwid",
     "q": "When do I need a ARC Raiders HWID Spoofer?",
-    "a": "Use HWID recovery when new accounts fail within minutes on the same PC but work elsewhere. Skip spoofing for account-only VAC messages on a clean rig.",
+    "a": "Use HWID recovery when new accounts fail within minutes on the same PC but work elsewhere. Skip spoofing for account-only bans messages on a clean rig.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-019",
     "topic": "products",
-    "q": "Is ARC Raiders Unlock All a Trios ranked cheat?",
-    "a": "Unlock All / Skin Changer is cosmetic preview only—it does not grant combat ESP or aim modules in ranked extractions.",
+    "q": "Is ARC Raiders Unlock All a Trios cheat?",
+    "a": "Unlock All / Unlock All is cosmetic preview only—it does not grant combat ESP or aim modules in Trios extractions.",
     "icon": "faqMore"
   },
   {
@@ -196,7 +196,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-027",
     "topic": "hwid",
     "q": "When should I use the ARC Raiders HWID Spoofer?",
-    "a": "Use HWID recovery when new accounts fail within minutes on the same PC but work elsewhere. Skip spoofing for account-only VAC messages on a clean rig.",
+    "a": "Use HWID recovery when new accounts fail within minutes on the same PC but work elsewhere. Skip spoofing for account-only bans messages on a clean rig.",
     "icon": "faqMore"
   },
   {
@@ -280,7 +280,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-039",
     "topic": "cloud-dma",
     "q": "Does Cloud DMA work with Lite, Pro, and Elite?",
-    "a": "Yes. Every Lite, Pro, and Elite key includes Cloud DMA sync—import ranked presets after login.",
+    "a": "Yes. Every Lite, Pro, and Elite key includes Cloud DMA sync—import Trios presets after login.",
     "icon": "faqMore"
   },
   {
@@ -350,7 +350,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-049",
     "topic": "products",
     "q": "Do I need ARC Raiders Unlock All with a plan?",
-    "a": "Optional. Elite includes Skin Changer; Unlock All standalone is for cosmetic-only preview without combat modules.",
+    "a": "Optional. Elite includes Unlock All; Unlock All standalone is for cosmetic-only preview without combat modules.",
     "icon": "faqMore"
   },
   {
@@ -413,7 +413,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-058",
     "topic": "products",
     "q": "What ARC Raiders hacks actually exist in 2026?",
-    "a": "External ESP, aim assist, loot ESP, radar, stream-proof mode, and portal Cloud DMA on Steam PC—lobby cheat codes are practice-only, not ranked.",
+    "a": "External ESP, aim assist, loot ESP, radar, stream-proof mode, and portal Cloud DMA on Steam PC—lobby cheat codes are practice-only, not Trios.",
     "icon": "faqMore"
   },
   {
@@ -441,14 +441,14 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-062",
     "topic": "products",
     "q": "How safe are Arc Raiders Hacks & Cheats?",
-    "a": "Safety depends on presets, patch discipline, and VAC risk acceptance. Use status banners, Cloud DMA snapshots, and conservative ranked profiles—no zero-ban promise.",
+    "a": "Safety depends on presets, patch discipline, and EAC risk acceptance. Use status banners, Cloud DMA snapshots, and conservative Trios profiles—no zero-ban promise.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-063",
     "topic": "cloud-dma",
     "q": "Do I need ARC Raiders Cloud DMA to use cheats correctly?",
-    "a": "You can run without cloud sync, but Cloud DMA is the recommended way to keep ranked presets identical after patches and PC swaps.",
+    "a": "You can run without cloud sync, but Cloud DMA is the recommended way to keep Trios presets identical after patches and PC swaps.",
     "icon": "faqMore"
   },
   {
@@ -462,7 +462,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-065",
     "topic": "products",
     "q": "Where do I start after I decide to buy?",
-    "a": "Checkout Lite or Pro, portal download, import Cloud DMA ranked preset, verify in hideout, check #status, then queue Trios.",
+    "a": "Checkout Lite or Pro, portal download, import Cloud DMA Trios preset, verify in hideout, check #status, then queue Trios.",
     "icon": "faqMore"
   },
   {
@@ -490,7 +490,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-069",
     "topic": "products",
     "q": "Do private hacks include ARC Raiders Unlock All?",
-    "a": "Elite bundles Skin Changer / Unlock All; other tiers can buy Unlock All standalone for cosmetics only.",
+    "a": "Elite bundles Unlock All / Unlock All; other tiers can buy Unlock All standalone for cosmetics only.",
     "icon": "faqMore"
   },
   {
@@ -566,8 +566,8 @@ export const productHubFaqs: SiteFaqItem[] = [
   {
     "id": "product-hub-080",
     "topic": "cloud-dma",
-    "q": "ARC Raiders Cloud DMA ranked and Turbo / unranked preset backup explained",
-    "a": "Save separate Cloud DMA slots for Trios ranked vs Turbo—snapshots auto-version before major loader pushes so you can rollback.",
+    "q": "ARC Raiders Cloud DMA Trios and solo / unTrios preset backup explained",
+    "a": "Save separate Cloud DMA slots for Trios vs Trios—snapshots auto-version before major loader pushes so you can rollback.",
     "icon": "faqMore"
   },
   {
@@ -581,7 +581,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-082",
     "topic": "cloud-dma",
     "q": "How do I restore ARC Raiders hack configs after a patch with Cloud DMA?",
-    "a": "Open portal → restore last Cloud DMA snapshot or import the patch-day ranked preset after #status shows green—never reuse pre-patch JSON blindly.",
+    "a": "Open portal → restore last Cloud DMA snapshot or import the patch-day Trios preset after #status shows green—never reuse pre-patch JSON blindly.",
     "icon": "faqMore"
   },
   {
@@ -602,14 +602,14 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-085",
     "topic": "cloud-dma",
     "q": "Can Cloud DMA run with external ARC Raiders loader on VAC?",
-    "a": "Cloud DMA presets load into the external loader before Steam launch—architecture stays external; follow patch-day checklist after VAC updates.",
+    "a": "Cloud DMA presets load into the external loader before Steam launch—architecture stays external; follow patch-day checklist after EAC updates.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-086",
     "topic": "cloud-dma",
-    "q": "Best Cloud DMA ARC Raiders hack setup for Trios ranked ranked",
-    "a": "Buy Pro or Elite, import Ranked Safe cloud preset, verify ESP alignment, enable Cloud DMA auto-snapshot, queue Trios only after green status.",
+    "q": "Best Cloud DMA ARC Raiders hack setup for Trios",
+    "a": "Buy Pro or Elite, import Trios Safe cloud preset, verify ESP alignment, enable Cloud DMA auto-snapshot, queue Trios only after green status.",
     "icon": "faqMore"
   },
   {
@@ -636,7 +636,7 @@ export const productHubFaqs: SiteFaqItem[] = [
   {
     "id": "product-hub-090",
     "topic": "hwid",
-    "q": "Best ARC Raiders HWID spoofer for VAC hardware bans",
+    "q": "Best ARC Raiders HWID spoofer for EAC hardware bans",
     "a": "Our dedicated HWID Spoofer utility on arcraidershack.net includes compatibility scan and verification—built for Steam PC recovery workflows.",
     "icon": "faqMore"
   },
@@ -651,7 +651,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-092",
     "topic": "hwid",
     "q": "ARC Raiders HWID ban symptoms on Steam PC",
-    "a": "Fresh accounts ban or fail within minutes on one PC but work on another machine—often hardware enforcement rather than a single account VAC.",
+    "a": "Fresh accounts ban or fail within minutes on one PC but work on another machine—often hardware enforcement rather than a single account ban.",
     "icon": "faqMore"
   },
   {
@@ -707,7 +707,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-100",
     "topic": "hwid",
     "q": "Permanent hardware ban ARC Raiders — can HWID spoofer help?",
-    "a": "Sometimes for hardware-level flags—not for every enforcement type. Follow support guidance; permanent account VAC may still need a new Steam identity.",
+    "a": "Sometimes for hardware-level flags—not for every enforcement type. Follow support guidance; permanent account ban may still need a new Steam identity.",
     "icon": "faqMore"
   },
   {
