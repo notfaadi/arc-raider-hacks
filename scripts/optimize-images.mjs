@@ -1,8 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import sharp from 'sharp';
+import { isCloudflareCi } from './is-cloudflare-ci.mjs';
 
 const root = process.cwd();
+
+if (isCloudflareCi()) {
+  console.log('optimize-images: skip on Cloudflare CI (webp variants committed in repo).');
+  process.exit(0);
+}
+
+const { default: sharp } = await import('sharp');
 const widths = [320, 400, 512, 640, 960];
 const dirs = ['public/images/arc-raiders'];
 

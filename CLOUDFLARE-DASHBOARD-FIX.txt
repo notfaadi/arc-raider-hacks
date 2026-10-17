@@ -1,0 +1,18 @@
+Workers Builds for arc-raider-hacks — change these in the dashboard NOW:
+
+Settings → Builds
+
+  Build command:     npm run build
+  Deploy command:    npm run deploy
+                     (NOT npx wrangler deploy)
+
+Then: Deployments → Create deployment → branch main → latest commit.
+
+Do NOT click "Retry" on old failed builds (they keep old commits).
+
+Success logs must show:
+  build-version: 2026-10-17-cloudflare-pages-v13
+  generate-brand-icons: skip on Cloudflare CI
+  optimize-images: skip on Cloudflare CI
+  verify-seo: homepage OK
+  npm run deploy: cf-wrangler-deploy marker v13

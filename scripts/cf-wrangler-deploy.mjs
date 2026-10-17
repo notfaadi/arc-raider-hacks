@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-console.log('npm run deploy: cf-wrangler-deploy marker v8');
+console.log('npm run deploy: cf-wrangler-deploy marker v13');
 
 if (!existsSync(resolve('dist/index.html'))) {
   console.error('deploy: dist/index.html missing — run npm run build first.');
@@ -18,23 +18,8 @@ execFileSync(process.execPath, ['scripts/patch-wrangler-bin.mjs'], {
   env: process.env,
 });
 
-const workersCi = process.env.WORKERS_CI === '1';
-const onPages =
-  process.env.CF_PAGES === '1' ||
-  process.env.CF_PAGES === 'true' ||
-  Boolean(process.env.CF_PAGES_COMMIT_SHA);
-
-if (onPages && !workersCi) {
-  execFileSync(process.execPath, ['scripts/cf-pages-deploy.mjs'], {
-    stdio: 'inherit',
-    env: process.env,
-  });
-  process.exit(0);
-}
-
-const wrangler = resolve('node_modules/wrangler/bin/wrangler.js');
-execFileSync(
-  process.execPath,
-  [wrangler, 'deploy', '--assets=./dist'],
-  { stdio: 'inherit', env: process.env },
-);
+// Custom domain arcraidershack.net is on Cloudflare Pages — always publish dist/ there.
+execFileSync(process.execPath, ['scripts/cf-pages-deploy.mjs'], {
+  stdio: 'inherit',
+  env: process.env,
+});

@@ -1,0 +1,9 @@
+{
+  "name": "arc-raider-hacks",
+  "compatibility_date": "2024-10-01",
+  "main": "workers/static-site.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
+}
