@@ -1,0 +1,10 @@
+Paste this into Cloudflare → Settings → Builds → Deploy command:
+
+npm run deploy
+
+OR leave Deploy command completely empty.
+
+NEVER use: npx wrangler deploy
+(Pages projects block Worker deploy — that is why your build fails.)
+
+After saving, create a NEW deployment from branch main (latest commit).
