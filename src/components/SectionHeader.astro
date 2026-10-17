@@ -19,8 +19,6 @@ const {
   wide = false,
   headingLevel = 'h2',
 } = Astro.props;
-
-const HeadingTag = headingLevel;
 ---
 
 <header
@@ -31,6 +29,12 @@ const HeadingTag = headingLevel;
   ]}
 >
   <p class="section-header__eyebrow">{eyebrow}</p>
-  <HeadingTag id={titleId} class="section-header__title">{title}</HeadingTag>
+  {
+    headingLevel === 'h1' ? (
+      <h1 id={titleId} class="section-header__title">{title}</h1>
+    ) : (
+      <h2 id={titleId} class="section-header__title">{title}</h2>
+    )
+  }
   {desc ? <p class="section-header__subtitle">{desc}</p> : null}
 </header>

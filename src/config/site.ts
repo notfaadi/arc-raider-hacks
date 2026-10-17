@@ -18,7 +18,7 @@ export const SITE_META_TITLE = 'Arc Raiders Cheats & Hacks — Aimbot, ESP | Arc
 
 /** Meta description (~150–160 chars): unique, keyword-rich, no stacked “Best” claims. */
 export const SITE_META_DESCRIPTION =
-  'Undetected ARC Raiders cheats for Windows: ESP, aimbot, loot radar, and Cloud DMA tiers. Instant keys, patch-day loader updates, and 24/7 operator support.';
+  'Undetected ARC Raiders cheats for Windows PC — player ESP, aimbot, loot radar, and Cloud DMA tiers. Instant delivery, patch-day updates, and live Discord support.';
 
 export const TITLE_PREFIX = 'Arc Raiders Hacks & Cheats';
 export const SUPPORT_EMAIL = `support@${SITE_DOMAIN}`;

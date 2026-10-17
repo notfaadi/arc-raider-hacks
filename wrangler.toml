@@ -1,8 +1,4 @@
-# Cloudflare Pages — static Astro site in ./dist
+# Cloudflare Pages — static Astro site (publish ./dist only; do not use Worker deploy).
 name = "arc-raider-hacks"
 compatibility_date = "2024-10-01"
 pages_build_output_dir = "./dist"
-
-# Lets `npx wrangler deploy` upload static files (Workers Assets) if deploy command is set.
-[assets]
-directory = "./dist"

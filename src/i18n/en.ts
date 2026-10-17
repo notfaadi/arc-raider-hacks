@@ -43,8 +43,8 @@ export const en: Translations = {
     subtitle: 'Raid awareness, Cloud DMA hardware lanes, and utility tools for ARC Raiders—maintained every patch.',
     items: [
       {
-        title: 'Cloud DMA',
-        subtitle: 'Hardware lane. Cloud control.',
+        title: 'Cloud DMA hardware lane',
+        subtitle: 'Off-PC reads with cloud presets.',
         desc: 'DMA-based read paths with cloud-delivered firmware and presets—keep heavy lifting off your game PC while ESP and radar stay on maintained portal builds.',
         bullets: [
           'PCIe DMA stack for off-PC memory reads during extractions',
@@ -144,7 +144,7 @@ export const en: Translations = {
     title: 'Trios tooling backed by patches—not promises',
     subtitle:
       'Most ARC Raiders cheat shops ship stale loaders, obvious automation, and ticket bots. We built arcraidershack.net around patch-day delivery, humanized scripts, and live operators.',
-    usLabel: 'Arc Raiders Hacks & Cheats',
+    usLabel: 'Our platform',
     otherLabel: 'Typical provider',
     rows: [
       {
@@ -268,7 +268,7 @@ export const en: Translations = {
   },
   products: {
     eyebrow: 'Products',
-    title: 'ARC Raiders products',
+    title: 'Shop cheat tiers & utilities',
     subtitle: 'Elite arc raiders cheats, Cloud DMA sync, HWID, UGC recovery, Unlock All, and utility tools.',
     viewAll: 'View all products',
     get: 'Get',
