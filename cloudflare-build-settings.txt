@@ -1,4 +1,8 @@
-Cloudflare Pages — arc-raider-hacks (copy into dashboard)
+Cloudflare Pages — arc-raider-hacks
+
+IMPORTANT: Do NOT click "Retry deployment" on an old failed build.
+That reuses an old git commit. Instead:
+  Deployments → Create deployment → Branch: main → Production
 
 Build command:
   npm run build
@@ -6,11 +10,14 @@ Build command:
 Build output directory:
   dist
 
-Deploy command (pick ONE):
-  (leave empty — recommended)
+Deploy command (choose ONE):
+  (leave empty — recommended after site is live)
   OR: npm run deploy
 
 Do NOT use: npx wrangler deploy
 
-Branch: main
-Repository: notfaadi/arc-raider-hacks
+Git repository must be: notfaadi/arc-raider-hacks (branch main)
+
+Success log should include:
+  cf-postbuild: marker 2026-10-17-pages-v2
+  cf-postbuild: wrangler pages deploy dist …
