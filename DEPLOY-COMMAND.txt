@@ -1,10 +1,12 @@
-Paste this into Cloudflare → Settings → Builds → Deploy command:
+Cloudflare → Settings → Builds → Deploy command (replace npx wrangler deploy):
 
-npm run deploy
+node scripts/cf-deploy-step.mjs
 
-OR leave Deploy command completely empty.
+Build command stays: npm run build
+Build output directory: dist
 
-NEVER use: npx wrangler deploy
-(Pages projects block Worker deploy — that is why your build fails.)
+If you use Retry on an old failed deployment, Cloudflare keeps an OLD commit
+(without these scripts). Use: Deployments → Create deployment → main → latest.
 
-After saving, create a NEW deployment from branch main (latest commit).
+GitHub Actions (recommended): add secrets CLOUDFLARE_API_TOKEN and
+CLOUDFLARE_ACCOUNT_ID — push to main deploys automatically (.github/workflows/cloudflare-pages.yml).

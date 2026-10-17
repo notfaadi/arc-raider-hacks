@@ -4,7 +4,12 @@ import { execFileSync, execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-console.log('cf-postbuild: marker 2026-10-17-pages-v5-override');
+console.log('cf-postbuild: marker 2026-10-17-pages-v6');
+
+if (process.env.SKIP_CF_POSTBUILD_PUBLISH === '1') {
+  console.log('cf-postbuild: skip publish (SKIP_CF_POSTBUILD_PUBLISH).');
+  process.exit(0);
+}
 
 execFileSync(process.execPath, ['scripts/patch-wrangler-bin.mjs'], {
   stdio: 'inherit',
@@ -14,7 +19,8 @@ execFileSync(process.execPath, ['scripts/patch-wrangler-bin.mjs'], {
 const onPages =
   process.env.CF_PAGES === '1' ||
   process.env.CF_PAGES === 'true' ||
-  Boolean(process.env.CF_PAGES_COMMIT_SHA);
+  Boolean(process.env.CF_PAGES_COMMIT_SHA) ||
+  (process.env.CI === 'true' && process.cwd().includes('buildhome'));
 
 if (!onPages) {
   console.log('cf-postbuild: skip (not Cloudflare Pages).');
