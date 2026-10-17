@@ -1,4 +1,6 @@
-Cloudflare Pages — arc-raider-hacks (copy exactly)
+Cloudflare PAGES (not Workers) — arc-raider-hacks
+
+Connect Git: notfaadi/arc-raider-hacks — branch main
 
 Build command:
   npm run build
@@ -7,15 +9,13 @@ Build output directory:
   dist
 
 Deploy command:
-  npm run deploy
-  — OR leave this field EMPTY —
+  (leave EMPTY — Pages publishes dist automatically)
 
-NOT ALLOWED (will always fail on Pages):
+Do NOT use:
   npx wrangler deploy
 
-Create deployment: branch main, newest commit.
-Do not retry old failed deployments.
+Optional manual CLI deploy:
+  npm run deploy
 
-Success log must show:
-  cf-postbuild: marker 2026-10-17-pages-v3
-  cf-postbuild: publish complete.
+Success log must include:
+  build-version: 2026-10-17-cloudflare-pages-v9
