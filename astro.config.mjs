@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import { sitemapSerialize } from './src/config/sitemap.ts';
 
 export default defineConfig({
-  site: 'http://localhost:4322',
+  site: process.env.SITE_URL ?? 'https://arcraidershack.net',
   trailingSlash: 'always',
   redirects: {
     '/cheats/': '/products/arc-raiders-cheats/',

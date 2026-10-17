@@ -8,7 +8,7 @@ const productBase = PRODUCT_BASE;
 export const en: Translations = {
   site: {
     name: 'Arc Raiders Hacks & Cheats',
-    domain: 'arcraidershacks.com',
+    domain: 'arcraidershack.net',
     title: SITE_META_TITLE,
     description: SITE_META_DESCRIPTION,
     discord: PRIMARY_CHECKOUT_PATH,
@@ -143,7 +143,7 @@ export const en: Translations = {
     eyebrow: 'Why us',
     title: 'Ranked tooling backed by patches—not promises',
     subtitle:
-      'Most ARC Raiders cheat shops ship stale loaders, obvious automation, and ticket bots. We built arcraidershacks.com around patch-day delivery, humanized scripts, and live operators.',
+      'Most ARC Raiders cheat shops ship stale loaders, obvious automation, and ticket bots. We built arcraidershack.net around patch-day delivery, humanized scripts, and live operators.',
     usLabel: 'Arc Raiders Hacks & Cheats',
     otherLabel: 'Typical provider',
     rows: [
@@ -186,7 +186,7 @@ export const en: Translations = {
       {
         value: '300+',
         title: 'Active operators',
-        desc: 'Steam PC players running scripts, map hack and utilities on arcraidershacks.com.',
+        desc: 'Steam PC players running scripts, map hack and utilities on arcraidershack.net.',
       },
     ],
   },
@@ -231,6 +231,28 @@ export const en: Translations = {
     viewAll: 'View Elite details',
     explore: 'Explore',
     items: [
+      {
+        badge: 'Starter',
+        tier: 'Lite',
+        name: 'Lite',
+        title: 'ARC Raiders Lite',
+        desc: 'ESP, raid radar, loot highlights, and zoom tools for extraction awareness without full combat automation.',
+        features: ['Player ESP', 'Loot highlights', '2D raid radar', 'Stream proof mode', 'Cloud config backup', 'Patch auto-updater'],
+        more: 14,
+        href: `${productBase}lite/`,
+        variant: 'essential',
+      },
+      {
+        badge: 'Most popular',
+        tier: 'Pro',
+        name: 'Pro',
+        title: 'ARC Raiders Pro',
+        desc: 'Everything in Lite plus humanized aim assist, recoil control, and script modules for PvP extractions.',
+        features: ['All Lite ESP modules', 'Aim assist + recoil', 'Auto combo scripts', 'Activator keys', 'Ranked presets', 'Cloud DMA sync'],
+        more: 16,
+        href: `${productBase}pro/`,
+        variant: 'popular',
+      },
       {
         badge: 'Limited slots',
         tier: 'Private',
@@ -461,7 +483,7 @@ export const en: Translations = {
         title: 'HWID spoofer vs new account after a VAC ban',
         slug: 'dota-2-hwid-spoofer-after-ban',
         image: arcRaiderImageForIndex(12),
-        desc: 'When to spoof hardware, when to start fresh, and how arcraidershacks.com/products/arc-raiders-cheats fits each path.',
+        desc: 'When to spoof hardware, when to start fresh, and how arcraidershack.net/products/arc-raiders-cheats fits each path.',
         date: 'Aug 13, 2026',
         readTime: '7 min read',
       },
@@ -540,7 +562,7 @@ export const en: Translations = {
         num: '01',
         phase: 'Before purchase',
         title: 'Check VAC status',
-        desc: 'Read the live banner on arcraidershacks.com before you buy or launch.',
+        desc: 'Read the live banner on arcraidershack.net before you buy or launch.',
       },
       {
         num: '02',
@@ -587,8 +609,8 @@ export const en: Translations = {
         icon: 'headphones',
         title: 'Chat to support',
         desc: "We're here for loader, HWID and account issues.",
-        linkLabel: 'support@arcraidershacks.com',
-        href: 'mailto:support@arcraidershacks.com',
+        linkLabel: 'support@arcraidershack.net',
+        href: 'mailto:support@arcraidershack.net',
       },
       {
         icon: 'navFaq',
@@ -607,7 +629,7 @@ export const en: Translations = {
     ],
     ticketTitle: 'Include in your ticket',
     ticketItems: [
-      { title: 'Order email', desc: 'The address used at checkout on arcraidershacks.com or via our secure checkout.' },
+      { title: 'Order email', desc: 'The address used at checkout on arcraidershack.net or via our secure checkout.' },
       { title: 'Platform', desc: 'Steam on Windows 10 or 11—and your ARC Raiders client version.' },
       { title: 'Error detail', desc: 'Screenshot or exact message from the loader or Steam.' },
     ],
@@ -620,7 +642,7 @@ export const en: Translations = {
       {
         num: '01',
         q: 'Where do I check if ARC Raiders cheats are online?',
-        a: 'The live status banner is on arcraidershacks.com and in the Discord #status channel. Always check after a ARC Raiders or VAC update.',
+        a: 'The live status banner is on arcraidershack.net and in the Discord #status channel. Always check after a ARC Raiders or VAC update.',
       },
       {
         num: '02',
@@ -645,12 +667,12 @@ export const en: Translations = {
       {
         num: '06',
         q: 'Where are products and utilities listed?',
-        a: 'Cheat tiers, HWID Spoofer, UGC and Skin Changer live at arcraidershacks.com/products/arc-raiders-cheats with feature lists and checkout via our partner.',
+        a: 'Cheat tiers, HWID Spoofer, UGC and Skin Changer live at arcraidershack.net/products/arc-raiders-cheats with feature lists and checkout via our partner.',
       },
     ],
   },
   footer: {
-    tagline: 'ARC Raiders cheats — scripts, map hack and tools for PC. arcraidershacks.com',
+    tagline: 'ARC Raiders cheats — scripts, map hack and tools for PC. arcraidershack.net',
     explore: 'Explore',
     exploreLinks: [
       { href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
@@ -669,7 +691,7 @@ export const en: Translations = {
     about: {
       title: 'About Arc Raiders Hacks & Cheats',
       description:
-        'Arc Raiders Hacks & Cheats provides ARC Raiders cheat tiers, utility tools and PC support resources at arcraidershacks.com.',
+        'Arc Raiders Hacks & Cheats provides ARC Raiders cheat tiers, utility tools and PC support resources at arcraidershack.net.',
       sections: [
         {
           heading: 'Who we are',
@@ -696,12 +718,12 @@ export const en: Translations = {
     privacy: {
       title: 'Privacy Policy',
       description:
-        'How Arc Raiders Hacks & Cheats handles analytics, cookies, and contact data when you use arcraidershacks.com.',
+        'How Arc Raiders Hacks & Cheats handles analytics, cookies, and contact data when you use arcraidershack.net.',
       sections: [
         {
           heading: 'Information we collect',
           paragraphs: [
-            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages—we do not store payment card data on arcraidershacks.com.',
+            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages—we do not store payment card data on arcraidershack.net.',
           ],
         },
         {
@@ -727,12 +749,12 @@ export const en: Translations = {
     terms: {
       title: 'Terms & Conditions',
       description:
-        'Purchase, license, refund, and use terms for Arc Raiders Hacks & Cheats products and arcraidershacks.com.',
+        'Purchase, license, refund, and use terms for Arc Raiders Hacks & Cheats products and arcraidershack.net.',
       sections: [
         {
           heading: 'Agreement',
           paragraphs: [
-            'Last updated: September 2026. By using arcraidershacks.com or completing checkout for any product listed here, you agree to these Terms & Conditions and our Privacy Policy.',
+            'Last updated: September 2026. By using arcraidershack.net or completing checkout for any product listed here, you agree to these Terms & Conditions and our Privacy Policy.',
           ],
         },
         {
@@ -745,7 +767,7 @@ export const en: Translations = {
         {
           heading: 'Checkout and delivery',
           paragraphs: [
-            'Payment and license delivery run on external checkout pages. arcraidershacks.com does not process or store payment card numbers.',
+            'Payment and license delivery run on external checkout pages. arcraidershack.net does not process or store payment card numbers.',
             'After purchase, use the operator portal linked from your order flow to download the current loader and setup guide before launching ARC Raiders.',
           ],
         },
@@ -787,7 +809,7 @@ export const en: Translations = {
     support: {
       title: 'Arc Raiders Hacks & Cheats Support',
       description:
-        'Get support for loader, HWID, and checkout questions at arcraidershacks.com.',
+        'Get support for loader, HWID, and checkout questions at arcraidershack.net.',
     },
   },
   ui: {

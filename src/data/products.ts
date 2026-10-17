@@ -103,7 +103,7 @@ const defaultAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
     title: 'Review current status',
-    desc: 'Check the live banner on arcraidershacks.com and Discord #status before purchase—especially after a ARC Raiders or VAC update.',
+    desc: 'Check the live banner on arcraidershack.net and Discord #status before purchase—especially after a ARC Raiders or VAC update.',
   },
   {
     num: '02',
@@ -130,7 +130,7 @@ function acquisitionFor(productName: string): ProductAcquisition {
 }
 
 const sharedGoodToKnow =
-  'ARC Raiders and VAC receive frequent updates. Confirm module availability on the live status panel at arcraidershacks.com before you purchase or launch. Overlay behavior may differ in lobbies, replays and spectator mode after patches.';
+  'ARC Raiders and VAC receive frequent updates. Confirm module availability on the live status panel at arcraidershack.net before you purchase or launch. Overlay behavior may differ in lobbies, replays and spectator mode after patches.';
 
 const sharedLimitations =
   'Third-party software in ARC Raiders can violate Valve Terms of Use and lead to VAC bans or account action. You use this software at your own risk. Compatibility and availability can change after game, VAC, or Windows updates without notice.';
@@ -284,7 +284,7 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Recommended pairing' },
     {
       type: 'p',
-      text: 'Pro is the most popular tier at arcraidershacks.com—enough firepower for high-MMR lobbies without Elite slot limits. Pair with our scripts guide in the blog before your first ranked session.',
+      text: 'Pro is the most popular tier at arcraidershack.net—enough firepower for high-MMR lobbies without Elite slot limits. Pair with our scripts guide in the blog before your first ranked session.',
     },
   ],
   elite: [
@@ -381,7 +381,7 @@ const productContent: Record<
       title: 'Built around a clear ARC Raiders awareness workflow',
       paragraphs: [
         'ARC Raiders Lite focuses on hero ESP, ward locator, rune timers and zoom hack—everything you need to track ganks and map control without script automation. Modules are grouped in the portal so you can tune distance, colors, and stream-proof mode before your first queue.',
-        'Lite is the entry path for ranked and Turbo players who want map awareness with minimal report risk. No Auto Combo, no bots—just readable overlays maintained every patch at arcraidershacks.com.',
+        'Lite is the entry path for ranked and Turbo players who want map awareness with minimal report risk. No Auto Combo, no bots—just readable overlays maintained every patch at arcraidershack.net.',
       ],
     },
   },
@@ -444,7 +444,7 @@ const productContent: Record<
       title: 'Built around a full ARC Raiders operator workflow',
       paragraphs: [
         'ARC Raiders Elite is the private build with Auto Farm Bot, Auto Kill Steal, Auto Dagon, Skin Changer, full map hack and priority patch delivery. Every Lite and Pro module is included—no caps, no upsells inside the loader.',
-        'Elite slots are limited so patch cycles stay fast and builds stay maintainable. Direct dev support in Discord helps you tune conservative profiles before ranked. Check the status banner on arcraidershacks.com before purchase.',
+        'Elite slots are limited so patch cycles stay fast and builds stay maintainable. Direct dev support in Discord helps you tune conservative profiles before ranked. Check the status banner on arcraidershack.net before purchase.',
       ],
     },
   },
@@ -457,7 +457,7 @@ const productContent: Record<
     systemRequirements: [
       { icon: 'reqWifiPortal', text: 'Internet access for AWS-backed portal sync and status checks.' },
       { icon: 'reqWindows', text: 'Windows 10 or 11 64-bit with the latest operator loader.' },
-      { icon: 'reqShieldAccount', text: 'Active arcraidershacks.com tier (Lite, Pro, or Elite).' },
+      { icon: 'reqShieldAccount', text: 'Active arcraidershack.net tier (Lite, Pro, or Elite).' },
     ],
     fullFeatures: [
       'AWS Cloud DMA profile storage',
@@ -505,7 +505,7 @@ const productContent: Record<
       title: 'Built around a clear hardware recovery workflow',
       paragraphs: [
         'The HWID Spoofer helps ARC Raiders players recover when VAC flags PC hardware but the Steam account is still clean. Disk and MAC profile tools ship with a restore-point checklist, compatibility scan, and post-spoof verification steps.',
-        'Use this path when fresh accounts fail instantly on one machine but work elsewhere—not for account-only VAC cases. After spoof, load a conservative cheat profile from arcraidershacks.com before queuing ranked.',
+        'Use this path when fresh accounts fail instantly on one machine but work elsewhere—not for account-only VAC cases. After spoof, load a conservative cheat profile from arcraidershack.net before queuing ranked.',
       ],
     },
   },
@@ -516,7 +516,7 @@ const productContent: Record<
     limitations:
       'UGC does not guarantee account restoration. Results vary by case type. Permanent VAC bans may require a new account path instead of appeal.',
     systemRequirements: [
-      { icon: 'reqMailOrder', text: 'Order email used at checkout on arcraidershacks.com or at checkout on arcraidershacks.com.' },
+      { icon: 'reqMailOrder', text: 'Order email used at checkout on arcraidershack.net or at checkout on arcraidershack.net.' },
       { icon: 'reqShieldAccount', text: 'Account details and ban or restriction notification if available.' },
       { icon: 'reqWifiPortal', text: 'Internet access for Discord support and case dashboard.' },
     ],

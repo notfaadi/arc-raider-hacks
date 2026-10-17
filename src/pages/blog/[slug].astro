@@ -50,10 +50,10 @@ function linkify(text: string): string {
       const normalized = normalizeInternalPath(href);
       return `<a href="${normalized}">${label}</a>`;
     })
-    .replace(/(https:\/\/(?:dotacheats\.com|arcraidershacks.com)[^\s.,;)]*)/g, (_match, url: string) => {
-      const path = url.replace(/^https:\/\/(?:dotacheats\.com|arcraidershacks.com)/, '');
+    .replace(/(https:\/\/(?:dotacheats\.com|arcraidershacks\.com|arcraidershack\.net)[^\s.,;)]*)/g, (_match, url: string) => {
+      const path = url.replace(/^https:\/\/(?:dotacheats\.com|arcraidershacks\.com|arcraidershack\.net)/, '');
       const normalized = normalizeInternalPath(path);
-      const href = normalized.startsWith('http') ? normalized : `http://arcraidershacks.com${normalized}`;
+      const href = normalized.startsWith('http') ? normalized : `https://arcraidershack.net${normalized}`;
       return `<a href="${href}">${url}</a>`;
     });
 }

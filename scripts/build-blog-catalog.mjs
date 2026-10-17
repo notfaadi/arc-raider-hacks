@@ -73,10 +73,19 @@ for (const tag of Object.keys(CATALOG)) {
 }
 
 const featuredSlug = 'arc-raiders-cheats-features-guide';
+/** Linked sitewide but not in filter tabs — must still build as real URLs (GSC / internal links). */
+const EXTRA_PUBLISH_SLUGS = ['dota-2-cheat-codes-guide', 'dota-2-console-cheats-tips'];
+
 const withFeatured = ordered.map((p) => ({
   ...p,
   featured: p.slug === featuredSlug ? true : undefined,
 }));
+for (const slug of EXTRA_PUBLISH_SLUGS) {
+  if (withFeatured.some((p) => p.slug === slug)) continue;
+  const post = pool.get(slug);
+  if (!post) throw new Error(`Missing extra publish post: ${slug}`);
+  withFeatured.push({ ...post, featured: undefined });
+}
 if (!withFeatured.some((p) => p.featured)) {
   throw new Error('Featured post missing');
 }

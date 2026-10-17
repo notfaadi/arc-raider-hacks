@@ -24,7 +24,7 @@ const faqs = getAllFaqs();
     webPageSchema({
       name: 'FAQ — ARC Raiders Cheats & Products',
       description:
-        'Answers about ARC Raiders cheat tiers, map hack, scripts, HWID tools, blog guides and checkout at arcraidershacks.com.',
+        'Answers about ARC Raiders cheat tiers, map hack, scripts, HWID tools, blog guides and checkout at arcraidershack.net.',
       url: '/faq/',
     }),
     faqPageSchema(faqs.map((f, i) => ({ num: String(i + 1).padStart(2, '0'), q: f.q, a: f.a.replace(/<[^>]+>/g, '') }))),

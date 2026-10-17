@@ -23,7 +23,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
       {
         type: 'cta',
         title: 'Lite loot ESP',
-        text: 'Container radar and player wallhack—secure checkout at arcraidershacks.com.',
+        text: 'Container radar and player wallhack—secure checkout at arcraidershack.net.',
         href: '/go/arc-raiders/',
       },
     ],
@@ -53,7 +53,7 @@ export const additionalBlogPosts: BlogPostFull[] = [
     title: 'ARC Raiders September 2026 update: cheat compatibility notes',
     slug: 'arc-raiders-september-2026-update',
     image: '/images/blog/placeholder.png',
-    desc: 'September build changes and which arcraidershacks.com modules were rebuilt first.',
+    desc: 'September build changes and which arcraidershack.net modules were rebuilt first.',
     date: 'Sep 28, 2026',
     readTime: '8 min read',
     body: [

@@ -107,7 +107,7 @@ Pairing HWID spoofer with Cloud DMA Fortnite cheat configs
 function transformQuestion(q) {
   return q
     .replace(/FortniteCheats/g, 'Arc Raiders Hacks & Cheats')
-    .replace(/getfortnitecheat\.net/g, 'arcraidershacks.com')
+    .replace(/getfortnitecheat\.net/g, 'arcraidershack.net')
     .replace(/Fortnite Cloud DMA/g, 'ARC Raiders Cloud DMA')
     .replace(/Fortnite HWID Spoofer/g, 'ARC Raiders HWID Spoofer')
     .replace(/Fortnite HWID spoofer/g, 'ARC Raiders HWID spoofer')
@@ -147,7 +147,7 @@ function topicFor(q, index) {
 }
 
 function answerFor(q, index) {
-  const site = 'arcraidershacks.com';
+  const site = 'arcraidershack.net';
   const n = String(index + 1).padStart(2, '0');
 
   if (/What is Arc Raiders Hacks/i.test(q)) {
@@ -268,7 +268,7 @@ export const PRODUCT_HUB_FAQ_TOPICS = ['all', 'cloud-dma', 'hwid', 'products'] a
 export const PRODUCT_HUB_FAQ_COPY = {
   eyebrow: 'FAQ',
   title: 'ARC Raiders product FAQ',
-  subtitle: 'ARC Raiders Cloud DMA, HWID Spoofer, Unlock All, and cheat tiers on arcraidershacks.com.',
+  subtitle: 'ARC Raiders Cloud DMA, HWID Spoofer, Unlock All, and cheat tiers on arcraidershack.net.',
 } as const;
 
 export const productHubFaqs: SiteFaqItem[] = ${JSON.stringify(

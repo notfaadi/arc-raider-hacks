@@ -47,7 +47,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqStatus',
     q: 'Where do I check if ARC Raiders cheats are online?',
-    a: a('The live status banner is on arcraidershacks.com and in the Discord #status channel. Always check after a ARC Raiders or VAC update.'),
+    a: a('The live status banner is on arcraidershack.net and in the Discord #status channel. Always check after a ARC Raiders or VAC update.'),
   },
   {
     id: 'after-buy',
@@ -216,7 +216,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'plans',
     icon: 'faqWhoPro',
     q: 'Who should buy Pro?',
-    a: `Ranked players who want Auto Combo, Orbwalker and Activator with map hack included. Pro is the most popular tier at arcraidershacks.com.`,
+    a: `Ranked players who want Auto Combo, Orbwalker and Activator with map hack included. Pro is the most popular tier at arcraidershack.net.`,
     scopes: ['pro'],
   },
   {
@@ -232,7 +232,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'safety',
     icon: 'faqVacUpdate',
     q: 'What should I do after a VAC update?',
-    a: a('Check arcraidershacks.com status and Discord #status. Do not launch until the banner shows online. Load conservative presets after any patch.'),
+    a: a('Check arcraidershack.net status and Discord #status. Do not launch until the banner shows online. Load conservative presets after any patch.'),
   },
   {
     id: 'discord-help',
@@ -355,7 +355,7 @@ const blogTopicFaqs: Record<string, SiteFaqItem[]> = {
       topic: 'blog',
       icon: 'faqBlogGuideStart',
       q: 'Should I use console cheat codes in ranked?',
-      a: a('No. Valve lobby cheat codes only work in custom games with cheats enabled. Ranked requires separate arc raiders cheats from arcraidershacks.com tiers.'),
+      a: a('No. Valve lobby cheat codes only work in custom games with cheats enabled. Ranked requires separate arc raiders cheats from arcraidershack.net tiers.'),
     },
     {
       id: 'blog-guide-tier',

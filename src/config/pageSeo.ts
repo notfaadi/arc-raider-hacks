@@ -45,7 +45,7 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/products/arc-raiders-cheats/cloud-dma/': {
     title: 'Cloud DMA for ARC Raiders Cheats | AWS Portal Sync',
     description:
-      'Cloud DMA config sync on AWS for ARC Raiders ESP, aim, and utility presets—included with Lite, Pro, and Elite at arcraidershacks.com.',
+      'Cloud DMA config sync on AWS for ARC Raiders ESP, aim, and utility presets—included with Lite, Pro, and Elite at arcraidershack.net.',
     keywords: keywordsForPath('/products/arc-raiders-cheats/cloud-dma/'),
   },
   '/products/arc-raiders-cheats/hwid-spoofer/': {
@@ -139,7 +139,7 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/refund-policy/': {
     title: 'Refund Policy | Arc Raiders Cheat Keys',
     description:
-      'Refund policy for digital Arc Raiders cheat licenses: eligibility, 48-hour window, chargebacks, and how to email support@arcraidershacks.com.',
+      'Refund policy for digital Arc Raiders cheat licenses: eligibility, 48-hour window, chargebacks, and how to email support@arcraidershack.net.',
   },
 };
 
@@ -199,6 +199,16 @@ export const BLOG_PAGE_SEO: Record<string, PageSeoEntry> = {
     title: 'Steam Verify Error ARC Raiders Cheats | Fix Guide',
     description:
       'Fix Steam file verify loops with arc raiders hack loader—launch order and clean VAC pass.',
+  },
+  'dota-2-cheat-codes-guide': {
+    title: 'ARC Raiders Cheat Codes Guide | Practice Lobby Commands',
+    description:
+      'ARC Raiders lobby cheat codes for custom games—gold, vision, hero spawn, and item commands before ranked ESP and aimbot tools.',
+  },
+  'dota-2-console-cheats-tips': {
+    title: 'ARC Raiders Console Cheats Tips | Refresh & Bot Commands',
+    description:
+      'Private lobby console cheats explained—refresh, wtf mode, creep spawn, and bot commands for ARC Raiders practice sessions.',
   },
 };
 

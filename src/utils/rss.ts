@@ -35,7 +35,7 @@ export function buildRssFeed(): string {
   <channel>
     <title>Arc Raiders Hacks & Cheats Blog</title>
     <link>${SITE_ORIGIN}/blog/</link>
-    <description>ARC Raiders cheat guides, patch notes, and setup walkthroughs from arcraidershacks.com.</description>
+    <description>ARC Raiders cheat guides, patch notes, and setup walkthroughs from arcraidershack.net.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />

@@ -1,5 +1,5 @@
 /** Marketing domain shown in copy, emails, and production canonical URLs. */
-export const SITE_DOMAIN = 'arcraidershacks.com';
+export const SITE_DOMAIN = 'arcraidershack.net';
 
 /** Local dev server (see astro.config.mjs `server.port`). */
 export const LOCAL_DEV_URL = 'http://localhost:4322';

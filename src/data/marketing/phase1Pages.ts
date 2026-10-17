@@ -35,7 +35,7 @@ export const pricingContent = {
       heading: 'Payment methods and delivery',
       paragraphs: [
         'Checkout supports card and wallet methods shown on the partner page (Stripe/PayPal-style processors depending on region). Delivery is instant email plus loader instructions; keep your order ID for Discord or email support.',
-        'We do not store card numbers on arcraidershacks.com. Analytics on this site are cookie-gated per our privacy policy.',
+        'We do not store card numbers on arcraidershack.net. Analytics on this site are cookie-gated per our privacy policy.',
       ],
     },
   ] satisfies MarketingSection[],
@@ -219,7 +219,7 @@ export const refundPolicySections = [
   {
     heading: 'How to request help',
     paragraphs: [
-      `Email ${'support@arcraidershacks.com'} with subject "Refund request", include invoice PDF, and describe the issue. Partner processors may take 5–10 business days to post funds back to your bank.`,
+      `Email ${'support@arcraidershack.net'} with subject "Refund request", include invoice PDF, and describe the issue. Partner processors may take 5–10 business days to post funds back to your bank.`,
     ],
   },
 ] satisfies MarketingSection[];
@@ -232,7 +232,7 @@ export const contactContent = {
     {
       heading: 'Fastest channels',
       paragraphs: [
-        'Email support@arcraidershacks.com with your order ID in the subject line. For checkout payment issues, use the receipt link in your fulfillment email first—it resolves most duplicate-charge cases faster than chat.',
+        'Email support@arcraidershack.net with your order ID in the subject line. For checkout payment issues, use the receipt link in your fulfillment email first—it resolves most duplicate-charge cases faster than chat.',
         'Product questions about ESP, aimbot, or loot modules should start on the features page and FAQ; support escalates bugs, not general "what is ESP" questions.',
       ],
     },

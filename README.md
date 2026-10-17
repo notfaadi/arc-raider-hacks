@@ -18,7 +18,7 @@ pnpm build
 pnpm preview
 ```
 
-Target: Cloudflare Pages or Vercel. Set `site` in `astro.config.mjs` to `https://arcraidershacks.com` for production (currently uses localhost in dev).
+Target: Cloudflare Pages or Vercel. Production site URL: `https://arcraidershack.net` (see `astro.config.mjs` `site` and `SITE_DOMAIN` in `src/config/site.ts`).
 
 Optional env:
 

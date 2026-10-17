@@ -6,7 +6,7 @@ export const PRODUCT_HUB_FAQ_TOPICS = ['all', 'cloud-dma', 'hwid', 'products'] a
 export const PRODUCT_HUB_FAQ_COPY = {
   eyebrow: 'FAQ',
   title: 'ARC Raiders product FAQ',
-  subtitle: 'ARC Raiders Cloud DMA, HWID Spoofer, Unlock All, and cheat tiers on arcraidershacks.com.',
+  subtitle: 'ARC Raiders Cloud DMA, HWID Spoofer, Unlock All, and cheat tiers on arcraidershack.net.',
 } as const;
 
 export const productHubFaqs: SiteFaqItem[] = [
@@ -14,7 +14,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-001",
     "topic": "products",
     "q": "What is Arc Raiders Hacks & Cheats?",
-    "a": "Arc Raiders Hacks & Cheats at arcraidershacks.com sells maintained external hacks for ARC Raiders on Steam PC—ESP, silent aim, loot radar, Cloud DMA sync, and utilities like HWID Spoofer and Unlock All.",
+    "a": "Arc Raiders Hacks & Cheats at arcraidershack.net sells maintained external hacks for ARC Raiders on Steam PC—ESP, silent aim, loot radar, Cloud DMA sync, and utilities like HWID Spoofer and Unlock All.",
     "icon": "faqMore"
   },
   {
@@ -56,7 +56,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-007",
     "topic": "products",
     "q": "Is Arc Raiders Hacks & Cheats undetected?",
-    "a": "We ship external builds with status banners and patch-day updates. No seller can promise permanent undetected status—check arcraidershacks.com and Discord #status before every session.",
+    "a": "We ship external builds with status banners and patch-day updates. No seller can promise permanent undetected status—check arcraidershack.net and Discord #status before every session.",
     "icon": "faqMore"
   },
   {
@@ -119,7 +119,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-016",
     "topic": "products",
     "q": "What are the best ARC Raiders hacks in 2026 on Arc Raiders Hacks & Cheats?",
-    "a": "In 2026, maintained Lite ESP, Pro aim assist, and Elite full suites on arcraidershacks.com lead private ARC Raiders hacks—with Cloud DMA sync and patch-day loader delivery.",
+    "a": "In 2026, maintained Lite ESP, Pro aim assist, and Elite full suites on arcraidershack.net lead private ARC Raiders hacks—with Cloud DMA sync and patch-day loader delivery.",
     "icon": "faqMore"
   },
   {
@@ -301,7 +301,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-042",
     "topic": "cloud-dma",
     "q": "Does Cloud DMA make ARC Raiders hacks undetected forever?",
-    "a": "See arcraidershacks.com status, Discord #status, and our blog guides for detail on FAQ 42: Does Cloud DMA make ARC Raiders hacks undetected forever. Contact support with your tier and Windows build if you need hands-on help.",
+    "a": "See arcraidershack.net status, Discord #status, and our blog guides for detail on FAQ 42: Does Cloud DMA make ARC Raiders hacks undetected forever. Contact support with your tier and Windows build if you need hands-on help.",
     "icon": "faqMore"
   },
   {
@@ -399,7 +399,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-056",
     "topic": "products",
     "q": "What are the top ARC Raiders hacks on Arc Raiders Hacks & Cheats?",
-    "a": "Player ESP, loot radar, silent aim, 2D raid radar, stream-proof overlays, and Cloud DMA sync—maintained on arcraidershacks.com with Discord #status.",
+    "a": "Player ESP, loot radar, silent aim, 2D raid radar, stream-proof overlays, and Cloud DMA sync—maintained on arcraidershack.net with Discord #status.",
     "icon": "faqMore"
   },
   {
@@ -420,7 +420,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-059",
     "topic": "products",
     "q": "Are there official ARC Raiders hack codes for premium cosmetics?",
-    "a": "See arcraidershacks.com status, Discord #status, and our blog guides for detail on FAQ 59: Are there official ARC Raiders hack codes for premium cosmetics. Contact support with your tier and Windows build if you need hands-on help.",
+    "a": "See arcraidershack.net status, Discord #status, and our blog guides for detail on FAQ 59: Are there official ARC Raiders hack codes for premium cosmetics. Contact support with your tier and Windows build if you need hands-on help.",
     "icon": "faqMore"
   },
   {
@@ -469,21 +469,21 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-066",
     "topic": "hwid",
     "q": "When do I add a ARC Raiders HWID Spoofer?",
-    "a": "See arcraidershacks.com status, Discord #status, and our blog guides for detail on FAQ 66: When do I add a ARC Raiders HWID Spoofer. Contact support with your tier and Windows build if you need hands-on help.",
+    "a": "See arcraidershack.net status, Discord #status, and our blog guides for detail on FAQ 66: When do I add a ARC Raiders HWID Spoofer. Contact support with your tier and Windows build if you need hands-on help.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-067",
     "topic": "cloud-dma",
     "q": "Does ARC Raiders Cloud DMA keep aimbot and wallhack undetected?",
-    "a": "We ship external builds with status banners and patch-day updates. No seller can promise permanent undetected status—check arcraidershacks.com and Discord #status before every session.",
+    "a": "We ship external builds with status banners and patch-day updates. No seller can promise permanent undetected status—check arcraidershack.net and Discord #status before every session.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-068",
     "topic": "cloud-dma",
     "q": "Do private ARC Raiders hacks include Cloud DMA on AWS?",
-    "a": "Yes at arcraidershacks.com—private Lite, Pro, and Elite keys include AWS-backed Cloud DMA sync with the operator portal.",
+    "a": "Yes at arcraidershack.net—private Lite, Pro, and Elite keys include AWS-backed Cloud DMA sync with the operator portal.",
     "icon": "faqMore"
   },
   {
@@ -497,7 +497,7 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-070",
     "topic": "products",
     "q": "How do I buy ARC Raiders hacks from Arc Raiders Hacks & Cheats?",
-    "a": "Pick a tier or utility on arcraidershacks.com, click Buy now for secure checkout, then use portal email to download the loader and Cloud DMA presets.",
+    "a": "Pick a tier or utility on arcraidershack.net, click Buy now for secure checkout, then use portal email to download the loader and Cloud DMA presets.",
     "icon": "faqMore"
   },
   {
@@ -559,8 +559,8 @@ export const productHubFaqs: SiteFaqItem[] = [
   {
     "id": "product-hub-079",
     "topic": "cloud-dma",
-    "q": "Is Cloud DMA included with private ARC Raiders hacks at arcraidershacks.com?",
-    "a": "Yes—Cloud DMA sync ships with every private Lite, Pro, and Elite key at arcraidershacks.com.",
+    "q": "Is Cloud DMA included with private ARC Raiders hacks at arcraidershack.net?",
+    "a": "Yes—Cloud DMA sync ships with every private Lite, Pro, and Elite key at arcraidershack.net.",
     "icon": "faqMore"
   },
   {
@@ -630,14 +630,14 @@ export const productHubFaqs: SiteFaqItem[] = [
     "id": "product-hub-089",
     "topic": "cloud-dma",
     "q": "How often are Cloud DMA snapshots updated for ARC Raiders seasons?",
-    "a": "See arcraidershacks.com status, Discord #status, and our blog guides for detail on FAQ 89: How often are Cloud DMA snapshots updated for ARC Raiders seasons. Contact support with your tier and Windows build if you need hands-on help.",
+    "a": "See arcraidershack.net status, Discord #status, and our blog guides for detail on FAQ 89: How often are Cloud DMA snapshots updated for ARC Raiders seasons. Contact support with your tier and Windows build if you need hands-on help.",
     "icon": "faqMore"
   },
   {
     "id": "product-hub-090",
     "topic": "hwid",
     "q": "Best ARC Raiders HWID spoofer for VAC hardware bans",
-    "a": "Our dedicated HWID Spoofer utility on arcraidershacks.com includes compatibility scan and verification—built for Steam PC recovery workflows.",
+    "a": "Our dedicated HWID Spoofer utility on arcraidershack.net includes compatibility scan and verification—built for Steam PC recovery workflows.",
     "icon": "faqMore"
   },
   {
@@ -678,8 +678,8 @@ export const productHubFaqs: SiteFaqItem[] = [
   {
     "id": "product-hub-096",
     "topic": "hwid",
-    "q": "Does arcraidershacks.com sell a dedicated ARC Raiders HWID spoofer?",
-    "a": "Yes—HWID Spoofer is a standalone utility product with its own checkout and portal section at arcraidershacks.com.",
+    "q": "Does arcraidershack.net sell a dedicated ARC Raiders HWID spoofer?",
+    "a": "Yes—HWID Spoofer is a standalone utility product with its own checkout and portal section at arcraidershack.net.",
     "icon": "faqMore"
   },
   {
