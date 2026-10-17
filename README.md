@@ -20,6 +20,8 @@ pnpm preview
 
 Target: Cloudflare Pages or Vercel. Production site URL: `https://arcraidershack.net` (see `astro.config.mjs` `site` and `SITE_DOMAIN` in `src/config/site.ts`).
 
+**Cloudflare Pages:** Build command `npm run build`, output directory `dist`. Either leave **Deploy command** empty, or set it to `npm run deploy:cf`. Do not use `npx wrangler deploy` (Worker mode).
+
 Optional env:
 
 - `PUBLIC_GA_MEASUREMENT_ID`
