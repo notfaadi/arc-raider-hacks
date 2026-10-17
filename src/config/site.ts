@@ -9,14 +9,16 @@ export const SITE_URL =
 
 export const PRODUCT_BASE = '/products/arc-raiders-cheats/';
 
-/** Primary marketing line — use in hero, meta description, and schema. */
+/** Hero subtitle — distinct from meta description to avoid duplicate SERP/body copy. */
 export const SITE_TAGLINE =
-  'The Best ARC Raiders Hacks with Best Cloud DMA, Aimbot, ESP, Radar Hack, and Wallhack!';
+  'Cloud DMA presets, player ESP, loot radar, and aim tools for ARC Raiders extractions—maintained every patch.';
 
 /** Browser tab / SERP title (keep ~60 characters). */
 export const SITE_META_TITLE = 'Arc Raiders Cheats & Hacks — Aimbot, ESP | Arc Raiders Hacks';
 
-export const SITE_META_DESCRIPTION = `${SITE_TAGLINE} Undetected PC extraction tools with patch-day updates and 24/7 support.`;
+/** Meta description (~150–160 chars): unique, keyword-rich, no stacked “Best” claims. */
+export const SITE_META_DESCRIPTION =
+  'Undetected ARC Raiders cheats for Windows: ESP, aimbot, loot radar, and Cloud DMA tiers. Instant keys, patch-day loader updates, and 24/7 operator support.';
 
 export const TITLE_PREFIX = 'Arc Raiders Hacks & Cheats';
 export const SUPPORT_EMAIL = `support@${SITE_DOMAIN}`;

@@ -22,7 +22,7 @@ export const en: Translations = {
   ],
   hero: {
     status: 'ARC Raiders — patch build online',
-    eyebrow: 'The Best ARC Raiders Hacks · Best Cloud DMA',
+    eyebrow: 'Undetected PC cheats · Cloud DMA sync',
     titleLine1: 'Arc Raiders',
     titleLine2: 'Hacks & Cheats',
     subtitle: SITE_TAGLINE,
@@ -341,7 +341,7 @@ export const en: Translations = {
     featuresHref: '/#features',
     detailsHref: `${productBase}cloud-dma/`,
     productSpotlight: {
-      title: 'Cloud DMA',
+      title: 'Cloud DMA operator portal',
       tagline: 'Advantages included with every tier',
       advantages: [
         'AWS-backed preset sync for ESP, aim, and loot sliders',

@@ -1,3 +1,8 @@
+# Canonical host: apex arcraidershack.net (www → non-www)
+https://www.arcraidershack.net/* https://arcraidershack.net/:splat 301
+http://www.arcraidershack.net/* https://arcraidershack.net/:splat 301
+http://arcraidershack.net/* https://arcraidershack.net/:splat 301
+
 # Cloudflare Pages / Netlify — checkout and legacy paths (301)
 /go/dota-2 /go/arc-raiders/ 301
 /go/dota-2/ /go/arc-raiders/ 301

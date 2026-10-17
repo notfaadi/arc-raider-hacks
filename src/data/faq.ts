@@ -311,8 +311,8 @@ export const SITE_FAQ_FILTER_TOPICS: FaqTopic[] = [
 /** Section copy when FAQ list is scoped to the current page (not /faq/). */
 export const CONTEXTUAL_FAQ_SECTION_COPY = {
   eyebrow: 'FAQ',
-  title: 'Questions about this page',
-  subtitle: 'Answers tied to what you are reading—visit the FAQ page for every topic.',
+  title: 'Pre-checkout questions',
+  subtitle: 'Compatibility, delivery, and safety—open the full FAQ for every topic.',
 } as const;
 
 export function faqFilterTopicsForItems(items: SiteFaqItem[]): FaqTopic[] {
