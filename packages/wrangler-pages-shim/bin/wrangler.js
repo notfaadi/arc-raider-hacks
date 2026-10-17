@@ -1,10 +1,8 @@
 #!/usr/bin/env node
-/** wrangler-pages-shim package — used via npm overrides for Cloudflare Pages Git deploy */
+/** wrangler-pages-shim — redirects `wrangler deploy` → `pages deploy dist` on Cloudflare CI */
 const { spawn } = require("child_process");
 const path = require("path");
-const { createRequire } = require("module");
-
-const requireFromShim = createRequire(path.join(__dirname, "..", "package.json"));
+const fs = require("fs");
 
 const onPages =
   process.env.CF_PAGES === "1" ||
@@ -30,13 +28,27 @@ if (onPages && args[0] === "deploy" && args[1] !== "pages") {
   ];
 }
 
-let cli;
-try {
-  cli = requireFromShim.resolve("wrangler-upstream/wrangler-dist/cli.js");
-} catch {
-  cli = path.join(__dirname, "..", "node_modules", "wrangler-upstream", "wrangler-dist", "cli.js");
+function resolveUpstreamCli() {
+  try {
+    return require.resolve("wrangler-upstream/wrangler-dist/cli.js");
+  } catch {
+    /* hoisted under repo root node_modules */
+  }
+
+  const repoRoot = path.join(__dirname, "..", "..", "..");
+  const candidates = [
+    path.join(repoRoot, "node_modules", "wrangler-upstream", "wrangler-dist", "cli.js"),
+    path.join(__dirname, "..", "node_modules", "wrangler-upstream", "wrangler-dist", "cli.js"),
+  ];
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+
+  console.error("wrangler-pages-shim: wrangler-upstream CLI not found. Run npm ci.");
+  process.exit(1);
 }
 
+const cli = resolveUpstreamCli();
 const child = spawn(
   process.execPath,
   ["--no-warnings", ...process.execArgv, cli, ...args],

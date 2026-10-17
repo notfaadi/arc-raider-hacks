@@ -4,7 +4,7 @@ import { execFileSync, execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-console.log('cf-postbuild: marker 2026-10-17-pages-v6');
+console.log('cf-postbuild: marker 2026-10-17-pages-v7');
 
 if (process.env.SKIP_CF_POSTBUILD_PUBLISH === '1') {
   console.log('cf-postbuild: skip publish (SKIP_CF_POSTBUILD_PUBLISH).');

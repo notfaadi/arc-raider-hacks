@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/log-build-version.mjs && node scripts/patch-wrangler-bin.mjs && node scripts/generate-brand-icons.mjs && node scripts/optimize-images.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/verify-seo.mjs && node scripts/indexnow.mjs && node scripts/cf-postbuild.mjs",
-    "postbuild": "node scripts/cf-deploy-step.mjs",
+    "postbuild": "node scripts/patch-wrangler-bin.mjs",
     "deploy": "node scripts/cf-wrangler-deploy.mjs",
     "deploy:cf": "node scripts/cf-pages-deploy.mjs",
     "deploy:pages": "npm run build && npm run deploy:cf",
