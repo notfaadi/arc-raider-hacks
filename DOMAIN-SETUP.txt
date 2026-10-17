@@ -1,0 +1,27 @@
+arcraidershack.net → Cloudflare Pages (arc-raider-hacks)
+
+Production is deployed. Verify:
+  https://arc-raider-hacks.pages.dev/
+
+Custom hostnames added on Pages:
+  arcraidershack.net
+  www.arcraidershack.net
+
+DNS (required — domain currently has no public records):
+
+Option A — Use Cloudflare DNS (recommended)
+  1. Cloudflare dashboard → Add site → arcraidershack.net
+  2. Use the same account as Wrangler (notfaadiroziroti@gmail.com)
+  3. Change nameservers at your registrar to Cloudflare’s pair
+  4. Pages → arc-raider-hacks → Custom domains → finish activation (CNAME targets shown there)
+
+Option B — Keep registrar DNS
+  1. www → CNAME → arc-raider-hacks.pages.dev
+  2. Apex (@): use registrar ALIAS/ANAME to arc-raider-hacks.pages.dev, or move DNS to Cloudflare
+
+Git auto-build (optional):
+  Pages → arc-raider-hacks → Settings → Build → Connect Git → notfaadi/arc-raider-hacks, branch main
+  Build: npm run build | Output: dist | Deploy command: (empty)
+
+Manual deploy after changes:
+  npm run build && npm run deploy:production
