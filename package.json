@@ -19,7 +19,8 @@
     "check:internal": "npm run build && node scripts/check-internal-links.mjs",
     "normalize:brand": "node scripts/normalize-arc-branding.mjs && node scripts/fix-trios-duplicates.mjs && node scripts/normalize-blog-moba-pass2.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
-    "images:user": "node scripts/install-user-images.mjs && node scripts/optimize-images.mjs"
+    "images:user": "node scripts/install-user-images.mjs && node scripts/optimize-images.mjs",
+    "postinstall": "node scripts/patch-wrangler-bin.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

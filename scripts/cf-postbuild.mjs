@@ -4,7 +4,7 @@ import { execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-console.log('cf-postbuild: marker 2026-10-17-pages-v3');
+console.log('cf-postbuild: marker 2026-10-17-pages-v4-shim');
 
 const onPages =
   process.env.CF_PAGES === '1' ||
