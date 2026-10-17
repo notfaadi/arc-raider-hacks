@@ -1,9 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { PATH_REDIRECTS } from './redirects.mjs';
+import { resolveStaticDistDir } from './resolve-dist-dir.mjs';
 
 const root = process.cwd();
-const dist = path.join(root, 'dist');
+const dist = resolveStaticDistDir(root);
 const src = path.join(root, 'src');
 
 /** Built static paths (trailing slash). */

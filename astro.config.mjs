@@ -6,16 +6,8 @@ import { sitemapSerialize } from './src/config/sitemap.ts';
 export default defineConfig({
   site: process.env.SITE_URL ?? 'https://arcraidershack.net',
   trailingSlash: 'always',
-  redirects: {
-    '/cheats/': '/products/arc-raiders-cheats/',
-    '/cheats/lite/': '/products/arc-raiders-cheats/lite/',
-    '/cheats/pro/': '/products/arc-raiders-cheats/pro/',
-    '/cheats/elite/': '/products/arc-raiders-cheats/elite/',
-    '/cheats/compare/': '/blog/arc-raiders-cheats-features-guide/',
-    '/privacy-policy/': '/privacy/',
-    '/products/dota-2-cheats/': '/products/arc-raiders-cheats/',
-    '/products/dota-2-cheats/utilities/': '/products/arc-raiders-cheats/utilities/',
-  },
+  // Legacy 301s live in public/_redirects (Cloudflare Pages / Netlify). Avoid astro.config
+  // redirects — they break @astrojs/cloudflare static builds (empty response body).
   server: {
     port: 4322,
     host: true,

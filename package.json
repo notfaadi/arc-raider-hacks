@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/generate-brand-icons.mjs && node scripts/optimize-images.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/indexnow.mjs",
+    "deploy:pages": "npm run build && npx wrangler pages deploy dist --project-name=arc-raider-hacks",
     "icons:brand": "node scripts/generate-brand-icons.mjs",
     "preview": "astro preview --host 0.0.0.0",
     "start": "node scripts/serve.mjs",
