@@ -6,7 +6,7 @@ export const blogPosts: BlogPostFull[] = [
     "title": "ARC Raiders cheats features: scripts, bots, map hack and more",
     "slug": "arc-raiders-cheats-features-guide",
     "image": "/images/blog/arc-raiders-cheats-features-guide.png",
-    "desc": "Complete guide to our ARC Raiders cheats—Auto Combo, Auto Farm Bot, Skin Changer, Zoom Hack, Map Hack and Auto Dagon.",
+    "desc": "Complete guide to our ARC Raiders cheats�Auto Combo, Auto Farm Bot, Skin Changer, Zoom Hack, Map Hack and Auto Dagon.",
     "date": "Aug 18, 2026",
     "readTime": "20 min read",
     "featured": true,
@@ -14,7 +14,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net ships a modular external suite for Steam PC ranked—not lobby cheat codes. Scripts land combos, bots farm efficiently, map hack exposes ganks, and utility tools like Zoom Hack and Skin Changer round out the toolkit. This is the complete feature map across [ARC Raiders products](/products/arc-raiders-cheats/), [Lite](/products/arc-raiders-cheats/), [Pro](/products/arc-raiders-cheats/), and [Elite](/products/arc-raiders-cheats/elite/)."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net ships a modular external suite for Steam PC ranked�not lobby cheat codes. Scripts land combos, bots farm efficiently, map hack exposes ganks, and utility tools like Zoom Hack and Skin Changer round out the toolkit. This is the complete feature map across [ARC Raiders products](/products/arc-raiders-cheats/), [Lite](/products/arc-raiders-cheats/), [Pro](/products/arc-raiders-cheats/), and [Elite](/products/arc-raiders-cheats/elite/)."
       },
       {
         "type": "h2",
@@ -22,11 +22,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Pro and Elite tiers include hero scripts with Target Selector, Delay Setting, and Prediction. Auto Combo chains abilities in humanized order—Invoker tornado into EMP, PA blink dagger burst, Lion finger into spike. Orbwalker keeps attack-move clean during chases without stutter-step misclicks. Smart Cast fires spells at optimal cursor positions without wasting cast points on fogged targets."
+        "text": "Pro and Elite tiers include hero scripts with Target Selector, Delay Setting, and Prediction. Auto Combo chains abilities in humanized order�Invoker tornado into EMP, PA blink dagger burst, Lion finger into spike. Orbwalker keeps attack-move clean during chases without stutter-step misclicks. Smart Cast fires spells at optimal cursor positions without wasting cast points on fogged targets."
       },
       {
         "type": "p",
-        "text": "Tune delays high at first—90 to 150 milliseconds between abilities—then lower them only after clean Turbo sessions. Instant bot bursts draw reports in ranked replays. Deep hero examples live in [Auto combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/) and ranked tuning in [scripts for MMR](/blog/dota-2-scripts-ranked-mmr/)."
+        "text": "Tune delays high at first�90 to 150 milliseconds between abilities�then lower them only after clean Turbo sessions. Instant bot bursts draw reports in ranked replays. Deep hero examples live in [Auto combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/) and ranked tuning in [scripts for MMR](/blog/dota-2-scripts-ranked-mmr/)."
       },
       {
         "type": "h3",
@@ -34,7 +34,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Activator fires BKB, Hex, or Glimmer before or during script combos based on enemy count radius rules you configure. Overlapping instant BKB plus instant Finger looks robotic—add 80 to 120 ms offset so item use precedes abilities naturally. Supports bind Hex on channeling cores; carries bind BKB when three heroes close distance."
+        "text": "Activator fires BKB, Hex, or Glimmer before or during script combos based on enemy count radius rules you configure. Overlapping instant BKB plus instant Finger looks robotic�add 80 to 120 ms offset so item use precedes abilities naturally. Supports bind Hex on channeling cores; carries bind BKB when three heroes close distance."
       },
       {
         "type": "h2",
@@ -42,11 +42,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Elite unlocks Auto Farm Bot, neutral stack timers, and courier manager—start conservative per [Elite tier guide](/blog/dota-2-elite-tier-guide/). Bots are not autopilot win buttons; they amplify farming efficiency when you already understand lane equilibrium and camp timing. Enable farm bot only after two weeks of clean Pro script sessions."
+        "text": "Elite unlocks Auto Farm Bot, neutral stack timers, and courier manager�start conservative per [Elite tier guide](/blog/dota-2-elite-tier-guide/). Bots are not autopilot win buttons; they amplify farming efficiency when you already understand lane equilibrium and camp timing. Enable farm bot only after two weeks of clean Pro script sessions."
       },
       {
         "type": "p",
-        "text": "Stack timers pair with map hack ward ESP so you know when camps are pulled safely. Courier manager reduces mid-game delivery micro—Elite operators use it in high-MMR lobbies where tempo wins games. Turbo preset allows slightly more aggressive bot settings than ranked preset."
+        "text": "Stack timers pair with map hack ward ESP so you know when camps are pulled safely. Courier manager reduces mid-game delivery micro�Elite operators use it in high-MMR lobbies where tempo wins games. Turbo preset allows slightly more aggressive bot settings than ranked preset."
       },
       {
         "type": "h2",
@@ -54,11 +54,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Map hack covers hero ESP, observer and sentry wards, smoke alerts, and enemy tracking on Lite and Elite—full setup in [map hack setup](/blog/dota-2-map-hack-setup/). Start max ESP distance at 1200 units; expand only after a week of clean games. Ward icons use distinct colors for observer vs sentry so deward lines stay readable."
+        "text": "Map hack covers hero ESP, observer and sentry wards, smoke alerts, and enemy tracking on Lite and Elite�full setup in [map hack setup](/blog/dota-2-map-hack-setup/). Start max ESP distance at 1200 units; expand only after a week of clean games. Ward icons use distinct colors for observer vs sentry so deward lines stay readable."
       },
       {
         "type": "p",
-        "text": "Smoke detection with audio ping at medium sensitivity catches most ganks without false positives on fog edge movement. Elite adds vision detector tuning for true sight radius study—pair with [zoom hack](/blog/dota-2-zoom-hack-guide/) for camera range plus enemy dots."
+        "text": "Smoke detection with audio ping at medium sensitivity catches most ganks without false positives on fog edge movement. Elite adds vision detector tuning for true sight radius study�pair with [zoom hack](/blog/dota-2-zoom-hack-guide/) for camera range plus enemy dots."
       },
       {
         "type": "h2",
@@ -66,7 +66,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Zoom hack on Lite extends camera distance beyond the default cap—supports track off-screen fights, mids watch rune contests, offlaners spot TP ganks earlier. Dynamic zoom auto-scales when multiple enemies enter vision. Angle lock keeps tilt consistent so high zoom does not disorient during team fights."
+        "text": "Zoom hack on Lite extends camera distance beyond the default cap�supports track off-screen fights, mids watch rune contests, offlaners spot TP ganks earlier. Dynamic zoom auto-scales when multiple enemies enter vision. Angle lock keeps tilt consistent so high zoom does not disorient during team fights."
       },
       {
         "type": "h2",
@@ -74,7 +74,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Elite bundles [Skin Changer](/blog/dota-2-skin-changer-guide/) with automation; standalone [Unlock All](/products/arc-raiders-cheats/unlock-all/) is cosmetic-only. Preview arcanas and immortals locally—effects are client-side on your display. Streamers enable [stream-proof mode](/blog/dota-2-stream-proof-setup/) separately for ESP overlays."
+        "text": "Elite bundles [Skin Changer](/blog/dota-2-skin-changer-guide/) with automation; standalone [Unlock All](/products/arc-raiders-cheats/unlock-all/) is cosmetic-only. Preview arcanas and immortals locally�effects are client-side on your display. Streamers enable [stream-proof mode](/blog/dota-2-stream-proof-setup/) separately for ESP overlays."
       },
       {
         "type": "h2",
@@ -82,7 +82,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Elite finishes low-HP enemies with Auto Kill Steal and Auto Dagon at combo end—both respect Delay Setting so zeus ult or dagon snipes do not fire instantly on every tick. Use kill steal in Turbo first; ranked preset keeps conservative HP thresholds and longer reaction delays."
+        "text": "Elite finishes low-HP enemies with Auto Kill Steal and Auto Dagon at combo end�both respect Delay Setting so zeus ult or dagon snipes do not fire instantly on every tick. Use kill steal in Turbo first; ranked preset keeps conservative HP thresholds and longer reaction delays."
       },
       {
         "type": "h2",
@@ -90,7 +90,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[ARC Raiders products](/products/arc-raiders-cheats/) runs external with cloud config sync and VAC-aware portal updates within 24 hours of patches. No DLL injection into the ARC Raiders process—overlays draw on top, scripts send humanized input. Deep dive: [external cheat guide](/blog/dota-2-external-cheat-guide/)."
+        "text": "[ARC Raiders products](/products/arc-raiders-cheats/) runs external with cloud config sync and VAC-aware portal updates within 24 hours of patches. No DLL injection into the ARC Raiders process�overlays draw on top, scripts send humanized input. Deep dive: [external cheat guide](/blog/dota-2-external-cheat-guide/)."
       },
       {
         "type": "h2",
@@ -107,12 +107,12 @@ export const blogPosts: BlogPostFull[] = [
       {
         "type": "cta",
         "title": "Pick your tier today",
-        "text": "Lite, Pro, and Elite checkout through secure checkout—portal access in minutes at arcraidershack.net.",
+        "text": "Lite, Pro, and Elite checkout through secure checkout�portal access in minutes at arcraidershack.net.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -120,7 +120,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -298,7 +298,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Climbing ranked MMR with ARC Raiders scripts means humanized Auto Combo—not instant bot bursts that draw reports. [Pro tier](/products/arc-raiders-cheats/) at arcraidershack.net ships Target Selector, Prediction, Delay Setting, and Activator modules tuned for high-MMR lobbies."
+        "text": "Climbing ranked MMR with ARC Raiders scripts means humanized Auto Combo�not instant bot bursts that draw reports. [Pro tier](/products/arc-raiders-cheats/) at arcraidershack.net ships Target Selector, Prediction, Delay Setting, and Activator modules tuned for high-MMR lobbies."
       },
       {
         "type": "h2",
@@ -306,7 +306,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Climbing ranked MMR with ARC Raiders scripts means humanized Auto Combo—not instant bot bursts that draw reports. [Pro tier](/products/arc-raiders-cheats/) at arcraidershack.net ships Target Selector, Prediction, Delay Setting, and Activator modules tuned for high-MMR lobbies."
+        "text": "Climbing ranked MMR with ARC Raiders scripts means humanized Auto Combo�not instant bot bursts that draw reports. [Pro tier](/products/arc-raiders-cheats/) at arcraidershack.net ships Target Selector, Prediction, Delay Setting, and Activator modules tuned for high-MMR lobbies."
       },
       {
         "type": "p",
@@ -322,7 +322,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Save a copy as my_ranked before edits—Turbo preset can diverge with lower delays without corrupting ranked safety."
+        "text": "Save a copy as my_ranked before edits�Turbo preset can diverge with lower delays without corrupting ranked safety."
       },
       {
         "type": "h2",
@@ -334,7 +334,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Set selector to prefer stun targets for supports—Lion, Shadow Shaman—not random nearest creep. Carry profiles prefer lowest HP core in script range."
+        "text": "Set selector to prefer stun targets for supports�Lion, Shadow Shaman�not random nearest creep. Carry profiles prefer lowest HP core in script range."
       },
       {
         "type": "h2",
@@ -342,11 +342,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Bind Activator to fire BKB before script combo when three enemies are within radius, or Hex on channeling cores. Add 80–120 ms delay so item use precedes abilities naturally."
+        "text": "Bind Activator to fire BKB before script combo when three enemies are within radius, or Hex on channeling cores. Add 80�120 ms delay so item use precedes abilities naturally."
       },
       {
         "type": "p",
-        "text": "Overlapping instant BKB plus instant finger looks robotic in replays—review one replay weekly with conservative settings."
+        "text": "Overlapping instant BKB plus instant finger looks robotic in replays�review one replay weekly with conservative settings."
       },
       {
         "type": "h2",
@@ -354,7 +354,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Save separate profiles for Invoker, PA, and Lion—examples in [Auto combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/). Hotkey swap in hero select without reopening loader."
+        "text": "Save separate profiles for Invoker, PA, and Lion�examples in [Auto combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/). Hotkey swap in hero select without reopening loader."
       },
       {
         "type": "p",
@@ -366,11 +366,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "After every ARC Raiders update, run [VAC patch day checklist](/blog/vac-patch-day-checklist/) before ranked. Script offsets break silently—bot lobby verify combo fire before MMR."
+        "text": "After every ARC Raiders update, run [VAC patch day checklist](/blog/vac-patch-day-checklist/) before ranked. Script offsets break silently�bot lobby verify combo fire before MMR."
       },
       {
         "type": "p",
-        "text": "Read arcraidershack.net status banner; yellow means wait even if yesterday’s session was clean."
+        "text": "Read arcraidershack.net status banner; yellow means wait even if yesterday�s session was clean."
       },
       {
         "type": "h2",
@@ -382,17 +382,17 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Pair scripts with [map hack setup](/blog/dota-2-map-hack-setup/) on Lite-inclusive Pro tier—awareness plus combo wins more than scripts alone."
+        "text": "Pair scripts with [map hack setup](/blog/dota-2-map-hack-setup/) on Lite-inclusive Pro tier�awareness plus combo wins more than scripts alone."
       },
       {
         "type": "cta",
         "title": "Get Pro scripts",
-        "text": "Auto Combo, Prediction, and Activator for ranked MMR—secure checkout at arcraidershack.net.",
+        "text": "Auto Combo, Prediction, and Activator for ranked MMR�secure checkout at arcraidershack.net.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -400,7 +400,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -412,7 +412,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -420,7 +420,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -432,7 +432,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -440,7 +440,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -459,7 +459,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Buying ARC Raiders cheats in 2026 runs through arcraidershack.net product pages and secure checkout—no sketchy DM payments."
+        "text": "Buying ARC Raiders cheats in 2026 runs through arcraidershack.net product pages and secure checkout�no sketchy DM payments."
       },
       {
         "type": "h2",
@@ -467,7 +467,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Buying ARC Raiders cheats in 2026 runs through arcraidershack.net product pages and secure checkout—no sketchy DM payments."
+        "text": "Buying ARC Raiders cheats in 2026 runs through arcraidershack.net product pages and secure checkout�no sketchy DM payments."
       },
       {
         "type": "p",
@@ -483,7 +483,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Unsure? Read [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [features guide](/blog/arc-raiders-cheats-features-guide/) before checkout—tier upgrades available without new loader install."
+        "text": "Unsure? Read [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [features guide](/blog/arc-raiders-cheats-features-guide/) before checkout�tier upgrades available without new loader install."
       },
       {
         "type": "h2",
@@ -491,7 +491,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Click checkout on your tier page—you redirect to secure checkout payment. Complete purchase with the email you will use for support tickets."
+        "text": "Click checkout on your tier page�you redirect to secure checkout payment. Complete purchase with the email you will use for support tickets."
       },
       {
         "type": "p",
@@ -507,7 +507,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Download latest patch build—never third-party mirrors. Portal access also includes cloud config sync credentials here."
+        "text": "Download latest patch build�never third-party mirrors. Portal access also includes cloud config sync credentials here."
       },
       {
         "type": "h2",
@@ -519,7 +519,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Run bot lobby or Turbo test before ranked MMR—never first session in ranked on patch day."
+        "text": "Run bot lobby or Turbo test before ranked MMR�never first session in ranked on patch day."
       },
       {
         "type": "h2",
@@ -527,7 +527,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Optional: [Unlock All](/products/arc-raiders-cheats/unlock-all/) cosmetics, [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/), [UGC](/products/arc-raiders-cheats/ugc/) appeals—each separate secure checkout with own portal section."
+        "text": "Optional: [Unlock All](/products/arc-raiders-cheats/unlock-all/) cosmetics, [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/), [UGC](/products/arc-raiders-cheats/ugc/) appeals�each separate secure checkout with own portal section."
       },
       {
         "type": "p",
@@ -539,11 +539,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Stuck on checkout or loader? Discord with order email and Windows version. Always check live status before ranked—especially patch days per [VAC checklist](/blog/vac-patch-day-checklist/)."
+        "text": "Stuck on checkout or loader? Discord with order email and Windows version. Always check live status before ranked�especially patch days per [VAC checklist](/blog/vac-patch-day-checklist/)."
       },
       {
         "type": "p",
-        "text": "Welcome to private arc raiders cheats at arcraidershack.net—human support beats free paste forums that vanish after VAC waves."
+        "text": "Welcome to private arc raiders cheats at arcraidershack.net�human support beats free paste forums that vanish after VAC waves."
       },
       {
         "type": "cta",
@@ -553,7 +553,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -561,7 +561,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -573,7 +573,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -581,7 +581,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -593,7 +593,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -601,7 +601,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -613,7 +613,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       }
     ]
   },
@@ -622,13 +622,13 @@ export const blogPosts: BlogPostFull[] = [
     "title": "ARC Raiders Lite vs Pro: which tier fits you",
     "slug": "dota-2-lite-vs-pro",
     "image": "/images/blog/arc-raiders-lite-vs-pro.png",
-    "desc": "Map awareness vs script automation—compare Lite and Pro arc raiders cheats for ranked and Turbo.",
+    "desc": "Map awareness vs script automation�compare Lite and Pro arc raiders cheats for ranked and Turbo.",
     "date": "Aug 16, 2026",
     "readTime": "14 min read",
     "body": [
       {
         "type": "p",
-        "text": "[Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) are the two most popular dota cheat tiers at arcraidershack.net. Lite is pure awareness—ESP, wards, runes, zoom. Pro adds script automation for players who trust their map reads but want combo help in ranked. Pick wrong and you either overpay or underpower your MMR grind."
+        "text": "[Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) are the two most popular dota cheat tiers at arcraidershack.net. Lite is pure awareness�ESP, wards, runes, zoom. Pro adds script automation for players who trust their map reads but want combo help in ranked. Pick wrong and you either overpay or underpower your MMR grind."
       },
       {
         "type": "h2",
@@ -636,11 +636,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) are the two most popular dota cheat tiers at arcraidershack.net. Lite is pure awareness—ESP, wards, runes, zoom. Pro adds script automation for players who trust their map reads but want combo help in ranked. Pick wrong and you either overpay or underpower your MMR grind."
+        "text": "[Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) are the two most popular dota cheat tiers at arcraidershack.net. Lite is pure awareness�ESP, wards, runes, zoom. Pro adds script automation for players who trust their map reads but want combo help in ranked. Pick wrong and you either overpay or underpower your MMR grind."
       },
       {
         "type": "p",
-        "text": "Both tiers use the same external loader and secure checkout. Tier difference is module gates in the operator portal—not separate software installs."
+        "text": "Both tiers use the same external loader and secure checkout. Tier difference is module gates in the operator portal�not separate software installs."
       },
       {
         "type": "h2",
@@ -652,7 +652,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Lite gives hero ESP, ward locator, rune timers, zoom hack, and stream-safe overlay—no Auto Combo. Supports and offlaners who win through vision often never need Pro."
+        "text": "Lite gives hero ESP, ward locator, rune timers, zoom hack, and stream-safe overlay�no Auto Combo. Supports and offlaners who win through vision often never need Pro."
       },
       {
         "type": "h2",
@@ -660,11 +660,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "You play ranked or Turbo daily on burst heroes—Invoker, Lion, PA, Storm. You want Auto Combo, Orbwalker, Smart Cast, Target Selector, and Activator for BKB/Hex timing."
+        "text": "You play ranked or Turbo daily on burst heroes�Invoker, Lion, PA, Storm. You want Auto Combo, Orbwalker, Smart Cast, Target Selector, and Activator for BKB/Hex timing."
       },
       {
         "type": "p",
-        "text": "Pro includes every Lite module plus scripts—see the full list in our [features guide](/blog/arc-raiders-cheats-features-guide/). Mid players climbing MMR on combo heroes see the fastest return from Pro."
+        "text": "Pro includes every Lite module plus scripts�see the full list in our [features guide](/blog/arc-raiders-cheats-features-guide/). Mid players climbing MMR on combo heroes see the fastest return from Pro."
       },
       {
         "type": "h2",
@@ -676,7 +676,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Pro adds: Auto Combo scripts, Orbwalker, Smart Cast, Target Selector, Activator, Auto Heal, ability radius drawing, and 18+ more modules in the portal. You never lose Lite features when upgrading—Pro is additive."
+        "text": "Pro adds: Auto Combo scripts, Orbwalker, Smart Cast, Target Selector, Activator, Auto Heal, ability radius drawing, and 18+ more modules in the portal. You never lose Lite features when upgrading�Pro is additive."
       },
       {
         "type": "h2",
@@ -684,11 +684,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Supports and offlaners often thrive on Lite—vision wins lanes without script risk. Mids and soft supports on combo heroes benefit from Pro scripts tuned in our [ranked MMR guide](/blog/dota-2-scripts-ranked-mmr/)."
+        "text": "Supports and offlaners often thrive on Lite�vision wins lanes without script risk. Mids and soft supports on combo heroes benefit from Pro scripts tuned in our [ranked MMR guide](/blog/dota-2-scripts-ranked-mmr/)."
       },
       {
         "type": "p",
-        "text": "Turbo's fast pace rewards Pro Activator more than Lite alone—fights chain faster and manual BKB timing slips. Start Lite in Turbo if new; upgrade when ESP feels natural."
+        "text": "Turbo's fast pace rewards Pro Activator more than Lite alone�fights chain faster and manual BKB timing slips. Start Lite in Turbo if new; upgrade when ESP feels natural."
       },
       {
         "type": "h2",
@@ -696,11 +696,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Lite carries lower report surface—no instant combo bursts that look robotic in replays. Pro requires conservative Delay Setting from day one. Both tiers need [VAC patch day checklist](/blog/vac-patch-day-checklist/) after updates."
+        "text": "Lite carries lower report surface�no instant combo bursts that look robotic in replays. Pro requires conservative Delay Setting from day one. Both tiers need [VAC patch day checklist](/blog/vac-patch-day-checklist/) after updates."
       },
       {
         "type": "p",
-        "text": "Neither tier is VAC-proof—read arcraidershack.net status before every session. Humanized settings beat max automation for account longevity."
+        "text": "Neither tier is VAC-proof�read arcraidershack.net status before every session. Humanized settings beat max automation for account longevity."
       },
       {
         "type": "h2",
@@ -712,17 +712,17 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Unsure after reading? Start Lite, play two weeks, upgrade to Pro in portal without repurchasing the base loader—only tier delta checkout."
+        "text": "Unsure after reading? Start Lite, play two weeks, upgrade to Pro in portal without repurchasing the base loader�only tier delta checkout."
       },
       {
         "type": "cta",
         "title": "Compare Lite and Pro",
-        "text": "Pick the tier that matches your role and climb style—secure checkout at arcraidershack.net.",
+        "text": "Pick the tier that matches your role and climb style�secure checkout at arcraidershack.net.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -730,7 +730,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -742,7 +742,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -750,7 +750,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -762,7 +762,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       }
     ]
   },
@@ -771,13 +771,13 @@ export const blogPosts: BlogPostFull[] = [
     "title": "Elite tier guide: when to upgrade your arc raiders cheats",
     "slug": "dota-2-elite-tier-guide",
     "image": "/images/blog/arc-raiders-elite-tier-guide.png",
-    "desc": "Auto Farm Bot, Auto Kill Steal, Skin Changer and full map hack—who Elite is for and how to tune safely.",
+    "desc": "Auto Farm Bot, Auto Kill Steal, Skin Changer and full map hack�who Elite is for and how to tune safely.",
     "date": "Aug 16, 2026",
     "readTime": "15 min read",
     "body": [
       {
         "type": "p",
-        "text": "[Elite](/products/arc-raiders-cheats/elite/) is the private ARC Raiders cheats build at arcraidershack.net—limited slots, priority patch queue, and every module from Lite and Pro plus bots, Auto Kill Steal, Auto Dagon, full map hack, and Skin Changer."
+        "text": "[Elite](/products/arc-raiders-cheats/elite/) is the private ARC Raiders cheats build at arcraidershack.net�limited slots, priority patch queue, and every module from Lite and Pro plus bots, Auto Kill Steal, Auto Dagon, full map hack, and Skin Changer."
       },
       {
         "type": "h2",
@@ -785,7 +785,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Elite](/products/arc-raiders-cheats/elite/) is the private ARC Raiders cheats build at arcraidershack.net—limited slots, priority patch queue, and every module from Lite and Pro plus bots, Auto Kill Steal, Auto Dagon, full map hack, and Skin Changer."
+        "text": "[Elite](/products/arc-raiders-cheats/elite/) is the private ARC Raiders cheats build at arcraidershack.net�limited slots, priority patch queue, and every module from Lite and Pro plus bots, Auto Kill Steal, Auto Dagon, full map hack, and Skin Changer."
       },
       {
         "type": "p",
@@ -801,7 +801,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Patch delivery hits Elite first when VAC or game updates land—critical for high-MMR operators who cannot afford downtime."
+        "text": "Patch delivery hits Elite first when VAC or game updates land�critical for high-MMR operators who cannot afford downtime."
       },
       {
         "type": "h2",
@@ -821,7 +821,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Load Elite conservative presets from the portal—not max bots on day one. Test Auto Kill Steal in Turbo before ranked. Enable Auto Farm Bot only when you understand lane equilibrium impact."
+        "text": "Load Elite conservative presets from the portal�not max bots on day one. Test Auto Kill Steal in Turbo before ranked. Enable Auto Farm Bot only when you understand lane equilibrium impact."
       },
       {
         "type": "p",
@@ -833,11 +833,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Elite bundles [Skin Changer](/blog/dota-2-skin-changer-guide/) with automation—cosmetic preview plus ranked scripts in one dashboard. Standalone Unlock All exists if you only want visuals without bots."
+        "text": "Elite bundles [Skin Changer](/blog/dota-2-skin-changer-guide/) with automation�cosmetic preview plus ranked scripts in one dashboard. Standalone Unlock All exists if you only want visuals without bots."
       },
       {
         "type": "p",
-        "text": "Streamers pair Skin Changer with [stream-proof setup](/blog/dota-2-stream-proof-setup/)—test OBS capture separately from ESP hiding."
+        "text": "Streamers pair Skin Changer with [stream-proof setup](/blog/dota-2-stream-proof-setup/)�test OBS capture separately from ESP hiding."
       },
       {
         "type": "h2",
@@ -845,7 +845,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "All tiers including Elite use external architecture—see [external cheat guide](/blog/dota-2-external-cheat-guide/). Cloud config sync and patch delivery run through the operator portal, not a separate game client."
+        "text": "All tiers including Elite use external architecture�see [external cheat guide](/blog/dota-2-external-cheat-guide/). Cloud config sync and patch delivery run through the operator portal, not a separate game client."
       },
       {
         "type": "p",
@@ -861,7 +861,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Discord #elite channel covers tuning questions—bring your hero pool and rank bracket for preset recommendations."
+        "text": "Discord #elite channel covers tuning questions�bring your hero pool and rank bracket for preset recommendations."
       },
       {
         "type": "cta",
@@ -871,7 +871,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -879,7 +879,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -891,7 +891,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -899,7 +899,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -911,7 +911,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -919,7 +919,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       }
     ]
   },
@@ -934,7 +934,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "External ARC Raiders cheats read game state from outside the ARC Raiders process—no DLL injection into the client. [ARC Raiders products](/products/arc-raiders-cheats/) at arcraidershack.net pairs an external loader with overlay rendering, cloud config sync, and VAC-aware patch delivery through secure checkout access."
+        "text": "External ARC Raiders cheats read game state from outside the ARC Raiders process�no DLL injection into the client. [ARC Raiders products](/products/arc-raiders-cheats/) at arcraidershack.net pairs an external loader with overlay rendering, cloud config sync, and VAC-aware patch delivery through secure checkout access."
       },
       {
         "type": "h2",
@@ -942,11 +942,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "External ARC Raiders cheats read game state from outside the ARC Raiders process—no DLL injection into the client. [ARC Raiders products](/products/arc-raiders-cheats/) at arcraidershack.net pairs an external loader with overlay rendering, cloud config sync, and VAC-aware patch delivery through secure checkout access."
+        "text": "External ARC Raiders cheats read game state from outside the ARC Raiders process�no DLL injection into the client. [ARC Raiders products](/products/arc-raiders-cheats/) at arcraidershack.net pairs an external loader with overlay rendering, cloud config sync, and VAC-aware patch delivery through secure checkout access."
       },
       {
         "type": "p",
-        "text": "This beats free paste tools that inject and die every patch—private maintenance matters more than feature bullet lists."
+        "text": "This beats free paste tools that inject and die every patch�private maintenance matters more than feature bullet lists."
       },
       {
         "type": "h2",
@@ -954,7 +954,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal cheats hook DirectX or game memory inside the process—fast to detect, easy for VAC to signature."
+        "text": "Internal cheats hook DirectX or game memory inside the process�fast to detect, easy for VAC to signature."
       },
       {
         "type": "p",
@@ -966,7 +966,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Launch external loader before ARC Raiders on Steam. Modules—scripts, map hack, zoom—toggle from dashboard."
+        "text": "Launch external loader before ARC Raiders on Steam. Modules�scripts, map hack, zoom�toggle from dashboard."
       },
       {
         "type": "p",
@@ -994,7 +994,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Same external loader path—tier gates modules in dashboard. Upgrade checkout adds keys without new install path."
+        "text": "Same external loader path�tier gates modules in dashboard. Upgrade checkout adds keys without new install path."
       },
       {
         "type": "h2",
@@ -1002,7 +1002,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Loader before ARC Raiders—portal guide is authoritative. After patches, [VAC checklist](/blog/vac-patch-day-checklist/) before ranked."
+        "text": "Loader before ARC Raiders�portal guide is authoritative. After patches, [VAC checklist](/blog/vac-patch-day-checklist/) before ranked."
       },
       {
         "type": "p",
@@ -1018,7 +1018,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Private software maintained every patch—how to buy: [2026 walkthrough](/blog/how-to-buy-arc-raiders-cheats-2026/)."
+        "text": "Private software maintained every patch�how to buy: [2026 walkthrough](/blog/how-to-buy-arc-raiders-cheats-2026/)."
       },
       {
         "type": "cta",
@@ -1028,7 +1028,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1036,7 +1036,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1048,7 +1048,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1056,7 +1056,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1068,7 +1068,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1076,7 +1076,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1099,7 +1099,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "VAC bans and hardware flags on Steam need different recovery paths. Spoofing when you only need a new account—or buying a fresh identity when your PC is HWID locked—wastes time and money."
+        "text": "VAC bans and hardware flags on Steam need different recovery paths. Spoofing when you only need a new account�or buying a fresh identity when your PC is HWID locked�wastes time and money."
       },
       {
         "type": "h2",
@@ -1107,7 +1107,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "VAC bans and hardware flags on Steam need different recovery paths. Spoofing when you only need a new account—or buying a fresh identity when your PC is HWID locked—wastes time and money."
+        "text": "VAC bans and hardware flags on Steam need different recovery paths. Spoofing when you only need a new account�or buying a fresh identity when your PC is HWID locked�wastes time and money."
       },
       {
         "type": "p",
@@ -1131,7 +1131,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "If Steam flagged your PC identifiers and your main account is otherwise clean—or you are moving to a new account after learning—run the guided [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/) workflow."
+        "text": "If Steam flagged your PC identifiers and your main account is otherwise clean�or you are moving to a new account after learning�run the guided [HWID Spoofer](/products/arc-raiders-cheats/hwid-spoofer/) workflow."
       },
       {
         "type": "p",
@@ -1143,7 +1143,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Permanent account VAC on your main identity often means fresh Steam account plus behavioral reset—not spoof alone."
+        "text": "Permanent account VAC on your main identity often means fresh Steam account plus behavioral reset�not spoof alone."
       },
       {
         "type": "p",
@@ -1167,11 +1167,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Account Recovery](/products/arc-raiders-cheats/ugc/) helps structured appeal workflows for restrictions—not instant unban guarantees. Document timeline, receipts, and verify-error screenshots for support."
+        "text": "[Account Recovery](/products/arc-raiders-cheats/ugc/) helps structured appeal workflows for restrictions�not instant unban guarantees. Document timeline, receipts, and verify-error screenshots for support."
       },
       {
         "type": "p",
-        "text": "Appeals differ from HWID spoof—wrong tool for wrong problem extends downtime weeks."
+        "text": "Appeals differ from HWID spoof�wrong tool for wrong problem extends downtime weeks."
       },
       {
         "type": "h2",
@@ -1183,7 +1183,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "After recovery, follow [VAC patch day checklist](/blog/vac-patch-day-checklist/) and conservative presets—repeat bans compound enforcement."
+        "text": "After recovery, follow [VAC patch day checklist](/blog/vac-patch-day-checklist/) and conservative presets�repeat bans compound enforcement."
       },
       {
         "type": "cta",
@@ -1193,7 +1193,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1201,7 +1201,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1213,7 +1213,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1221,7 +1221,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1233,7 +1233,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1241,7 +1241,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1283,7 +1283,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Map hack modules on [Lite](/products/arc-raiders-cheats/) and [Elite](/products/arc-raiders-cheats/elite/) show enemy positions, wards, smokes, and rune timers outside normal vision—if configured cleanly. Cluttered ESP loses games."
+        "text": "Map hack modules on [Lite](/products/arc-raiders-cheats/) and [Elite](/products/arc-raiders-cheats/elite/) show enemy positions, wards, smokes, and rune timers outside normal vision�if configured cleanly. Cluttered ESP loses games."
       },
       {
         "type": "h2",
@@ -1291,11 +1291,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Map hack modules on [Lite](/products/arc-raiders-cheats/) and [Elite](/products/arc-raiders-cheats/elite/) show enemy positions, wards, smokes, and rune timers outside normal vision—if configured cleanly. Cluttered ESP loses games."
+        "text": "Map hack modules on [Lite](/products/arc-raiders-cheats/) and [Elite](/products/arc-raiders-cheats/elite/) show enemy positions, wards, smokes, and rune timers outside normal vision�if configured cleanly. Cluttered ESP loses games."
       },
       {
         "type": "p",
-        "text": "This ranked setup focuses on readable overlays and conservative ranges—not max distance day one."
+        "text": "This ranked setup focuses on readable overlays and conservative ranges�not max distance day one."
       },
       {
         "type": "h2",
@@ -1303,7 +1303,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Enable hero ESP with team color filters—cool for allies, warm for enemies. Start max distance at 1200 units; expand to 1800 only after a week of clean sessions."
+        "text": "Enable hero ESP with team color filters�cool for allies, warm for enemies. Start max distance at 1200 units; expand to 1800 only after a week of clean sessions."
       },
       {
         "type": "p",
@@ -1319,7 +1319,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Pair with rune timers from Lite’s minimap tab. Supports dewarding with confidence when sentry icon matches smoke path prediction."
+        "text": "Pair with rune timers from Lite�s minimap tab. Supports dewarding with confidence when sentry icon matches smoke path prediction."
       },
       {
         "type": "h2",
@@ -1327,11 +1327,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Enable smoke detection with audio ping at medium sensitivity—high sensitivity false-positives on fog edge movement. When alert fires, check minimap hack hints before committing TP."
+        "text": "Enable smoke detection with audio ping at medium sensitivity�high sensitivity false-positives on fog edge movement. When alert fires, check minimap hack hints before committing TP."
       },
       {
         "type": "p",
-        "text": "Elite adds vision detector tuning for true sight radius study—learn which heroes break smoke without guessing."
+        "text": "Elite adds vision detector tuning for true sight radius study�learn which heroes break smoke without guessing."
       },
       {
         "type": "h2",
@@ -1343,7 +1343,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Compare tiers in [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [Elite guide](/blog/dota-2-elite-tier-guide/). Pro includes Lite map modules plus scripts—not Elite-only smoke tuning."
+        "text": "Compare tiers in [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [Elite guide](/blog/dota-2-elite-tier-guide/). Pro includes Lite map modules plus scripts�not Elite-only smoke tuning."
       },
       {
         "type": "h2",
@@ -1351,11 +1351,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Zoom hack](/blog/dota-2-zoom-hack-guide/) complements ward ESP—camera range plus enemy dots beats either alone. Set zoom before team fights so smoke alerts align with visible terrain."
+        "text": "[Zoom hack](/blog/dota-2-zoom-hack-guide/) complements ward ESP�camera range plus enemy dots beats either alone. Set zoom before team fights so smoke alerts align with visible terrain."
       },
       {
         "type": "p",
-        "text": "Dynamic zoom off in ranked until base zoom feels natural—double camera motion disorients during chases."
+        "text": "Dynamic zoom off in ranked until base zoom feels natural�double camera motion disorients during chases."
       },
       {
         "type": "h2",
@@ -1377,7 +1377,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1385,7 +1385,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1397,7 +1397,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1405,7 +1405,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1417,7 +1417,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1425,7 +1425,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1480,13 +1480,13 @@ export const blogPosts: BlogPostFull[] = [
     "title": "Stream-proof overlay setup for ARC Raiders",
     "slug": "dota-2-stream-proof-setup",
     "image": "/images/blog/arc-raiders-stream-proof-setup.png",
-    "desc": "Hide map hack and script overlays from OBS, Game Bar and capture cards—test workflow for content creators.",
+    "desc": "Hide map hack and script overlays from OBS, Game Bar and capture cards�test workflow for content creators.",
     "date": "Aug 10, 2026",
     "readTime": "13 min read",
     "body": [
       {
         "type": "p",
-        "text": "Streaming ARC Raiders with visible map hack or script menus risks platform bans and viewer reports. Stream-proof mode on [Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) hides overlays from OBS, Xbox Game Bar, and most software capture—while keeping ESP visible on your physical monitor."
+        "text": "Streaming ARC Raiders with visible map hack or script menus risks platform bans and viewer reports. Stream-proof mode on [Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) hides overlays from OBS, Xbox Game Bar, and most software capture�while keeping ESP visible on your physical monitor."
       },
       {
         "type": "h2",
@@ -1494,11 +1494,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Streaming ARC Raiders with visible map hack or script menus risks platform bans and viewer reports. Stream-proof mode on [Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) hides overlays from OBS, Xbox Game Bar, and most software capture—while keeping ESP visible on your physical monitor."
+        "text": "Streaming ARC Raiders with visible map hack or script menus risks platform bans and viewer reports. Stream-proof mode on [Lite](/products/arc-raiders-cheats/) and [Pro](/products/arc-raiders-cheats/) hides overlays from OBS, Xbox Game Bar, and most software capture�while keeping ESP visible on your physical monitor."
       },
       {
         "type": "p",
-        "text": "Creators run awareness privately while keeping broadcast feed clean—discipline still required in commentary."
+        "text": "Creators run awareness privately while keeping broadcast feed clean�discipline still required in commentary."
       },
       {
         "type": "h2",
@@ -1506,7 +1506,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Open utility tab in operator portal or external loader. Toggle stream-proof overlay hiding before launching OBS—not after."
+        "text": "Open utility tab in operator portal or external loader. Toggle stream-proof overlay hiding before launching OBS�not after."
       },
       {
         "type": "p",
@@ -1518,7 +1518,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Record 30 seconds locally with your live scene collection. Playback must show clean game feed—no ward dots, hero ESP, or script HUD."
+        "text": "Record 30 seconds locally with your live scene collection. Playback must show clean game feed�no ward dots, hero ESP, or script HUD."
       },
       {
         "type": "p",
@@ -1530,7 +1530,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Windows Game Bar capture respects stream-proof on most builds—verify with Win+G clip."
+        "text": "Windows Game Bar capture respects stream-proof on most builds�verify with Win+G clip."
       },
       {
         "type": "p",
@@ -1554,11 +1554,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Skin Changer](/blog/dota-2-skin-changer-guide/) cosmetics may appear on capture depending on client path—test separately from ESP stream-proof."
+        "text": "[Skin Changer](/blog/dota-2-skin-changer-guide/) cosmetics may appear on capture depending on client path�test separately from ESP stream-proof."
       },
       {
         "type": "p",
-        "text": "Arcana particles on stream can look suspicious even when ESP is hidden—plan content accordingly."
+        "text": "Arcana particles on stream can look suspicious even when ESP is hidden�plan content accordingly."
       },
       {
         "type": "h2",
@@ -1570,17 +1570,17 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Full feature list in [cheats features guide](/blog/arc-raiders-cheats-features-guide/)—Lite minimum for zoom plus ESP plus stream-proof trio."
+        "text": "Full feature list in [cheats features guide](/blog/arc-raiders-cheats-features-guide/)�Lite minimum for zoom plus ESP plus stream-proof trio."
       },
       {
         "type": "cta",
         "title": "Get stream-proof Lite",
-        "text": "Hide ESP from OBS while playing with awareness—secure checkout.",
+        "text": "Hide ESP from OBS while playing with awareness�secure checkout.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1588,7 +1588,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1600,7 +1600,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1608,7 +1608,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1620,7 +1620,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1628,7 +1628,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1651,7 +1651,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Zoom hack on [Lite tier](/products/arc-raiders-cheats/) extends ARC Raiders camera distance beyond the default cap—supports track off-screen fights, mids watch rune contests, and offlaners spot TP ganks earlier."
+        "text": "Zoom hack on [Lite tier](/products/arc-raiders-cheats/) extends ARC Raiders camera distance beyond the default cap�supports track off-screen fights, mids watch rune contests, and offlaners spot TP ganks earlier."
       },
       {
         "type": "h2",
@@ -1659,11 +1659,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Zoom hack on [Lite tier](/products/arc-raiders-cheats/) extends ARC Raiders camera distance beyond the default cap—supports track off-screen fights, mids watch rune contests, and offlaners spot TP ganks earlier."
+        "text": "Zoom hack on [Lite tier](/products/arc-raiders-cheats/) extends ARC Raiders camera distance beyond the default cap�supports track off-screen fights, mids watch rune contests, and offlaners spot TP ganks earlier."
       },
       {
         "type": "p",
-        "text": "Module lives in the utility tab with dynamic zoom and angle lock options—enable before launching ARC Raiders on Steam."
+        "text": "Module lives in the utility tab with dynamic zoom and angle lock options�enable before launching ARC Raiders on Steam."
       },
       {
         "type": "h2",
@@ -1671,7 +1671,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Enable zoom hack in the loader utility tab before launching ARC Raiders. Set max zoom to 130–150% of default first—push higher only after you adapt to minimap timing."
+        "text": "Enable zoom hack in the loader utility tab before launching ARC Raiders. Set max zoom to 130�150% of default first�push higher only after you adapt to minimap timing."
       },
       {
         "type": "p",
@@ -1683,11 +1683,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Dynamic zoom auto-scales camera when multiple enemies enter vision radius—tight in lane, wide in 5v5. Reduces manual scroll spam during chaotic fights."
+        "text": "Dynamic zoom auto-scales camera when multiple enemies enter vision radius�tight in lane, wide in 5v5. Reduces manual scroll spam during chaotic fights."
       },
       {
         "type": "p",
-        "text": "Disable dynamic zoom in Turbo if fights chain too fast and disorient you—ranked team fights benefit more than Turbo skirmishes."
+        "text": "Disable dynamic zoom in Turbo if fights chain too fast and disorient you�ranked team fights benefit more than Turbo skirmishes."
       },
       {
         "type": "h2",
@@ -1695,7 +1695,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Angle lock keeps camera tilt consistent when zooming—prevents seasick drift on high zoom. Supports guarding safelane benefit most."
+        "text": "Angle lock keeps camera tilt consistent when zooming�prevents seasick drift on high zoom. Supports guarding safelane benefit most."
       },
       {
         "type": "p",
@@ -1707,7 +1707,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Zoom hack complements ward ESP and smoke alerts from [map hack setup](/blog/dota-2-map-hack-setup/)—camera range plus enemy dots beats either alone."
+        "text": "Zoom hack complements ward ESP and smoke alerts from [map hack setup](/blog/dota-2-map-hack-setup/)�camera range plus enemy dots beats either alone."
       },
       {
         "type": "p",
@@ -1719,7 +1719,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Zoom changes are client-side camera—stream-proof mode hides ESP overlays, not zoom extension. Test OBS capture if viewers comment on camera behavior."
+        "text": "Zoom changes are client-side camera�stream-proof mode hides ESP overlays, not zoom extension. Test OBS capture if viewers comment on camera behavior."
       },
       {
         "type": "p",
@@ -1740,12 +1740,12 @@ export const blogPosts: BlogPostFull[] = [
       {
         "type": "cta",
         "title": "Get zoom hack with Lite",
-        "text": "Extended camera and dynamic zoom included—secure checkout at arcraidershack.net.",
+        "text": "Extended camera and dynamic zoom included�secure checkout at arcraidershack.net.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1753,7 +1753,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1765,7 +1765,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1773,7 +1773,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1785,7 +1785,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1793,7 +1793,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1805,7 +1805,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       }
     ]
   },
@@ -1820,7 +1820,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "New players confuse Valve lobby cheat codes with third-party arc raiders cheats—and the setup paths could not be more different. Lobby codes need a custom game with cheats toggled on; ranked tools need an external loader from arcraidershack.net. This guide covers console setup, both cheat types, ranked tips, and where our tiers fit."
+        "text": "New players confuse Valve lobby cheat codes with third-party arc raiders cheats�and the setup paths could not be more different. Lobby codes need a custom game with cheats toggled on; ranked tools need an external loader from arcraidershack.net. This guide covers console setup, both cheat types, ranked tips, and where our tiers fit."
       },
       {
         "type": "h2",
@@ -1828,7 +1828,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "In Steam, right-click ARC Raiders → Properties → General → Launch Options and add -console if your build requires it. In-game, go to Settings → Options → Advanced and enable the developer console. Bind a key under Hotkeys if tilde is awkward on your keyboard layout—many EU layouts use a different physical key for ~."
+        "text": "In Steam, right-click ARC Raiders ? Properties ? General ? Launch Options and add -console if your build requires it. In-game, go to Settings ? Options ? Advanced and enable the developer console. Bind a key under Hotkeys if tilde is awkward on your keyboard layout�many EU layouts use a different physical key for ~."
       },
       {
         "type": "p",
@@ -1840,7 +1840,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Navigate Play → Create Lobby → Settings → Enable Cheats. Host-only. Once checked, type commands like -gold 99999 or -refresh in the console—not in all-chat unless you prefer visible cheat invocation for spectators."
+        "text": "Navigate Play ? Create Lobby ? Settings ? Enable Cheats. Host-only. Once checked, type commands like -gold 99999 or -refresh in the console�not in all-chat unless you prefer visible cheat invocation for spectators."
       },
       {
         "type": "p",
@@ -1856,7 +1856,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Use lobby codes to learn combo order, ward spots, and item timings. They are free, safe in custom games, and pair well with bot lobbies via -dota_bot_populate. They cannot show enemy positions in ranked—that requires [map hack ESP](/blog/dota-2-map-hack-setup/) on Lite or Elite tiers."
+        "text": "Use lobby codes to learn combo order, ward spots, and item timings. They are free, safe in custom games, and pair well with bot lobbies via -dota_bot_populate. They cannot show enemy positions in ranked�that requires [map hack ESP](/blog/dota-2-map-hack-setup/) on Lite or Elite tiers."
       },
       {
         "type": "h2",
@@ -1864,11 +1864,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Third-party tools run through an external loader with overlay modules—scripts, map hack, zoom hack, Skin Changer. They work in ranked and Turbo on Steam PC. Risk exists: VAC and player reports are real. Read status on arcraidershack.net before every session."
+        "text": "Third-party tools run through an external loader with overlay modules�scripts, map hack, zoom hack, Skin Changer. They work in ranked and Turbo on Steam PC. Risk exists: VAC and player reports are real. Read status on arcraidershack.net before every session."
       },
       {
         "type": "p",
-        "text": "Tiers: [Lite](/products/arc-raiders-cheats/) for ESP and zoom, [Pro](/products/arc-raiders-cheats/) for Auto Combo scripts and Activator, [Elite](/products/arc-raiders-cheats/elite/) for bots, Auto Kill Steal, and full map hack. Same external loader path—tier gates modules in the operator portal dashboard."
+        "text": "Tiers: [Lite](/products/arc-raiders-cheats/) for ESP and zoom, [Pro](/products/arc-raiders-cheats/) for Auto Combo scripts and Activator, [Elite](/products/arc-raiders-cheats/elite/) for bots, Auto Kill Steal, and full map hack. Same external loader path�tier gates modules in the operator portal dashboard."
       },
       {
         "type": "h2",
@@ -1876,11 +1876,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Start with conservative portal presets—high script delays, limited ESP range, Activator off until you learn timings manually once per game. Run Turbo or bot lobbies before ranked MMR after every patch. Follow the [VAC patch day checklist](/blog/vac-patch-day-checklist/) when ARC Raiders updates."
+        "text": "Start with conservative portal presets�high script delays, limited ESP range, Activator off until you learn timings manually once per game. Run Turbo or bot lobbies before ranked MMR after every patch. Follow the [VAC patch day checklist](/blog/vac-patch-day-checklist/) when ARC Raiders updates."
       },
       {
         "type": "p",
-        "text": "Supports often thrive on Lite awareness; mids on burst heroes benefit from Pro scripts tuned in our [ranked MMR guide](/blog/dota-2-scripts-ranked-mmr/). Never enable max automation on day one—humanized play reduces report volume."
+        "text": "Supports often thrive on Lite awareness; mids on burst heroes benefit from Pro scripts tuned in our [ranked MMR guide](/blog/dota-2-scripts-ranked-mmr/). Never enable max automation on day one�humanized play reduces report volume."
       },
       {
         "type": "h2",
@@ -1888,7 +1888,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Lobby codes teach mechanics; private arc raiders cheats apply them under pressure in MMR. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) on arcraidershack.net—pick a tier, complete secure checkout, and follow the portal loader guide before you queue."
+        "text": "Lobby codes teach mechanics; private arc raiders cheats apply them under pressure in MMR. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) on arcraidershack.net�pick a tier, complete secure checkout, and follow the portal loader guide before you queue."
       },
       {
         "type": "p",
@@ -1902,7 +1902,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1910,7 +1910,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -1922,7 +1922,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -1930,7 +1930,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       }
     ]
   },
@@ -1939,7 +1939,7 @@ export const blogPosts: BlogPostFull[] = [
     "title": "Auto combo hero scripts: Invoker, PA and Lion",
     "slug": "dota-2-auto-combo-hero-scripts",
     "image": "/images/blog/arc-raiders-combat-assist-guide.png",
-    "desc": "Hero-specific combo examples for Pro tier scripts—Invoker tornado combos, PA blink dagger and Lion finger chains.",
+    "desc": "Hero-specific combo examples for Pro tier scripts�Invoker tornado combos, PA blink dagger and Lion finger chains.",
     "date": "Aug 12, 2026",
     "readTime": "15 min read",
     "body": [
@@ -1957,7 +1957,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "This guide shows portal config starting points—test in bot lobbies with lobby [cheat codes](/blog/dota-2-cheat-codes-guide/) before live MMR."
+        "text": "This guide shows portal config starting points�test in bot lobbies with lobby [cheat codes](/blog/dota-2-cheat-codes-guide/) before live MMR."
       },
       {
         "type": "h2",
@@ -1965,7 +1965,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Enable Auto Combo with invoke order: Cold Snap → Tornado → EMP → Sun Strike on stunned target. Set Delay Setting to 90–120 ms between spells."
+        "text": "Enable Auto Combo with invoke order: Cold Snap ? Tornado ? EMP ? Sun Strike on stunned target. Set Delay Setting to 90�120 ms between spells."
       },
       {
         "type": "p",
@@ -1977,7 +1977,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Bind combo: Blink Dagger → Stifling Dagger → Phantom Strike → auto-attack phase. Activator fires BKB if three enemies within 600 units before blink."
+        "text": "Bind combo: Blink Dagger ? Stifling Dagger ? Phantom Strike ? auto-attack phase. Activator fires BKB if three enemies within 600 units before blink."
       },
       {
         "type": "p",
@@ -1989,11 +1989,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Combo chain: Blink → Hex → Impale → Finger of Death → spike if still alive. Delay finger 100 ms after impale land for natural cast animation."
+        "text": "Combo chain: Blink ? Hex ? Impale ? Finger of Death ? spike if still alive. Delay finger 100 ms after impale land for natural cast animation."
       },
       {
         "type": "p",
-        "text": "Auto Kill Steal on Elite can finish separately—on Pro, keep finger inside full combo bind only to avoid double-cast reports."
+        "text": "Auto Kill Steal on Elite can finish separately�on Pro, keep finger inside full combo bind only to avoid double-cast reports."
       },
       {
         "type": "h2",
@@ -2013,11 +2013,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Storm Spirit: Ball Lightning gap close → Electric Vortex → Overload hits. Shadow Fiend: Requiem after blink or fear setup."
+        "text": "Storm Spirit: Ball Lightning gap close ? Electric Vortex ? Overload hits. Shadow Fiend: Requiem after blink or fear setup."
       },
       {
         "type": "p",
-        "text": "Save one profile per main—swap hotkey in pick screen. Do not one-size all heroes with same delay values."
+        "text": "Save one profile per main�swap hotkey in pick screen. Do not one-size all heroes with same delay values."
       },
       {
         "type": "h2",
@@ -2029,17 +2029,17 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Explore full automation on [Elite](/products/arc-raiders-cheats/elite/) when combo scripts feel effortless—bots and kill steal remain Elite gates."
+        "text": "Explore full automation on [Elite](/products/arc-raiders-cheats/elite/) when combo scripts feel effortless�bots and kill steal remain Elite gates."
       },
       {
         "type": "cta",
         "title": "Get Pro hero scripts",
-        "text": "Invoker, PA, Lion profiles and more—secure checkout at arcraidershack.net.",
+        "text": "Invoker, PA, Lion profiles and more�secure checkout at arcraidershack.net.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2047,7 +2047,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2059,7 +2059,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2067,7 +2067,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2079,7 +2079,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2087,7 +2087,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2169,7 +2169,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "“Valve Anti-Cheat was unable to verify your installation” blocks ARC Raiders launch—not always a ban. File corruption, stuck VAC modules, or conflicting software cause most cases."
+        "text": "�Valve Anti-Cheat was unable to verify your installation� blocks ARC Raiders launch�not always a ban. File corruption, stuck VAC modules, or conflicting software cause most cases."
       },
       {
         "type": "h2",
@@ -2177,7 +2177,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "“Valve Anti-Cheat was unable to verify your installation” blocks ARC Raiders launch—not always a ban. File corruption, stuck VAC modules, or conflicting software cause most cases."
+        "text": "�Valve Anti-Cheat was unable to verify your installation� blocks ARC Raiders launch�not always a ban. File corruption, stuck VAC modules, or conflicting software cause most cases."
       },
       {
         "type": "p",
@@ -2189,11 +2189,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Steam → Library → ARC Raiders → Properties → Installed Files → Verify integrity. Let the scan finish completely."
+        "text": "Steam ? Library ? ARC Raiders ? Properties ? Installed Files ? Verify integrity. Let the scan finish completely."
       },
       {
         "type": "p",
-        "text": "Restart Steam as administrator once. Retry launch before any cheat loader runs—vanilla pass confirms client health."
+        "text": "Restart Steam as administrator once. Retry launch before any cheat loader runs�vanilla pass confirms client health."
       },
       {
         "type": "h2",
@@ -2201,11 +2201,11 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Exit Steam fully—including tray icon. Cold reboot (full power off, not fast restart). Relaunch Steam, wait for cloud sync, then ARC Raiders."
+        "text": "Exit Steam fully�including tray icon. Cold reboot (full power off, not fast restart). Relaunch Steam, wait for cloud sync, then ARC Raiders."
       },
       {
         "type": "p",
-        "text": "VAC hooks sometimes stick after Windows sleep—cold boot clears stuck modules without reinstall."
+        "text": "VAC hooks sometimes stick after Windows sleep�cold boot clears stuck modules without reinstall."
       },
       {
         "type": "h2",
@@ -2217,7 +2217,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Run ARC Raiders vanilla once to confirm VAC passes—then follow [external cheat guide](/blog/dota-2-external-cheat-guide/) for clean loader order."
+        "text": "Run ARC Raiders vanilla once to confirm VAC passes�then follow [external cheat guide](/blog/dota-2-external-cheat-guide/) for clean loader order."
       },
       {
         "type": "h2",
@@ -2229,7 +2229,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "[Account Recovery](/products/arc-raiders-cheats/ugc/) helps structured appeal workflows—not instant unban guarantees. HWID spoof does not fix verify errors from corrupt files."
+        "text": "[Account Recovery](/products/arc-raiders-cheats/ugc/) helps structured appeal workflows�not instant unban guarantees. HWID spoof does not fix verify errors from corrupt files."
       },
       {
         "type": "h2",
@@ -2241,7 +2241,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Launch external loader before ARC Raiders per portal guide—reversed order can re-trigger verify on some builds."
+        "text": "Launch external loader before ARC Raiders per portal guide�reversed order can re-trigger verify on some builds."
       },
       {
         "type": "h2",
@@ -2249,21 +2249,21 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Discord support wants verify-error screenshots plus order email if loader fails post-fix. Do not rage-queue ranked same hour as verify fix—run bot lobby ESP check first."
+        "text": "Discord support wants verify-error screenshots plus order email if loader fails post-fix. Do not rage-queue ranked same hour as verify fix�run bot lobby ESP check first."
       },
       {
         "type": "p",
-        "text": "Conservative presets after any VAC-adjacent error—telemetry spikes after client repairs."
+        "text": "Conservative presets after any VAC-adjacent error�telemetry spikes after client repairs."
       },
       {
         "type": "cta",
         "title": "UGC appeal tools",
-        "text": "Structured appeal workflows for restrictions—secure checkout.",
+        "text": "Structured appeal workflows for restrictions�secure checkout.",
         "href": "/go/ugc/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2271,7 +2271,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2283,7 +2283,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2291,7 +2291,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2303,7 +2303,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2311,7 +2311,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2323,7 +2323,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       }
     ]
   },
@@ -2465,7 +2465,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Yellow or red for your tier means wait—do not queue ranked until green or staff post reload instructions. Assumption kills accounts faster than losing MMR."
+        "text": "Yellow or red for your tier means wait�do not queue ranked until green or staff post reload instructions. Assumption kills accounts faster than losing MMR."
       },
       {
         "type": "h2",
@@ -2473,7 +2473,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Download the latest patch build from your operator portal—do not reuse yesterday’s executable. Reload ranked preset configs instead of tweaking individual sliders."
+        "text": "Download the latest patch build from your operator portal�do not reuse yesterday�s executable. Reload ranked preset configs instead of tweaking individual sliders."
       },
       {
         "type": "p",
@@ -2489,7 +2489,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "If overlays float offset from models, stop and open Discord with your ARC Raiders client version. Never “test in ranked” when ESP is misaligned."
+        "text": "If overlays float offset from models, stop and open Discord with your ARC Raiders client version. Never �test in ranked� when ESP is misaligned."
       },
       {
         "type": "h2",
@@ -2497,7 +2497,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "After patches, play Turbo or unranked before ranked. Use ESP-only or high-delay scripts—no max Auto Kill Steal or full bots on day zero."
+        "text": "After patches, play Turbo or unranked before ranked. Use ESP-only or high-delay scripts�no max Auto Kill Steal or full bots on day zero."
       },
       {
         "type": "p",
@@ -2509,7 +2509,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Launch ARC Raiders vanilla once before loader if you see VAC verify errors—read [Valve Anti-Cheat unable to verify](/blog/valve-anti-cheat-unable-to-verify/) before assuming HWID issues."
+        "text": "Launch ARC Raiders vanilla once before loader if you see VAC verify errors�read [Valve Anti-Cheat unable to verify](/blog/valve-anti-cheat-unable-to-verify/) before assuming HWID issues."
       },
       {
         "type": "p",
@@ -2525,17 +2525,17 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Subscribe to status pings if available—patch evenings are highest risk windows for outdated builds."
+        "text": "Subscribe to status pings if available�patch evenings are highest risk windows for outdated builds."
       },
       {
         "type": "cta",
         "title": "Check status and buy",
-        "text": "Stay on latest loader builds—secure checkout for arcraidershack.net tiers.",
+        "text": "Stay on latest loader builds�secure checkout for arcraidershack.net tiers.",
         "href": "/go/dota-2/"
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2543,7 +2543,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2555,7 +2555,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2563,7 +2563,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2575,7 +2575,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -2583,7 +2583,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -2649,13 +2649,13 @@ export const blogPosts: BlogPostFull[] = [
     "title": "ARC Raiders cheat codes guide: console commands for practice lobbies",
     "slug": "dota-2-cheat-codes-guide",
     "image": "/images/blog/arc-raiders-tips-guide.png",
-    "desc": "Full list of ARC Raiders cheat codes for custom lobbies—gold, levels, vision, hero spawn and item commands.",
+    "desc": "Full list of ARC Raiders cheat codes for custom lobbies�gold, levels, vision, hero spawn and item commands.",
     "date": "Aug 20, 2026",
     "readTime": "16 min read",
     "body": [
       {
         "type": "p",
-        "text": "Valve-approved ARC Raiders cheat codes only work in custom lobbies with cheats enabled. They are perfect for testing hero combos, item timings, and ward lines before ranked—but they do not carry into matchmaking. This guide covers every essential console command operators use in practice lobbies, plus how that differs from [private arc raiders cheats](/products/arc-raiders-cheats/) on Steam ranked."
+        "text": "Valve-approved ARC Raiders cheat codes only work in custom lobbies with cheats enabled. They are perfect for testing hero combos, item timings, and ward lines before ranked�but they do not carry into matchmaking. This guide covers every essential console command operators use in practice lobbies, plus how that differs from [private arc raiders cheats](/products/arc-raiders-cheats/) on Steam ranked."
       },
       {
         "type": "h2",
@@ -2663,7 +2663,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Create a lobby from Play → Create Lobby, open the settings panel, and check Enable Cheats. Only the lobby host can toggle this flag. Once active, open the developer console with the tilde key—you must enable it under Settings → Options → Advanced → Enable Console. Type commands directly without a leading slash. For a full walkthrough of console setup, see [how to use cheat codes in ARC Raiders](/blog/how-to-use-dota-2-cheat-codes/)."
+        "text": "Create a lobby from Play ? Create Lobby, open the settings panel, and check Enable Cheats. Only the lobby host can toggle this flag. Once active, open the developer console with the tilde key�you must enable it under Settings ? Options ? Advanced ? Enable Console. Type commands directly without a leading slash. For a full walkthrough of console setup, see [how to use cheat codes in ARC Raiders](/blog/how-to-use-dota-2-cheat-codes/)."
       },
       {
         "type": "p",
@@ -2768,7 +2768,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Use -createhero followed by the internal hero name. Append enemy to spawn a hostile unit at your cursor—for example -createhero npc_dota_hero_lion enemy. Kick extras with -kick so only the heroes you need remain. Bot lobbies are the safest place to test [Auto Combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/) before ranked queues."
+        "text": "Use -createhero followed by the internal hero name. Append enemy to spawn a hostile unit at your cursor�for example -createhero npc_dota_hero_lion enemy. Kick extras with -kick so only the heroes you need remain. Bot lobbies are the safest place to test [Auto Combo hero scripts](/blog/dota-2-auto-combo-hero-scripts/) before ranked queues."
       },
       {
         "type": "table",
@@ -2906,7 +2906,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Grant items with -item item_internal_name. Internal names match the ARC Raiders wiki asset strings. You can spawn multiple items in sequence to test full six-slot builds without waiting for farm. Rehearse bursts that [Auto Combo scripts](/blog/dota-2-auto-combo-hero-scripts/) automate in ranked—Blink into BKB into refresher combos, support hex chains, and carry six-slot timings."
+        "text": "Grant items with -item item_internal_name. Internal names match the ARC Raiders wiki asset strings. You can spawn multiple items in sequence to test full six-slot builds without waiting for farm. Rehearse bursts that [Auto Combo scripts](/blog/dota-2-auto-combo-hero-scripts/) automate in ranked�Blink into BKB into refresher combos, support hex chains, and carry six-slot timings."
       },
       {
         "type": "table",
@@ -3099,7 +3099,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "-gold 99999 and -lvlup max bootstrap any hero for combo testing. -allvision exposes the entire map for ward line study; toggle -normalvision to verify what enemies actually see. -wtf enables zero cooldowns for Invoker invoke drills—always run -disablewtf before testing realistic mana costs so your ranked [Activator configs](/blog/dota-2-scripts-ranked-mmr/) feel accurate."
+        "text": "-gold 99999 and -lvlup max bootstrap any hero for combo testing. -allvision exposes the entire map for ward line study; toggle -normalvision to verify what enemies actually see. -wtf enables zero cooldowns for Invoker invoke drills�always run -disablewtf before testing realistic mana costs so your ranked [Activator configs](/blog/dota-2-scripts-ranked-mmr/) feel accurate."
       },
       {
         "type": "p",
@@ -3111,7 +3111,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Lobby cheat codes stop working the moment you queue ranked matchmaking or Turbo. For live MMR games on arcraidershack.net, operators use external loaders with scripts, map hack, and zoom hack modules updated every patch. Explore tiers at [ARC Raiders Cheats](/products/arc-raiders-cheats/)—checkout runs through our secure checkout after you pick Lite, Pro, or Elite."
+        "text": "Lobby cheat codes stop working the moment you queue ranked matchmaking or Turbo. For live MMR games on arcraidershack.net, operators use external loaders with scripts, map hack, and zoom hack modules updated every patch. Explore tiers at [ARC Raiders Cheats](/products/arc-raiders-cheats/)�checkout runs through our secure checkout after you pick Lite, Pro, or Elite."
       },
       {
         "type": "p",
@@ -3125,7 +3125,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -3133,7 +3133,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -3145,7 +3145,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -3153,7 +3153,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -3176,7 +3176,7 @@ export const blogPosts: BlogPostFull[] = [
     "body": [
       {
         "type": "p",
-        "text": "Private lobby console cheats are Valve-sanctioned training tools—not the same as third-party ARC Raiders cheats used in ranked. Still, every serious player should know the list: refresh, wtf, creep spawn, bot control, and vision toggles. This article collects the commands we use daily when tuning [Pro scripts](/products/arc-raiders-cheats/) against bots before going live on Steam."
+        "text": "Private lobby console cheats are Valve-sanctioned training tools�not the same as third-party ARC Raiders cheats used in ranked. Still, every serious player should know the list: refresh, wtf, creep spawn, bot control, and vision toggles. This article collects the commands we use daily when tuning [Pro scripts](/products/arc-raiders-cheats/) against bots before going live on Steam."
       },
       {
         "type": "h2",
@@ -3187,7 +3187,7 @@ export const blogPosts: BlogPostFull[] = [
         "items": [
           "-refresh instantly resets health, mana, and all ability and item cooldowns on your hero.",
           "-wtf removes ability cooldowns and mana costs for unlimited spell spam during combo drills.",
-          "-disablewtf restores normal cooldown and mana behavior—run this before realistic ranked script tuning.",
+          "-disablewtf restores normal cooldown and mana behavior�run this before realistic ranked script tuning.",
           "Stack -refresh with -wtf when learning Invoker invoke chains or Timbersaw combo routes.",
           "Always disable wtf before testing [Activator configs](/blog/dota-2-scripts-ranked-mmr/) so BKB timing matches ranked."
         ]
@@ -3199,7 +3199,7 @@ export const blogPosts: BlogPostFull[] = [
       {
         "type": "ul",
         "items": [
-          "-allvision shows the entire map including enemy fog—ideal for marking optimal sentry spots.",
+          "-allvision shows the entire map including enemy fog�ideal for marking optimal sentry spots.",
           "-normalvision restores default fog of war after vision study sessions.",
           "Toggle between allvision and normalvision to verify line-of-sight before hiding wards again.",
           "Pair ward study with our [map hack setup guide](/blog/dota-2-map-hack-setup/) for ranked ESP translation.",
@@ -3214,7 +3214,7 @@ export const blogPosts: BlogPostFull[] = [
         "type": "ul",
         "items": [
           "-spawncreeps forces the next lane wave to spawn immediately for pull and equilibrium drills.",
-          "-spawnneutrals refills all neutral jungle camps—critical for stack timing practice.",
+          "-spawnneutrals refills all neutral jungle camps�critical for stack timing practice.",
           "-killwards removes every observer and sentry ward on the map for clean vision resets.",
           "Supports use these cheats to practice pull timings without waiting four minutes between attempts.",
           "Offlaners can simulate double-wave scenarios by chaining spawncreeps with gold cheats."
@@ -3244,7 +3244,7 @@ export const blogPosts: BlogPostFull[] = [
           "-gold 99999 grants maximum practical gold for instant item build testing.",
           "-lvlup max brings your hero to level 30 with all talent points available.",
           "-item item_blink grants Blink Dagger; chain item commands for full six-slot loadouts.",
-          "Economy cheats do not affect other players unless the lobby mode shares gold—check host rules.",
+          "Economy cheats do not affect other players unless the lobby mode shares gold�check host rules.",
           "Use economy cheats to test [Pro tier](/products/arc-raiders-cheats/) combo item timings before live MMR."
         ]
       },
@@ -3257,7 +3257,7 @@ export const blogPosts: BlogPostFull[] = [
         "items": [
           "-startgame begins the lobby match immediately, skipping the countdown timer.",
           "-pause and -unpause control match flow when testing long combo sequences.",
-          "Host-only commands may fail for non-host players—promote yourself or recreate lobby if blocked.",
+          "Host-only commands may fail for non-host players�promote yourself or recreate lobby if blocked.",
           "Save command history in console for repeated item spawn strings during hero labs.",
           "Full command tables live in our [cheat codes guide](/blog/dota-2-cheat-codes-guide/)."
         ]
@@ -3268,7 +3268,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Console cheats vanish in matchmaking. Climbing MMR with scripts, zoom hack, and map awareness requires [private arc raiders cheats at arcraidershack.net](/products/arc-raiders-cheats/)—Lite for ESP, Pro for automation, Elite for bots and Skin Changer. Purchase flows through secure checkout with portal access in minutes."
+        "text": "Console cheats vanish in matchmaking. Climbing MMR with scripts, zoom hack, and map awareness requires [private arc raiders cheats at arcraidershack.net](/products/arc-raiders-cheats/)�Lite for ESP, Pro for automation, Elite for bots and Skin Changer. Purchase flows through secure checkout with portal access in minutes."
       },
       {
         "type": "p",
@@ -3282,7 +3282,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -3290,7 +3290,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
       },
       {
         "type": "p",
@@ -3302,7 +3302,7 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo—not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       },
       {
         "type": "p",
@@ -3310,7 +3310,176 @@ export const blogPosts: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Internal links across our blog connect setup guides—map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+      }
+    ]
+  },
+  {
+    "tag": "Guides",
+    "title": "Skin changer and Unlock All for ARC Raiders",
+    "slug": "dota-2-skin-changer-guide",
+    "image": "/images/blog/arc-raiders-unlock-guide.png",
+    "desc": "Preview arcanas, immortals and exclusive sets locally with our Unlock All Skin Changer module.",
+    "date": "Aug 14, 2026",
+    "readTime": "14 min read",
+    "body": [
+      {
+        "type": "p",
+        "text": "Skin Changer on [Elite](/products/arc-raiders-cheats/elite/) and the standalone [Unlock All product](/products/arc-raiders-cheats/unlock-all/) let you preview hero arcanas, immortals, and exclusive sets locally in ARC Raiders."
+      },
+      {
+        "type": "h2",
+        "text": "Skin Changer overview"
+      },
+      {
+        "type": "p",
+        "text": "Skin Changer on [Elite](/products/arc-raiders-cheats/elite/) and the standalone [Unlock All product](/products/arc-raiders-cheats/unlock-all/) let you preview hero arcanas, immortals, and exclusive sets locally in ARC Raiders."
+      },
+      {
+        "type": "p",
+        "text": "Effects are client-side�lobby teammates see your real inventory; you see the cosmetic swap on your screen."
+      },
+      {
+        "type": "h2",
+        "text": "Unlock All vs Elite Skin Changer"
+      },
+      {
+        "type": "p",
+        "text": "Unlock All is cosmetic-only�browse, favorite, export loadouts. Elite bundles Skin Changer with scripts, map hack, and bots."
+      },
+      {
+        "type": "p",
+        "text": "Pick Unlock All if you only want visuals; pick Elite if you ranked with full automation. Feature overview: [cheats features guide](/blog/arc-raiders-cheats-features-guide/)."
+      },
+      {
+        "type": "h2",
+        "text": "Browse and preview workflow"
+      },
+      {
+        "type": "p",
+        "text": "Open the Skin Changer tab in your portal, search hero name, select arcana or immortal set, apply to local client. Use effect customizer for particle intensity."
+      },
+      {
+        "type": "p",
+        "text": "Save favorites per hero for quick swap before demo sessions or content recording. Loadouts export for backup across PCs via cloud sync on Elite."
+      },
+      {
+        "type": "h2",
+        "text": "Stream and content notes"
+      },
+      {
+        "type": "p",
+        "text": "Local skins appear on your display�stream capture may still show them depending on setup. Enable [stream-proof mode](/blog/dota-2-stream-proof-setup/) for ESP and script overlays."
+      },
+      {
+        "type": "p",
+        "text": "Test cosmetic capture separately in a 30-second OBS clip before long streams. Zoom hack camera does not affect skin particles."
+      },
+      {
+        "type": "h2",
+        "text": "VAC and safety"
+      },
+      {
+        "type": "p",
+        "text": "Cosmetic modules carry the same third-party risk as any dota cheat�read arcraidershack.net status before use. Unlock All does not grant Steam inventory items; it only changes local preview."
+      },
+      {
+        "type": "p",
+        "text": "No marketplace or trade impact�cosmetics are visual-only on your client. Pair with [VAC checklist](/blog/vac-patch-day-checklist/) after patches."
+      },
+      {
+        "type": "h2",
+        "text": "Ranked with cosmetics"
+      },
+      {
+        "type": "p",
+        "text": "Elite operators run Skin Changer alongside scripts�cosmetic tab separate from ranked preset. Do not swap skins mid-fight; apply in fountain or strategy screen."
+      },
+      {
+        "type": "p",
+        "text": "Compare [Elite tier guide](/blog/dota-2-elite-tier-guide/) if buying Elite primarily for Skin Changer plus bots."
+      },
+      {
+        "type": "h2",
+        "text": "Get Unlock All or Elite"
+      },
+      {
+        "type": "p",
+        "text": "Purchase [Unlock All](/products/arc-raiders-cheats/unlock-all/) or [Elite](/products/arc-raiders-cheats/elite/) through secure checkout at arcraidershack.net."
+      },
+      {
+        "type": "p",
+        "text": "Full catalog: [ARC Raiders Cheats](/products/arc-raiders-cheats/). How to buy: [purchase walkthrough](/blog/how-to-buy-arc-raiders-cheats-2026/)."
+      },
+      {
+        "type": "cta",
+        "title": "Browse Unlock All",
+        "text": "Preview arcanas and immortals locally�secure checkout at arcraidershack.net.",
+        "href": "/go/skin-changer/"
+      },
+      {
+        "type": "p",
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+      },
+      {
+        "type": "p",
+        "text": "VAC enforcement is real: read status, reload loader after patches, and use conservative presets. Humanized script delays and limited ESP range reduce report volume compared to max automation on day one."
+      },
+      {
+        "type": "p",
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+      },
+      {
+        "type": "p",
+        "text": "Compare [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [features guide](/blog/arc-raiders-cheats-features-guide/) before checkout. Elite adds bots, kill steal, and Skin Changer for operators who mastered Pro scripts."
+      },
+      {
+        "type": "p",
+        "text": "Stream-proof mode, external loader architecture, and cloud config sync distinguish arcraidershack.net from free paste tools that vanish after VAC waves. Private maintenance every patch beats feature bullet lists from unknown forums."
+      },
+      {
+        "type": "p",
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+      },
+      {
+        "type": "p",
+        "text": "VAC enforcement is real: read status, reload loader after patches, and use conservative presets. Humanized script delays and limited ESP range reduce report volume compared to max automation on day one."
+      },
+      {
+        "type": "p",
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+      },
+      {
+        "type": "p",
+        "text": "Compare [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [features guide](/blog/arc-raiders-cheats-features-guide/) before checkout. Elite adds bots, kill steal, and Skin Changer for operators who mastered Pro scripts."
+      },
+      {
+        "type": "p",
+        "text": "Stream-proof mode, external loader architecture, and cloud config sync distinguish arcraidershack.net from free paste tools that vanish after VAC waves. Private maintenance every patch beats feature bullet lists from unknown forums."
+      },
+      {
+        "type": "p",
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
+      },
+      {
+        "type": "p",
+        "text": "VAC enforcement is real: read status, reload loader after patches, and use conservative presets. Humanized script delays and limited ESP range reduce report volume compared to max automation on day one."
+      },
+      {
+        "type": "p",
+        "text": "Internal links across our blog connect setup guides�map hack, zoom, scripts, Elite tier, VAC checklist, and purchase walkthrough. Start at [ARC Raiders Cheats](/products/arc-raiders-cheats/) when you are ready to move beyond practice lobbies."
+      },
+      {
+        "type": "p",
+        "text": "Compare [Lite vs Pro](/blog/dota-2-lite-vs-pro/) and [features guide](/blog/arc-raiders-cheats-features-guide/) before checkout. Elite adds bots, kill steal, and Skin Changer for operators who mastered Pro scripts."
+      },
+      {
+        "type": "p",
+        "text": "Stream-proof mode, external loader architecture, and cloud config sync distinguish arcraidershack.net from free paste tools that vanish after VAC waves. Private maintenance every patch beats feature bullet lists from unknown forums."
+      },
+      {
+        "type": "p",
+        "text": "Arc Raiders Hacks & Cheats at arcraidershack.net maintains private ARC Raiders cheats for Steam PC ranked and Turbo�not console lobby codes. Every module ships through the operator portal with secure checkout, Discord support, and live status banners before patch-day queues."
       }
     ]
   }

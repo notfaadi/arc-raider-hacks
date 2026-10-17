@@ -1,0 +1,15 @@
+# Cloudflare Pages / Netlify — checkout and legacy paths (301)
+/go/dota-2 /go/arc-raiders/ 301
+/go/dota-2/ /go/arc-raiders/ 301
+/privacy-policy /privacy/ 301
+/privacy-policy/ /privacy/ 301
+/cheats /products/arc-raiders-cheats/ 301
+/cheats/ /products/arc-raiders-cheats/ 301
+/cheats/lite /products/arc-raiders-cheats/lite/ 301
+/cheats/lite/ /products/arc-raiders-cheats/lite/ 301
+/cheats/pro /products/arc-raiders-cheats/pro/ 301
+/cheats/pro/ /products/arc-raiders-cheats/pro/ 301
+/cheats/elite /products/arc-raiders-cheats/elite/ 301
+/cheats/elite/ /products/arc-raiders-cheats/elite/ 301
+/products/dota-2-cheats /products/arc-raiders-cheats/ 301
+/products/dota-2-cheats/ /products/arc-raiders-cheats/ 301

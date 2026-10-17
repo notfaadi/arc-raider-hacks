@@ -11,6 +11,7 @@
     "preview": "astro preview --host 0.0.0.0",
     "start": "node scripts/serve.mjs",
     "astro": "astro",
+    "check:links": "node scripts/find-missing-blog-links.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "images:user": "node scripts/install-user-images.mjs && node scripts/optimize-images.mjs"
   },

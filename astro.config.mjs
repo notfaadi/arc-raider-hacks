@@ -15,7 +15,6 @@ export default defineConfig({
     '/privacy-policy/': '/privacy/',
     '/products/dota-2-cheats/': '/products/arc-raiders-cheats/',
     '/products/dota-2-cheats/utilities/': '/products/arc-raiders-cheats/utilities/',
-    '/go/dota-2/': '/go/arc-raiders/',
   },
   server: {
     port: 4322,

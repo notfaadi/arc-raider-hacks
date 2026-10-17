@@ -74,7 +74,11 @@ for (const tag of Object.keys(CATALOG)) {
 
 const featuredSlug = 'arc-raiders-cheats-features-guide';
 /** Linked sitewide but not in filter tabs — must still build as real URLs (GSC / internal links). */
-const EXTRA_PUBLISH_SLUGS = ['dota-2-cheat-codes-guide', 'dota-2-console-cheats-tips'];
+const EXTRA_PUBLISH_SLUGS = [
+  'dota-2-cheat-codes-guide',
+  'dota-2-console-cheats-tips',
+  'dota-2-skin-changer-guide',
+];
 
 const withFeatured = ordered.map((p) => ({
   ...p,

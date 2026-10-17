@@ -210,6 +210,11 @@ export const BLOG_PAGE_SEO: Record<string, PageSeoEntry> = {
     description:
       'Private lobby console cheats explained—refresh, wtf mode, creep spawn, and bot commands for ARC Raiders practice sessions.',
   },
+  'dota-2-skin-changer-guide': {
+    title: 'ARC Raiders Skin Changer Guide | Unlock All Preview',
+    description:
+      'Skin Changer and Unlock All for ARC Raiders—local cosmetic preview, Elite bundle vs standalone utility, and stream-proof testing.',
+  },
 };
 
 export function normalizeSeoPath(pathname: string): string {
