@@ -21,4 +21,4 @@ Optional manual CLI deploy:
   npm run deploy
 
 Success log must include:
-  build-version: 2026-10-17-cloudflare-pages-v9
+  build-version: 2026-10-17-cloudflare-pages-v12
