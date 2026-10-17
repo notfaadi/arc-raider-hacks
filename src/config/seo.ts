@@ -1,4 +1,4 @@
-import { DEFAULT_HERO_IMAGE } from '../data/media';
+import { DEFAULT_OG_IMAGE } from '../data/media';
 import { t } from '../i18n';
 import { SITE_DOMAIN as INDEXNOW_HOST_NAME, SITE_URL } from './site';
 import { keywordsForPath } from './keywords';
@@ -12,7 +12,7 @@ export interface ResolvedSeo {
 
 export const SITE_ORIGIN = SITE_URL.replace(/\/$/, '');
 
-export const DEFAULT_OG_IMAGE = DEFAULT_HERO_IMAGE;
+export { DEFAULT_OG_IMAGE };
 
 export const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID as string | undefined;
 

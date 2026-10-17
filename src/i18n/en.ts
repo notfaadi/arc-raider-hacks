@@ -192,8 +192,8 @@ export const en: Translations = {
   },
   setup: {
     eyebrow: 'Setup guide',
-    titleLead: 'From checkout to Trios queue in just',
-    titleHighlight: 'three simple steps',
+    titleLead: 'Install the loader in',
+    titleHighlight: 'three quick steps',
     intro:
       'Getting started is easy. Follow the operator portal flow to download the loader, load presets, and queue ARC Raiders on Steam PC—with live Discord help if anything blocks you.',
     ctaPrimary: 'View products',

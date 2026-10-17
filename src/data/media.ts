@@ -19,7 +19,10 @@ export const HOMEPAGE_BLOG_SLUGS = [
   'arc-raiders-hacks-best-cheats-2026',
 ] as const;
 
-/** Homepage hero first slide — Husk Graveyard / surface loot ESP (gpZoomHack). */
+/** Default Open Graph / Twitter preview (current brand banner, not legacy hero mockups). */
+export const DEFAULT_OG_IMAGE = '/images/arc-raiders/06-cheat-banner.png';
+
+/** Homepage hero first slide — Husk Graveyard / surface loot ESP. */
 export const DEFAULT_HERO_IMAGE = ARC_RAIDERS_IMAGES[2];
 
 export function arcRaiderImageForIndex(index: number): string {
