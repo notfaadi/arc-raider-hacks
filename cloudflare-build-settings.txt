@@ -9,7 +9,10 @@ Build output directory:
   dist
 
 Deploy command:
-  (leave EMPTY — Pages publishes dist automatically)
+  (leave EMPTY — Pages publishes dist automatically after build)
+
+If you must set one: npm run deploy
+  (requires wrangler.toml WITHOUT [assets] section)
 
 Do NOT use:
   npx wrangler deploy
