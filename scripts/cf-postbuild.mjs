@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 /** Publishes dist/ on Cloudflare Pages (runs at end of npm run build). */
-import { execSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-console.log('cf-postbuild: marker 2026-10-17-pages-v4-shim');
+console.log('cf-postbuild: marker 2026-10-17-pages-v5-override');
+
+execFileSync(process.execPath, ['scripts/patch-wrangler-bin.mjs'], {
+  stdio: 'inherit',
+  env: process.env,
+});
 
 const onPages =
   process.env.CF_PAGES === '1' ||
