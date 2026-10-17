@@ -11,21 +11,33 @@ const onPages =
 
 let args = process.argv.slice(2);
 
-if (onPages && args[0] === "deploy" && args[1] !== "pages") {
-  const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
-  console.log(
-    "[wrangler-pages-shim] wrangler deploy → pages deploy dist (project: " +
-      project +
-      ")",
-  );
-  args = [
-    "pages",
-    "deploy",
-    "dist",
-    "--project-name",
-    project,
-    "--commit-dirty=true",
-  ];
+const workersCi = process.env.WORKERS_CI === "1";
+
+if (args[0] === "deploy" && args[1] !== "pages") {
+  const hasAssets = args.some((a) => a.startsWith("--assets"));
+  if (!hasAssets && (onPages || workersCi)) {
+    if (onPages && !workersCi) {
+      const project = process.env.CF_PAGES_PROJECT_NAME || "arc-raider-hacks";
+      console.log(
+        "[wrangler-pages-shim] wrangler deploy → pages deploy dist (project: " +
+          project +
+          ")",
+      );
+      args = [
+        "pages",
+        "deploy",
+        "dist",
+        "--project-name",
+        project,
+        "--commit-dirty=true",
+      ];
+    } else {
+      console.log(
+        "[wrangler-pages-shim] wrangler deploy → deploy --assets=./dist",
+      );
+      args = ["deploy", "--assets=./dist"];
+    }
+  }
 }
 
 function resolveUpstreamCli() {

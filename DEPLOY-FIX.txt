@@ -1,0 +1,21 @@
+YOUR BUILD SUCCEEDS. ONLY THE DEPLOY COMMAND IS WRONG.
+
+Cloudflare Workers Builds → Settings → Build → Deploy command
+
+DELETE THIS:
+  npx wrangler deploy
+
+PASTE THIS EXACTLY:
+  npm run deploy
+
+Save. Then Retry OR create a new deployment.
+
+Why: npx wrangler deploy is for Workers without assets. This site is static
+Astro in ./dist — npm run deploy runs wrangler pages deploy (already in repo).
+
+GitHub main is newer than the commit Retry keeps rebuilding (36e05d1).
+After deploy works, create deployment from main for latest SEO fixes.
+
+GitHub Actions can deploy main without Cloudflare Retry:
+Add secrets CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID, run workflow
+https://github.com/notfaadi/arc-raider-hacks/actions
